@@ -1,0 +1,36 @@
+//Bourbon
+@import 'bourbon';
+
+// Support for splitting out media-declarations into separate stylesheets
+// Adapted from http://seesparkbox.com/foundry/structuring_and_serving_styles_for_older_browsers
+$no-mq-support: false !default;
+$serve-to-nomq-max-width: 60em !default;
+@mixin mq($query, $show-on-no-mq: false) {
+	@if $no-mq-support {
+		@if $show-on-no-mq {
+			@content;
+		}
+	}
+	@else {
+		@media #{$query} {
+			@content;
+		}
+	}
+}
+
+
+@import "globals/fonts";
+@import "globals/normalize";
+
+//Zurb Foundation components
+@import "vendor/foundation/settings";
+@import "vendor/foundation/foundation";
+
+//Mixins, fonts, and base styles
+@import "project-variables";
+@import "project-mixins";
+@import "project-fonts";
+@import "project-base";
+
+//Main styles
+@import "project-styles";

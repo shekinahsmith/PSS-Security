@@ -30,7 +30,7 @@
 
 	<!-- CSS -->
 
-	<? //include 'includes/base/_header-css.php'; ?>
+	<? include 'includes/base/_header-css.php'; ?>
 
 	<!-- HTML5 MODERNIZER -->
 	<script src="assets/js/modernizr.js"></script>
