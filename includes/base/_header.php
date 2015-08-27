@@ -6,7 +6,6 @@
 <!--[if (gt IE 9)|!(IE)]><!--> 
 <html lang="en"> <!--<![endif]-->
 
-
 <head>
 
 	<meta charset="UTF-8">
@@ -32,10 +31,12 @@
 
 	<? include 'includes/base/_header-css.php'; ?>
 
-	<!-- HTML5 MODERNIZER -->
-	<script src="assets/js/modernizr.js"></script>
+	<? // project styles - jquery and modernizr are prepended through codekit ?>
+	<script src="assets/js/project.min.js"></script>
 
 
 </head>
+
+<?include 'includes/navigation/_nav-mobile.php';?>
 
 <body class="">

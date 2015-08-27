@@ -1,0 +1,33 @@
+// navigation
+.nav {
+	background: #fff;
+	
+	// Primary Nav
+	&.primary-nav {
+		height: 100%;
+		padding: 40px 0;	
+		
+		// top bar secton
+		.top-bar-section {
+
+			// client portal
+			.client-portal {
+
+				&:not(.has-form) a:not(.button) {
+					background: $pss-red;
+					border-radius: 20px;
+					color: #fff;
+
+				}
+			} //.client-portal
+
+		}// .top-bar-section
+
+	}// .primary-nav	
+
+}// .nav
+
+// Mobile Navigation
+.header-mobile {
+	border-bottom: 3px solid $pss-blue-light;
+}

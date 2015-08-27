@@ -1,0 +1,62 @@
+// Base Default Styles
+
+
+// Border Box
+*, 
+*:before,
+*:after {
+	@include box-sizing(border-box);
+}
+
+// global
+body {
+	@extend %montserrat;
+	background-color: #fff;
+	color: $pss-grey;
+}
+
+section {
+	padding: 4em 2em;
+}
+
+h1,
+h2,
+h3, 
+h4,
+h5 {
+	font-weight: 700;
+}
+
+p,
+small {
+	font-weight: 100;
+}
+
+a {
+	color: $pss-grey;
+
+	&:hover {
+		color: $pss-blue-light;
+	}
+}
+
+button,
+.button {
+	width: 100%;
+}
+
+.button {
+	
+	&:after {
+		content: "\2192";
+		margin-left: 5px;
+	}
+}	
+
+// Helper for Foundation Class
+body.f-topbar-fixed {
+
+	@include mq($small-only) {
+		padding: 0;
+	}
+}

@@ -1,0 +1,13 @@
+// Project Fonts (Created using Bourbon)
+
+// Create Font Face
+//Montserrat
+@include font-face(Montserrat, '/assets/fonts/montserrat-light', 100);
+@include font-face(Montserrat, '/assets/fonts/montserrat-regular', 400);
+@include font-face(Montserrat, '/assets/fonts/montserrat-bold', 700);
+
+
+// Create Extend for Each Font
+%montserrat {
+	font-family: Montserrat, sans-serif;
+}
