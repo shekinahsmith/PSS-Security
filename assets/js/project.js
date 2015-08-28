@@ -1,5 +1,6 @@
 // @codekit-prepend "modernizr.js";
 // @codekit-prepend "jquery-1.11.3.min.js";
+// @codekit-prepend "jquery.flexslider.min.js";
 // @codekit-prepend "fastclick.js";
 
 // @codekit-prepend "foundation/foundation.js";
@@ -16,4 +17,9 @@ $(document).on('ready', function() {
 	else {
 		$('body').addClass('f-topbar-fixed');
 	}
+
+	 $('.js-hero-slider').flexslider({
+	 	//animation: 'slide',
+	 	direction: 'vertical'
+	 });
 });

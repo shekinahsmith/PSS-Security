@@ -1,0 +1,25 @@
+// Heroes
+.hero {
+	
+	// flexslider
+	.flexslider {
+		border: 0;
+		box-shadow: none;
+		height: 100%;
+		margin: 0;
+	}
+
+	&.hero-landing {
+		color: #fff;
+		//height: 450px;
+
+		.content {
+			padding: 6em 0;
+
+			&.slide-1-content {
+				background: $pss-blue-light;
+				width: 50%;
+			}
+		}
+	}
+}

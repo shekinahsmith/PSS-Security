@@ -16,9 +16,8 @@
 	<link rel="icon" href="/assets/images/favicon.png">
 
 	<? 
-		// adding body class based on page URI
-
-		$siteURL = $_SERVER['SCRIPT_NAME']; 
+		// adding body class based on page script name - replacing file extension and dashes as well
+		$pageClass = str_replace( array('.php', '_'), array('', '-'), basename($_SERVER['SCRIPT_NAME']) );
 
 	?>
 	<title><? echo $pageTitle ?></title>
@@ -39,4 +38,4 @@
 
 <?include 'includes/navigation/_nav-mobile.php';?>
 
-<body class="">
+<body class="page-<?= $pageClass; ?>">
