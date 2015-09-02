@@ -1,9 +1,76 @@
 // Variables
 
-// Colors
+// Colors -- these are in the foundation settings 
 // $pss-red: 			#e97668;
 // $pss-blue-light: 	#0093d0;
 // $pss-blue-dark: 	#004a68;
 // $pss-grey: 			#414950;
 // $pss-grey-dark: 	#424a51;
 // $pss-off-white: 	#f0f1f1;
+
+
+// Helper Classes
+.is-blue-bg {
+	background: $pss-blue-dark;
+	color: #fff;
+	
+	h2 {
+		color: #fff;
+	}
+}
+
+.is-blue-light-bg {
+	background: $pss-blue-light;
+	color: #fff;
+
+	h2 {
+		color: #fff;
+	}
+}
+
+.is-larger-text {
+	font-size: rem-calc(25);
+}
+
+
+.underline {
+	position: relative;
+
+	&:after {
+		content: "";
+		height: 3px;
+		position: absolute;
+		width: 100px;
+	}
+
+	&.underline-is-white {
+
+		&:after {
+			background: #fff;
+		}
+	}
+
+	&.underline-is-blue {
+
+		&:after {
+			background: $pss-blue-light;
+		}
+	}
+
+	&.underline-is-left {
+
+		&:after {
+			left: 0;
+			bottom: -0.25em;
+		}
+	}
+
+	&.underline-is-centered {
+
+		&:after {
+			left: 50%;
+			bottom: -0.25em;
+			margin-left: -50px;
+		}
+	}
+}

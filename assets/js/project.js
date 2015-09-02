@@ -9,6 +9,8 @@
 // @codekit-prepend "foundation/foundation.topbar.js";
 
 
+
+
 $(document).on('ready', function() {
 
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
@@ -19,7 +21,7 @@ $(document).on('ready', function() {
 	}
 
 	 $('.js-hero-slider').flexslider({
-	 	//animation: 'slide',
-	 	direction: 'vertical'
+	 	//animation: "slide",
+        direction: "vertical"
 	 });
 });

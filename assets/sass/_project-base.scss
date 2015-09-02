@@ -53,7 +53,7 @@ button,
 	}
 }	
 
-// Helper for Foundation Class
+// Foundation adds this class below for the fixed navigation but does not remove it when when you wrap the body in off canvas for mobile nav
 body.f-topbar-fixed {
 
 	@include mq($small-only) {

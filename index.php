@@ -10,9 +10,9 @@
 
 			<div class="column small-12 medium-6 large-6 medium-push-6 large-push-6">
 
-				<h2>Who We Are</h2>
+				<h2 class="underline underline-is-blue underline-is-left">Who We Are</h2>
 
-				<p>The Carolina's Professional Security Services (PSS) is a privately-owned company that provides professionally-trained, uniformed security officers for banks and credit unions, corporate headquarters adn office buildings, business parks and complexes, hotels, convention centers, goverment buildings, residential towers and developments, shopping centers, sports arenas and complexes, healthcare facilities public and private events, and personal VIP protection.</p>
+				<p>The Carolina's Professional Security Services (PSS) is a privately-owned company that provides professionally-trained, uniformed security officers for banks and credit unions, corporate headquarters and office buildings, business parks and complexes, hotels, convention centers, government buildings, residential towers and developments, shopping centers, sports arenas and complexes, healthcare facilities, public and private events, and personal VIP protection.</p>
 
 				<div class="column small-12 medium-8 large-6">
 					<div class="button">Learn More</div>
@@ -31,9 +31,9 @@
 
 			<div class="column small-12 medium-6 large-6">
 
-				<h2>Our Goal</h2>
+				<h2 class="underline underline-is-blue underline-is-left">Our Goal</h2>
 
-				<p>Our goal is to maintain a rained and professional presence that is customized specfically for your unique needs and situation. Our uniformed armed and unarmed security professionals are at your site to ensure overall safety of people and property. Our goal of working with you to develop a cost-effective and complete security program that will help meet your specific needs.</p>
+				<p>Our goal is to maintain a trained and professional security presence that is customized specifically for your unique needs and situation. Our uniformed armed and unarmed security professionals are at your site to ensure overall safety of people and property.  Our goal of working with you is to develop a cost-effective and complete security program that will help meet your specific needs.</p>
 
 				<div class="column small-12 medium-8 large-6">
 					<div class="button">Learn More</div>
@@ -47,28 +47,28 @@
 	<!-- /.goal -->
 
 
-	<section class="goal">
+	<section class="service-blocks">
 
-		<div class="row">
+		<div class="row large-uncollapse text-center">
 
-			<h2>Services</h2>
+			<!-- <h2>Services</h2> -->
 
-			<div class="column small-12 medium-4 large-4 service-button residential">Residential</div>
+			<div class="columns small-12 medium-4 large-4 service-button residential">Residential</div>
 
-			<div class="column small-12 medium-4 large-4 service-button commercial">Commercial</div>
+			<div class="columns small-12 medium-4 large-4 service-button commercial">Commercial</div>
 
-			<div class="column small-12 medium-4 large-4 service-button industrial">Industrial</div>
+			<div class="columns small-12 medium-4 large-4 service-button industrial">Industrial</div>
 
 		</div>
 		<!-- /.row -->
 
-		<div class="row">
+		<div class="row text-center">
 
-			<div class="column small-12 medium-4 large-4 service-button government">Government</div>
+			<div class="columns small-12 medium-4 large-4 service-button government">Government</div>
 
-			<div class="column small-12 medium-4 large-4 service-button healthcare">Healthcare</div>
+			<div class="columns small-12 medium-4 large-4 service-button healthcare">Healthcare</div>
 
-			<div class="column small-12 medium-4 large-4 service-button special-services">Special Services</div>
+			<div class="columns small-12 medium-4 large-4 service-button special-services">Special Services</div>
 
 
 		</div>

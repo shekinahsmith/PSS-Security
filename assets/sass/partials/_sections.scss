@@ -1,0 +1,17 @@
+// Sections
+section {
+
+	h2 {
+		color: $pss-grey;
+		margin: 0.3em 0 1em;
+	}
+
+	&.service-blocks {
+
+		.service-button {
+			background: $pss-blue-light;
+			color: #fff;
+			height: rem-calc(370px);
+		}
+	}
+}// section

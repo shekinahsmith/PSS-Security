@@ -8,7 +8,8 @@
 		height: 100%;
 		margin: 0;
 	}
-
+	
+	// hero-landing 
 	&.hero-landing {
 		color: #fff;
 		//height: 450px;
@@ -20,6 +21,8 @@
 				background: $pss-blue-light;
 				width: 50%;
 			}
-		}
-	}
-}
+		}// .content 
+
+	}// &.hero-landing
+
+}// .hero
