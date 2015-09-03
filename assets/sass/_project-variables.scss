@@ -32,7 +32,7 @@
 	font-size: rem-calc(25);
 }
 
-
+// underline under headlines and sections
 .underline {
 	position: relative;
 
@@ -73,4 +73,8 @@
 			margin-left: -50px;
 		}
 	}
+}// .underline
+
+.has-border-radius {
+	border-radius: 5px;
 }

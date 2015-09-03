@@ -49,27 +49,50 @@
 
 	<section class="service-blocks">
 
-		<div class="row large-uncollapse text-center">
+		<div class="row text-center uncollapse">
 
-			<!-- <h2>Services</h2> -->
+			<h2>Services</h2>
 
-			<div class="columns small-12 medium-4 large-4 service-button residential">Residential</div>
+			<div class="columns small-12 medium-4 large-4">
 
-			<div class="columns small-12 medium-4 large-4 service-button commercial">Commercial</div>
+				<div class="service-button residential has-border-radius">Residential</div>
 
-			<div class="columns small-12 medium-4 large-4 service-button industrial">Industrial</div>
+			</div>
+
+			<div class="columns small-12 medium-4 large-4">
+
+				<div class="service-button commercial has-border-radius">Commercial</div>
+
+			</div>
+
+			<div class="columns small-12 medium-4 large-4">
+
+				<div class="service-button industrial has-border-radius">Industrial</div>
+
+			</div>
 
 		</div>
 		<!-- /.row -->
 
-		<div class="row text-center">
+		<div class="row text-center has-margin-top-30">
 
-			<div class="columns small-12 medium-4 large-4 service-button government">Government</div>
+			<div class="columns small-12 medium-4 large-4">
 
-			<div class="columns small-12 medium-4 large-4 service-button healthcare">Healthcare</div>
+				<div class="service-button government has-border-radius">Government</div>
 
-			<div class="columns small-12 medium-4 large-4 service-button special-services">Special Services</div>
+			</div>
 
+			<div class="columns small-12 medium-4 large-4">
+
+				<div class="service-button healthcare has-border-radius">Healthcare</div>
+
+			</div>
+
+			<div class="columns small-12 medium-4 large-4">
+
+				<div class="service-button special-services has-border-radius">Special Services</div>
+
+			</div>
 
 		</div>
 		<!-- /.row -->

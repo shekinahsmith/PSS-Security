@@ -1,0 +1,8 @@
+// Creating Margin Top classes
+$class-slug: has-margin-top;
+
+@for $i from 10 through 100{
+  .#{$class-slug}-#{$i} {
+    margin-top: 0px + $i
+  }
+}

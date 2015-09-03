@@ -5,13 +5,18 @@ section {
 		color: $pss-grey;
 		margin: 0.3em 0 1em;
 	}
-
+	
+	// service-blocks
 	&.service-blocks {
-
+		
+		// service button
 		.service-button {
 			background: $pss-blue-light;
 			color: #fff;
 			height: rem-calc(370px);
-		}
-	}
+			padding-top: 45%;
+		}// .service-button
+
+	}// &.service-blocks
+
 }// section

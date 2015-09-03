@@ -1,7 +1,7 @@
 <? 
 	include 'includes/base/_header.php'; 
 	include 'includes/masthead/_masthead.php';
-	include 'includes/heroes/_hero-landing.php';  
+	include 'includes/heroes/_hero-about-us.php';  
 ?>
 	
 	<section class="who-are-we">

@@ -14,19 +14,22 @@
 	<div class="top-bar-section">
 	<!-- Right Nav Section -->
 		<ul class="right">
-			<li class="active"><a href="#">Home</a></li>
-			<li><a href="#">Services</a></li>
-			<li><a href="#">About Us</a></li>
-
+			<li class="active"><a href="/">Home</a></li>
 			<li class="has-dropdown">
-			<a href="#">Careers</a>
-			<ul class="dropdown">
-			<li><a href="#">First link in dropdown</a></li>
-			<li><a href="#">Active link in dropdown</a></li>
-			</ul>
+				<a href="/services.php">Services</a>
+				<ul class="dropdown">
+					<li><a href="#">Residential</a></li>
+					<li><a href="#">Commerical</a></li>
+					<li><a href="#">Industrial</a></li>
+					<li><a href="#">Government</a></li>
+					<li><a href="#">Healthcare</a></li>
+					<li><a href="#">Special Services</a></li>
+				</ul>
 			</li>
-
-			<li class="client-portal"><a href="#">Client Portal</a></li>
+			<li><a href="/about-us.php">About Us</a></li>
+			<li><a href="#">Careers</a></li>
+			<li><a href="#">Contact</a></li>
+			<li class="client-portal"><a href="#"><span>Client Portal</span></a></li>
 		</ul>
 	</div>
 

@@ -57,6 +57,6 @@ button,
 body.f-topbar-fixed {
 
 	@include mq($small-only) {
-		padding: 0;
+		padding-top: 0;
 	}
 }
