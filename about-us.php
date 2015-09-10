@@ -79,13 +79,13 @@
 
 			<div class="column small-12 medium-6 large-6">
 
-				<div class="team-list">
+				<div class="team-list large-10 large-centered">
 				
-					<div class="team-list_header">Members of our team include:</div>
+					<div class="team-list_header text-center">Members of our team include:</div>
 					
 					<div class="team-list_positions">
 
-						<ul>
+						<ul class="no-bullet">
 							<li>Former Career Law Enforcement Officers</li>
 							<li>Graduates of the FBI Academy</li>
 							<li>Attorneys</li>
@@ -123,18 +123,17 @@
 	</section>
 	<!-- /.personnel -->
 
-	<section class="specialized-training is-blue-bg">
+	<section class="specialized-training">
 
 		<div class="row">
 
 			<div class="column small-12 medium-12 large-12 text-center">
 
 				<h2>PSS Specialized Training</h2>
+				
+				<p class="column large-7 large-centered underline underline-is-blue underline-is-centered">Our security program is one of the best programs available today from any security services provider.  And one of the key reasons for this is our total commitment to thorough and on-going training.</p>
 
-				<p>Our security program is one of the best programs available today from any security services provider.  And one of the key reasons for this is our total commitment to thorough and on-going training.</p>
-
-				<p class="is-larger-text">We continuously train and re-train each team member in all of their areas of responsibility, including:</p>
-
+				<p class="column large-8 large-centered is-larger-text">We continuously train and re-train each team member in all of their areas of responsibility, including:</p>
 			</div>
 			<!-- /.column -->
 

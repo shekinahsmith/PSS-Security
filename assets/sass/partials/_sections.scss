@@ -1,10 +1,83 @@
 // Sections
 section {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 
 	h2 {
 		color: $pss-grey;
 		margin: 0.3em 0 1em;
 	}
+
+	// SECTIONS 
+	
+	//PAGE - Home (these sections are repeated on other pages)
+	// who are we
+	&.who-are-we {
+		background-image: url(/assets/images/sections/section-who-we-are-bg.jpg);
+	}
+	
+	// goal
+	&.goal {
+		background-image: url(/assets/images/sections/section-goals-bg.jpg);
+	}
+	
+	// contact
+	&.contact {
+		background-image: url(/assets/images/sections/section-contact-bg.jpg);
+		color: #fff;
+
+		h2 {
+			color: #fff;
+		}
+		
+		// input and textarea
+		input,
+		textarea {
+			background-color: rgba(255,255,255, 0.5);
+			border: 1px solid #fff;
+			
+			// adjusting placeholder text
+			@include placeholder {
+			    color: $pss-grey;
+			  }
+		}// input, textarea
+
+	}// &.contact
+
+	// PAGE - About Us
+	// personnel
+	&.personnel {
+		
+		.team-list {
+			background: #fff;
+			border-radius: 8px;
+
+			&_header {
+				background-color: $pss-red;
+				border-radius: 8px 8px 0 0;
+				color: #fff;
+				margin-bottom: 20px;
+				padding: 10px 0;
+			}
+
+			&_positions {
+				color: $pss-grey;
+				font-weight: 100;
+
+				ul {
+					padding: 0 20px 20px;
+					font-size: rem-calc(14);
+
+					li {
+						padding: 0.45em 0;
+					}
+				}
+			}
+		}
+	}
+
+	// END SECTIONS
 	
 	// service-blocks
 	&.service-blocks {

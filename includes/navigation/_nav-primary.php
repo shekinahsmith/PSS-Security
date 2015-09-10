@@ -27,8 +27,8 @@
 				</ul>
 			</li>
 			<li><a href="/about-us.php">About Us</a></li>
-			<li><a href="#">Careers</a></li>
-			<li><a href="#">Contact</a></li>
+			<li><a href="/careers.php">Careers</a></li>
+			<li><a href="/contact.php">Contact</a></li>
 			<li class="client-portal"><a href="#"><span>Client Portal</span></a></li>
 		</ul>
 	</div>

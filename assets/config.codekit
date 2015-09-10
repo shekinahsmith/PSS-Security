@@ -20,6 +20,94 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/heroes\/hero-about-us-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 175135,
+		"inputAbbreviatedPath": "\/images\/heroes\/hero-about-us-bg.jpg",
+		"outputAbbreviatedPath": "\/images\/heroes\/hero-about-us-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/heroes\/hero-landing-best-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52677,
+		"inputAbbreviatedPath": "\/images\/heroes\/hero-landing-best-bg.jpg",
+		"outputAbbreviatedPath": "\/images\/heroes\/hero-landing-best-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/heroes\/hero-landing-call-professionals-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 115560,
+		"inputAbbreviatedPath": "\/images\/heroes\/hero-landing-call-professionals-bg.jpg",
+		"outputAbbreviatedPath": "\/images\/heroes\/hero-landing-call-professionals-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/heroes\/hero-landing-real-professionals-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92075,
+		"inputAbbreviatedPath": "\/images\/heroes\/hero-landing-real-professionals-bg.jpg",
+		"outputAbbreviatedPath": "\/images\/heroes\/hero-landing-real-professionals-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/heroes\/hero-services-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128471,
+		"inputAbbreviatedPath": "\/images\/heroes\/hero-services-bg.jpg",
+		"outputAbbreviatedPath": "\/images\/heroes\/hero-services-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sections\/section-contact-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 207816,
+		"inputAbbreviatedPath": "\/images\/sections\/section-contact-bg.jpg",
+		"outputAbbreviatedPath": "\/images\/sections\/section-contact-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sections\/section-goals-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111913,
+		"inputAbbreviatedPath": "\/images\/sections\/section-goals-bg.jpg",
+		"outputAbbreviatedPath": "\/images\/sections\/section-goals-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sections\/section-who-we-are-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69925,
+		"inputAbbreviatedPath": "\/images\/sections\/section-who-we-are-bg.jpg",
+		"outputAbbreviatedPath": "\/images\/sections\/section-who-we-are-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/js\/fastclick.js": {
 		"fileType": 64,
 		"ignore": 1,

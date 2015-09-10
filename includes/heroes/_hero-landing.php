@@ -4,43 +4,44 @@
     
     <ul class="slides">
      
-      <li>
-       
-        <div class="left slide-1-content content">
-            
-            <div class="row">
-             
-              <div class="column large-8 push-3">
-                  
-                  <h2>Real Professionals</h2>
+      <li class="slide slide-1">
 
-                  <p>Our goal is to maintain a trained and professional security presence that is customized specifically for your unique needs and situation. We offer armed and unarmed security guard protection.</p>
+          <div class="slide-1-content content">
+              
+              <div class="row">
+               
+                <div class="column large-5">
+                    
+                    <h2 class="underline underline-is-white underline-is-left">Real Professionals</h2>
 
-                  <div class="column large-7">
+                    <p>Our goal is to maintain a trained and professional security presence that is customized specifically for your unique needs and situation. We offer armed and unarmed security guard protection.</p>
+                    
+                    <div class="column large-7">
 
-                    <div class="button secondary round">Play Video</div>
+                      <div class="button secondary round">Play Video</div>
+
+                    </div>
 
                   </div>
+                  <!-- /.column -->
 
-                </div>
-                <!-- /.column -->
+              </div>
+              <!-- /.row -->
 
             </div>
-            <!-- /.row -->
-
-          </div>
-          <!-- /.content -->
+            <!-- /.content -->
       </li>
       <!-- END slide1 -->
 
-      <li>
+      <li class="slide slide-2">
+
         <div class="slide-2-content content">
             
             <div class="row">
              
               <div class="column large-7">
                   
-                  <h2>Call The Professionals</h2>
+                  <h2 class="underline underline-is-blue underline-is-left">Call The Professionals</h2>
 
                   <p>Our goal is to maintain a trained and professional security presence that is customized specifically for your unique needs and situation. We offer armed and unarmed security guard protection.</p>
                   
@@ -62,9 +63,34 @@
           <!-- /.content -->
       </li>
 
+      <li class="slide slide-3">
 
-      <!-- <li>
-       <img src="slide3.jpg" />
+        <div class="slide-3-content content">
+            
+            <div class="row">
+             
+              <div class="column large-5">
+                  
+                  <h2 class="underline underline-is-blue underline-is-left">The best of the best</h2>
+
+                  <p>Our goal is to maintain a trained and professional security presence that is customized specifically for your unique needs and situation. We offer armed and unarmed security guard protection.</p>
+                  
+                  <p>For more information, call  <strong>704-442-9499</strong></p>
+
+                  <div class="column large-6">
+
+                    <div class="button">Our Equipment</div>
+
+                  </div>
+
+                </div>
+                <!-- /.column -->
+
+            </div>
+            <!-- /.row -->
+
+          </div>
+          <!-- /.content -->
       </li>  -->
     </ul>
   </div>

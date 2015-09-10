@@ -5095,24 +5095,108 @@ footer {
 .header-mobile {
   border-bottom: 3px solid #008fd2; }
 
-.hero .flexslider {
-  border: 0;
-  box-shadow: none;
-  height: 100%;
-  margin: 0; }
-.hero.hero-landing {
-  color: #fff; }
-  .hero.hero-landing .content {
-    padding: 6em 0; }
-    .hero.hero-landing .content.slide-1-content {
-      background: #008fd2;
-      width: 50%; }
+.hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .hero .content {
+    padding: 6em 0;
+    z-index: 10; }
+    .hero .content p {
+      margin-top: 40px; }
+  .hero .flexslider {
+    border: 0;
+    box-shadow: none;
+    height: 100%;
+    margin: 0; }
+  .hero.hero-landing {
+    color: #fff; }
+    .hero.hero-landing .slide {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .hero.hero-landing .slide-1 {
+      background-image: url(/assets/images/heroes/hero-landing-real-professionals-bg.jpg); }
+    .hero.hero-landing .slide-2 {
+      background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg); }
+    .hero.hero-landing .slide-3 {
+      background-image: url(/assets/images/heroes/hero-landing-best-bg.jpg); }
+    .hero.hero-landing .content.slide-1-content h2, .hero.hero-landing .content.slide-2-content h2 {
+      color: #fff; }
+    .hero.hero-landing .content.slide-3-content {
+      color: #000; }
+  .hero.hero-about-us {
+    background-image: url(/assets/images/heroes/hero-about-us-bg.jpg);
+    color: #fff; }
+    .hero.hero-about-us h1 {
+      color: #fff; }
+    .hero.hero-about-us .has-teal-bg {
+      position: relative;
+      z-index: 1; }
+      .hero.hero-about-us .has-teal-bg:after {
+        content: "";
+        background-color: #00699f;
+        border-radius: 5px;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 9000px;
+        z-index: -1; }
+  .hero.hero-services {
+    background-image: url(/assets/images/heroes/hero-services-bg.jpg); }
 
-section h2 {
-  color: #414950;
-  margin: 0.3em 0 1em; }
-section.service-blocks .service-button {
-  background: #008fd2;
-  color: #fff;
-  height: 23.125rem;
-  padding-top: 45%; }
+section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  section h2 {
+    color: #414950;
+    margin: 0.3em 0 1em; }
+  section.who-are-we {
+    background-image: url(/assets/images/sections/section-who-we-are-bg.jpg); }
+  section.goal {
+    background-image: url(/assets/images/sections/section-goals-bg.jpg); }
+  section.contact {
+    background-image: url(/assets/images/sections/section-contact-bg.jpg);
+    color: #fff; }
+    section.contact h2 {
+      color: #fff; }
+    section.contact input,
+    section.contact textarea {
+      background-color: rgba(255, 255, 255, 0.5);
+      border: 1px solid #fff; }
+      section.contact input::-webkit-input-placeholder,
+      section.contact textarea::-webkit-input-placeholder {
+        color: #414950; }
+      section.contact input::-moz-placeholder,
+      section.contact textarea::-moz-placeholder {
+        color: #414950; }
+      section.contact input:-moz-placeholder,
+      section.contact textarea:-moz-placeholder {
+        color: #414950; }
+      section.contact input:-ms-input-placeholder,
+      section.contact textarea:-ms-input-placeholder {
+        color: #414950; }
+  section.personnel .team-list {
+    background: #fff;
+    border-radius: 8px; }
+    section.personnel .team-list_header {
+      background-color: #e97668;
+      border-radius: 8px 8px 0 0;
+      color: #fff;
+      margin-bottom: 20px;
+      padding: 10px 0; }
+    section.personnel .team-list_positions {
+      color: #414950;
+      font-weight: 100; }
+      section.personnel .team-list_positions ul {
+        padding: 0 20px 20px;
+        font-size: 0.875rem; }
+        section.personnel .team-list_positions ul li {
+          padding: 0.45em 0; }
+  section.service-blocks .service-button {
+    background: #008fd2;
+    color: #fff;
+    height: 23.125rem;
+    padding-top: 45%; }
