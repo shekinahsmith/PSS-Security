@@ -49,6 +49,7 @@ section {
 	// personnel
 	&.personnel {
 		
+		// team list
 		.team-list {
 			background: #fff;
 			border-radius: 8px;
@@ -59,8 +60,9 @@ section {
 				color: #fff;
 				margin-bottom: 20px;
 				padding: 10px 0;
-			}
-
+			}// .team-list_header
+			
+			// team list positions
 			&_positions {
 				color: $pss-grey;
 				font-weight: 100;
@@ -72,8 +74,23 @@ section {
 					li {
 						padding: 0.45em 0;
 					}
-				}
-			}
+				}// ul
+
+			}// .team-list_positions
+
+		}// .team-list
+
+	}// &.personnel
+
+	//PAGES - services
+	//patrol-homeland
+	&.patrol-homeland {
+		padding: 4em 0;
+
+		.patrol,
+		.homeland {
+			width: 50%;
+			padding: 2em;
 		}
 	}
 

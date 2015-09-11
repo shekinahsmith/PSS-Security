@@ -28,6 +28,15 @@
 	}
 }
 
+.is-red-bg {
+	background: $pss-red;
+	color: #fff;
+
+	h2 {
+		color: #fff;
+	}
+}
+
 .is-larger-text {
 	font-size: rem-calc(25);
 }

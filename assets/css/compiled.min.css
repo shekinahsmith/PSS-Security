@@ -4697,6 +4697,12 @@ th.hide-for-touch {
   .is-blue-light-bg h2 {
     color: #fff; }
 
+.is-red-bg {
+  background: #e97668;
+  color: #fff; }
+  .is-red-bg h2 {
+    color: #fff; }
+
 .is-larger-text {
   font-size: 1.5625rem; }
 
@@ -5195,6 +5201,12 @@ section {
         font-size: 0.875rem; }
         section.personnel .team-list_positions ul li {
           padding: 0.45em 0; }
+  section.patrol-homeland {
+    padding: 4em 0; }
+    section.patrol-homeland .patrol,
+    section.patrol-homeland .homeland {
+      width: 50%;
+      padding: 2em; }
   section.service-blocks .service-button {
     background: #008fd2;
     color: #fff;
