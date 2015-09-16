@@ -14,17 +14,43 @@
 		}
 	}// .content
 	
-	// flexslider
+	// OVERRIDING FLEXSLIDER DEFAULT STYLES
 	.flexslider {
 		border: 0;
 		box-shadow: none;
 		height: 100%;
 		margin: 0;
-	}
+		
+		.slides,
+		.slide {
+			height: 100%;
+		}
+	}// .flexslider
+	
+	// flex control dots
+	.flex-control-nav {
+		top: 50%;
+		bottom: auto;
+		right: 65px;
+		width: auto;
+		z-index: 10;
+		margin-top: -59px;
+		
+		li {
+			display: block;
+			margin-top: 25px;
+			
+			a.flex-active {
+				background-color: $pss-red;
+			}
+		}// li
+		
+	}// .flex-control-nav
 	
 	// hero-landing 
 	&.hero-landing {
 		color: #fff;
+		height: 522px;
 		
 		// slide
 		.slide {
@@ -65,6 +91,23 @@
 			}// slide-3-content
 
 		}// .content 
+		
+		.hero-landing-mobile {
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg);
+			height: 100%;
+			padding-top: rem-calc(50px);
+			
+			h2 {
+				color: #fff;
+			}
+			
+			p {
+				margin-top: 40px;
+			}
+		}
 
 	}// &.hero-landing
 

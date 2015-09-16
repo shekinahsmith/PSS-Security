@@ -20,8 +20,17 @@ $(document).on('ready', function() {
 		$('body').addClass('f-topbar-fixed');
 	}
 
-	 $('.js-hero-slider').flexslider({
-	 	//animation: "slide",
-        direction: "vertical"
-	 });
+	$('.js-hero-slider').flexslider({
+		//animation: "slide",
+	direction: "vertical"
+	});
+	 
+	$("#formContact").validate({
+		
+		// converting error message to placeholder to style with red background
+		errorPlacement: function (error, element) {
+		    element.attr("placeholder", error[0].outerText);
+		}
+	});
+
 });

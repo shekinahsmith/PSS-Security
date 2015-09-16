@@ -1,0 +1,19 @@
+// Forms
+.contact-form {
+	
+	input,
+	textarea {
+		
+		// error
+		&.error {
+			background-color: $pss-red;
+			margin-bottom: 16px;
+			
+			@include placeholder {
+				color: darken($pss-red, 60%);
+			}
+		}// &.error
+		
+	}// input, textarea
+	
+}// .contact-form

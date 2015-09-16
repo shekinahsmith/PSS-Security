@@ -8,7 +8,7 @@
 
 		<div class="row">
 
-			<div class="column small-12 medium-6 large-6 medium-push-6 large-push-6">
+			<div class="column small-12 small-centered small-text-center medium-6  medium-uncentered medium-text-left medium-push-6">
 
 				<h2 class="underline underline-is-blue underline-is-left">Who We Are</h2>
 
@@ -29,7 +29,7 @@
 
 		<div class="row">
 
-			<div class="column small-12 medium-6 large-6">
+			<div class="column small-12 small-centered small-text-center medium-6 medium-uncentered medium-text-left">
 
 				<h2 class="underline underline-is-blue underline-is-left">Our Goal</h2>
 
@@ -46,82 +46,9 @@
 	</section>
 	<!-- /.goal -->
 
-
-	<section class="service-blocks">
-
-		<div class="row text-center uncollapse">
-
-			<h2>Services</h2>
-
-			<div class="columns small-12 medium-4 large-4">
-
-				<div class="service-button residential has-border-radius">Residential</div>
-
-			</div>
-
-			<div class="columns small-12 medium-4 large-4">
-
-				<div class="service-button commercial has-border-radius">Commercial</div>
-
-			</div>
-
-			<div class="columns small-12 medium-4 large-4">
-
-				<div class="service-button industrial has-border-radius">Industrial</div>
-
-			</div>
-
-		</div>
-		<!-- /.row -->
-
-		<div class="row text-center has-margin-top-30">
-
-			<div class="columns small-12 medium-4 large-4">
-
-				<div class="service-button government has-border-radius">Government</div>
-
-			</div>
-
-			<div class="columns small-12 medium-4 large-4">
-
-				<div class="service-button healthcare has-border-radius">Healthcare</div>
-
-			</div>
-
-			<div class="columns small-12 medium-4 large-4">
-
-				<div class="service-button special-services has-border-radius">Special Services</div>
-
-			</div>
-
-		</div>
-		<!-- /.row -->
-
-	</section>
-	<!-- /.goal -->
-
-	<section class="contact">
-
-		<div class="row large-collapse">
-
-			<div class="column small-12 medium-6 large-6">
-
-				<h2>Contact Us</h2>
-
-				<p>Please use the contact form to submit your inquiry to us. The appropriate member of your team will return your inquiry as quickly as possible. Thank you for visiting our website!</p>
-				
-				<p><strong>Professional Security Services</strong></p>
-				<p>P.O. Box 220041<br>Charlotte, NC 28222<br>704-442-9499 Offices<br>704-442-9899 Fax</p>
-
-			</div>
-
-
-			<? include 'includes/forms/_form-contact.php'; ?>
-
-		</div>
-		<!-- /.row -->
-
-	</section>
-	<!-- /.contact -->
+	<? 
+		include 'includes/sections/_section-service-blocks.php'; 
+		include 'includes/sections/_section-contact.php'; 
+	?>
 
 <? include 'includes/base/_footer.php'; ?>

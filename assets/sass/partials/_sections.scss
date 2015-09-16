@@ -15,11 +15,20 @@ section {
 	// who are we
 	&.who-are-we {
 		background-image: url(/assets/images/sections/section-who-we-are-bg.jpg);
+		
+		@include mq($small-only) {
+			background-image: none;
+		}
 	}
 	
 	// goal
 	&.goal {
 		background-image: url(/assets/images/sections/section-goals-bg.jpg);
+		
+		@include mq($small-only) {
+			background-color: $pss-off-white;
+			background-image: none;
+		}
 	}
 	
 	// contact
@@ -99,12 +108,69 @@ section {
 	// service-blocks
 	&.service-blocks {
 		
+		.columns {
+			&:nth-child(n+2) {
+				@include mq($small-only) {
+					margin-top: 30px;
+				}	
+			}
+		}
+		
 		// service button
 		.service-button {
+			@include transition(all 0.2s ease-in-out);
 			background: $pss-blue-light;
 			color: #fff;
 			height: rem-calc(370px);
 			padding-top: 45%;
+			background-position: 50% -1000px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			
+			@include mq($medium-only) {
+				height: rem-calc(200px);
+				padding-top: 5em;
+			}
+			
+			@include mq($small-only) {
+				height: rem-calc(100px);
+				padding-top: 2em;
+			}
+			
+			// hover
+			&:hover {
+				background-position: 50% -20px;
+			}
+			
+			// residential block
+			&.residential {
+				background-image: url(/assets/images/service-blocks/service-block-residential.png);
+			}
+			
+			// commercial block
+			&.commercial {
+				background-image: url(/assets/images/service-blocks/service-block-commercial.png);
+			}
+			
+			// industrial block
+			&.industrial {
+				background-image: url(/assets/images/service-blocks/service-block-industrial.png);
+			}
+			
+			// goverment block
+			&.government {
+				background-image: url(/assets/images/service-blocks/service-block-government.png);
+			}
+			
+			// healthcare block
+			&.healthcare {
+				background-image: url(/assets/images/service-blocks/service-block-healthcare.png);
+			}
+			
+			// special services block
+			&.special-services {
+				background-image: url(/assets/images/service-blocks/service-block-special-services.png);
+			}
 		}// .service-button
 
 	}// &.service-blocks

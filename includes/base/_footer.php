@@ -22,7 +22,8 @@
 	</div>
 	
 	<script>$(document).foundation();</script>
-	<? //include 'includes/base/_footer-js.php'; ?>
+	<script src="/assets/js/jquery.validate.min.js"></script>
+	<script src="/assets/js/additional-methods.min.js"></script>
 
 </body>
 </html>

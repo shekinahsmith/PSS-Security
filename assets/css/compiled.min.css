@@ -5032,6 +5032,9 @@ body {
 
 section {
   padding: 4em 2em; }
+  @media only screen and (max-width: 48em) {
+    section {
+      padding: 2em 0.5em; } }
 
 h1,
 h2,
@@ -5115,8 +5118,24 @@ footer {
     box-shadow: none;
     height: 100%;
     margin: 0; }
+    .hero .flexslider .slides,
+    .hero .flexslider .slide {
+      height: 100%; }
+  .hero .flex-control-nav {
+    top: 50%;
+    bottom: auto;
+    right: 65px;
+    width: auto;
+    z-index: 10;
+    margin-top: -59px; }
+    .hero .flex-control-nav li {
+      display: block;
+      margin-top: 25px; }
+      .hero .flex-control-nav li a.flex-active {
+        background-color: #e97668; }
   .hero.hero-landing {
-    color: #fff; }
+    color: #fff;
+    height: 522px; }
     .hero.hero-landing .slide {
       background-position: center;
       background-repeat: no-repeat;
@@ -5131,6 +5150,17 @@ footer {
       color: #fff; }
     .hero.hero-landing .content.slide-3-content {
       color: #000; }
+    .hero.hero-landing .hero-landing-mobile {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg);
+      height: 100%;
+      padding-top: 3.125rem; }
+      .hero.hero-landing .hero-landing-mobile h2 {
+        color: #fff; }
+      .hero.hero-landing .hero-landing-mobile p {
+        margin-top: 40px; }
   .hero.hero-about-us {
     background-image: url(/assets/images/heroes/hero-about-us-bg.jpg);
     color: #fff; }
@@ -5161,8 +5191,15 @@ section {
     margin: 0.3em 0 1em; }
   section.who-are-we {
     background-image: url(/assets/images/sections/section-who-we-are-bg.jpg); }
+    @media only screen and (max-width: 48em) {
+      section.who-are-we {
+        background-image: none; } }
   section.goal {
     background-image: url(/assets/images/sections/section-goals-bg.jpg); }
+    @media only screen and (max-width: 48em) {
+      section.goal {
+        background-color: #f0f1f1;
+        background-image: none; } }
   section.contact {
     background-image: url(/assets/images/sections/section-contact-bg.jpg);
     color: #fff; }
@@ -5207,8 +5244,56 @@ section {
     section.patrol-homeland .homeland {
       width: 50%;
       padding: 2em; }
+  @media only screen and (max-width: 48em) {
+    section.service-blocks .columns:nth-child(n+2) {
+      margin-top: 30px; } }
   section.service-blocks .service-button {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     background: #008fd2;
     color: #fff;
     height: 23.125rem;
-    padding-top: 45%; }
+    padding-top: 45%;
+    background-position: 50% -1000px;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media only screen and (min-width: 48.063em) and (max-width: 60em) {
+      section.service-blocks .service-button {
+        height: 12.5rem;
+        padding-top: 5em; } }
+    @media only screen and (max-width: 48em) {
+      section.service-blocks .service-button {
+        height: 6.25rem;
+        padding-top: 2em; } }
+    section.service-blocks .service-button:hover {
+      background-position: 50% -20px; }
+    section.service-blocks .service-button.residential {
+      background-image: url(/assets/images/service-blocks/service-block-residential.png); }
+    section.service-blocks .service-button.commercial {
+      background-image: url(/assets/images/service-blocks/service-block-commercial.png); }
+    section.service-blocks .service-button.industrial {
+      background-image: url(/assets/images/service-blocks/service-block-industrial.png); }
+    section.service-blocks .service-button.government {
+      background-image: url(/assets/images/service-blocks/service-block-government.png); }
+    section.service-blocks .service-button.healthcare {
+      background-image: url(/assets/images/service-blocks/service-block-healthcare.png); }
+    section.service-blocks .service-button.special-services {
+      background-image: url(/assets/images/service-blocks/service-block-special-services.png); }
+
+.contact-form input.error,
+.contact-form textarea.error {
+  background-color: #e97668;
+  margin-bottom: 16px; }
+  .contact-form input.error::-webkit-input-placeholder,
+  .contact-form textarea.error::-webkit-input-placeholder {
+    color: #1b0604; }
+  .contact-form input.error::-moz-placeholder,
+  .contact-form textarea.error::-moz-placeholder {
+    color: #1b0604; }
+  .contact-form input.error:-moz-placeholder,
+  .contact-form textarea.error:-moz-placeholder {
+    color: #1b0604; }
+  .contact-form input.error:-ms-input-placeholder,
+  .contact-form textarea.error:-ms-input-placeholder {
+    color: #1b0604; }

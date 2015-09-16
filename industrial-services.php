@@ -81,51 +81,11 @@
 	</section>
 	<!-- /.employee-terminations -->
 
-
-	<section class="standing-guards">
-
-		<div class="row">
-
-			<div class="column small-12 medium-6 large-6 medium-push-6 large-push-6">
-
-				<h2 class="underline underline-is-blue underline-is-left">Standing Guards</h2>
-
-				<p>Our uniformed armed and unarmed security professionals are at your site to ensure overall safety of people and property.  Our goal of working with you to develop an effective and extensive security program will help to minimize:<p>
-				
-				<ul>
-					<li>Robberies</li>
-					<li>Auto Theft</li>
-					<li>Property Theft</li>
-					<li>Physical Threats</li>
-					<li>Graffiti or Vandalism</li>
-					<li>Vehicle Break-ins</li>
-					<li>Personal Violence Attacks</li>
-					<li>Unwanted Intruders or Violent Visitors</li>
-				</ul>
-			</div>
-
-		</div>
-		<!-- /.row -->
-
-	</section>
-	<!-- /.standing-guards -->
-
-	<section class="call-out-box">
-
-		<div class="row">
-
-			<div class="column small-12 large-8 text-center large-centered">
-
-				<p>A standing guard sends a clear message that your location is secure and safe.  As part of an overall security program, standing guards offer one of the single most important deterrents to would-be crimes and criminals.</p>
-
-				<p>Our security officers who are part of the standing guard program are highly-trained and skilled security professionals who institute the security plan at your location.  These professionals give your plan validation, enforcement and protection.</p>
-			</div>
-
-		</div>
-		<!-- /.row -->
-
-	</section>
-	<!-- /.call-out-box -->
+	<? 
+		// sections included on multiple pages
+		include 'includes/sections/_section-standing-guards.php'; 
+		include 'includes/sections/_section-call-out-box.php'; 
+	?>
 
 	<section class="patrol-homeland clearfix">
 

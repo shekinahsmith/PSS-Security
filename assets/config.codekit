@@ -108,6 +108,83 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/service-blocks\/service-block-commercial.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 236977,
+		"inputAbbreviatedPath": "\/images\/service-blocks\/service-block-commercial.png",
+		"outputAbbreviatedPath": "\/images\/service-blocks\/service-block-commercial.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/service-blocks\/service-block-government.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 222942,
+		"inputAbbreviatedPath": "\/images\/service-blocks\/service-block-government.png",
+		"outputAbbreviatedPath": "\/images\/service-blocks\/service-block-government.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/service-blocks\/service-block-healthcare.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 271838,
+		"inputAbbreviatedPath": "\/images\/service-blocks\/service-block-healthcare.png",
+		"outputAbbreviatedPath": "\/images\/service-blocks\/service-block-healthcare.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/service-blocks\/service-block-industrial.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 265427,
+		"inputAbbreviatedPath": "\/images\/service-blocks\/service-block-industrial.png",
+		"outputAbbreviatedPath": "\/images\/service-blocks\/service-block-industrial.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/service-blocks\/service-block-residential.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 284738,
+		"inputAbbreviatedPath": "\/images\/service-blocks\/service-block-residential.png",
+		"outputAbbreviatedPath": "\/images\/service-blocks\/service-block-residential.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/service-blocks\/service-block-special-services.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 273062,
+		"inputAbbreviatedPath": "\/images\/service-blocks\/service-block-special-services.png",
+		"outputAbbreviatedPath": "\/images\/service-blocks\/service-block-special-services.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/additional-methods.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/additional-methods.min.js",
+		"outputAbbreviatedPath": "\/js\/additional-methods.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/fastclick.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -328,6 +405,17 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/jquery.validate.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery.validate.min.js",
+		"outputAbbreviatedPath": "\/js\/jquery.validate.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/modernizr.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -489,6 +577,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/partials\/_forms.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/_forms.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_forms.min.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/sass\/partials\/_heroes.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -562,6 +666,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/partials\/_sections.scss",
 		"outputAbbreviatedPath": "\/sass\/css\/_sections.min.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/partials\/page\/_page-index.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/page\/_page-index.scss",
+		"outputAbbreviatedPath": "\/sass\/partials\/css\/_page-index.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

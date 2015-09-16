@@ -1,6 +1,7 @@
 <div class="hero hero-landing">
 
-  <div class="flexslider hero-slider js-hero-slider">
+  <!-- slider only visible on desktop and tablet, hidden on mobile -->
+  <div class="flexslider hero-slider js-hero-slider hide-for-small">
     
     <ul class="slides">
      
@@ -91,9 +92,35 @@
 
           </div>
           <!-- /.content -->
-      </li>  -->
+      </li> 
+      
     </ul>
+    <!-- /.slides -->
+    
   </div>
+  <!-- /.hero-slider -->
+  
+  <div class="row show-for-small hero-landing-mobile">
+             
+      <div class="column small-12 small-text-center">
+          
+          <h2 class="underline underline-is-blue underline-is-left">Call The Professionals</h2>
+
+          <p>Our goal is to maintain a trained and professional security presence that is customized specifically for your unique needs and situation. We offer armed and unarmed security guard protection.</p>
+          
+          <p>For more information, call  <strong>704-442-9499</strong></p>
+
+          <div class="column large-4">
+
+            <div class="button">Our Services</div>
+
+          </div>
+
+        </div>
+        <!-- /.column -->
+
+    </div>
+    <!-- /.row -->
 
 </div>
 <!-- /.hero-landing -->
