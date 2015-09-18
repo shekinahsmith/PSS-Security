@@ -1,10 +1,10 @@
-<div class="hero hero-services">
+<div class="hero hero-services has-mobile-overlay">
        
     <div class="content">
         
       <div class="row">
          
-        <div class="column large-7">
+        <div class="column small-12 medium-7 small-text-center medium-text-left">
               
           <h1 class="underline underline-is-blue underline-is-left">Services</h1>
 

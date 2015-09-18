@@ -4705,6 +4705,9 @@ th.hide-for-touch {
 
 .is-larger-text {
   font-size: 1.5625rem; }
+  @media only screen and (max-width: 48em) {
+    .is-larger-text {
+      font-size: 1.25rem; } }
 
 .underline {
   position: relative; }
@@ -4720,6 +4723,11 @@ th.hide-for-touch {
   .underline.underline-is-left:after {
     left: 0;
     bottom: -0.25em; }
+    @media only screen and (max-width: 48em) {
+      .underline.underline-is-left:after {
+        left: 50%;
+        bottom: -0.25em;
+        margin-left: -50px; } }
   .underline.underline-is-centered:after {
     left: 50%;
     bottom: -0.25em;
@@ -4727,6 +4735,32 @@ th.hide-for-touch {
 
 .has-border-radius {
   border-radius: 5px; }
+
+.has-mobile-overlay {
+  position: relative;
+  z-index: 1; }
+  @media only screen and (max-width: 48em) {
+    .has-mobile-overlay:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.7);
+      z-index: -1; } }
+
+.modal-overlay {
+  position: relative; }
+  .modal-overlay:after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9998; }
 
 .has-margin-top-10 {
   margin-top: 10px; }
@@ -5181,6 +5215,9 @@ footer {
         z-index: -1; }
   .hero.hero-services {
     background-image: url(/assets/images/heroes/hero-services-bg.jpg); }
+    @media only screen and (max-width: 48em) {
+      .hero.hero-services {
+        background-position: 70% center; } }
 
 section {
   background-size: cover;
@@ -5224,6 +5261,9 @@ section {
   section.personnel .team-list {
     background: #fff;
     border-radius: 8px; }
+    @media only screen and (max-width: 48em) {
+      section.personnel .team-list {
+        margin-top: 1.875rem; } }
     section.personnel .team-list_header {
       background-color: #e97668;
       border-radius: 8px 8px 0 0;
@@ -5238,6 +5278,21 @@ section {
         font-size: 0.875rem; }
         section.personnel .team-list_positions ul li {
           padding: 0.45em 0; }
+  section.specialized-training h2 + p {
+    margin-bottom: 3.75rem; }
+  section.specialized-training .underline-is-centered:after {
+    bottom: -2em; }
+  section.careers .career-requirements {
+    counter-reset: item;
+    font-weight: 100; }
+    section.careers .career-requirements li {
+      margin-bottom: 10px; }
+    section.careers .career-requirements_sub-list li {
+      list-style-type: none; }
+      section.careers .career-requirements_sub-list li:before {
+        content: counter(item,lower-alpha) ".";
+        counter-increment: item;
+        margin-right: 10px; }
   section.patrol-homeland {
     padding: 4em 0; }
     section.patrol-homeland .patrol,
@@ -5297,3 +5352,35 @@ section {
   .contact-form input.error:-ms-input-placeholder,
   .contact-form textarea.error:-ms-input-placeholder {
     color: #1b0604; }
+
+.modal {
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  padding: 20px 0;
+  z-index: 9999; }
+  .modal h2 {
+    margin-bottom: 30px; }
+  .modal-show {
+    display: block; }
+  .modal-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #008fd2;
+    z-index: 5;
+    cursor: pointer; }
+  .modal-apply-now {
+    width: 50%;
+    background-color: #FFFFFF; }
+    @media only screen and (max-width: 48em) {
+      .modal-apply-now {
+        width: 90%; } }
+    .modal-apply-now .modal-close {
+      font-size: 1.5625rem; }

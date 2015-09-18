@@ -9,7 +9,29 @@
 // @codekit-prepend "foundation/foundation.topbar.js";
 
 
-
+// modal show and close
+function modalShowClose() {
+	
+	var modal = $('.' + $('.js-modal-show').data('modal'));
+	
+	// modal-show
+	$('.js-modal-show').click(function() {
+		
+		modal.addClass('modal-show');
+		
+		if( modal.hasClass('modal-show') ) {
+			$('html').addClass('modal-overlay');
+		}
+	});
+	
+	// modal close
+	$('.js-modal-close').click(function(){
+		
+		modal.removeClass('modal-show');
+		$('html').removeClass('modal-overlay');
+	});
+	
+}
 
 $(document).on('ready', function() {
 
@@ -19,12 +41,14 @@ $(document).on('ready', function() {
 	else {
 		$('body').addClass('f-topbar-fixed');
 	}
-
+	
+	// hero landing slider 
 	$('.js-hero-slider').flexslider({
 		//animation: "slide",
 	direction: "vertical"
 	});
 	 
+	// contact form validation
 	$("#formContact").validate({
 		
 		// converting error message to placeholder to style with red background
@@ -32,5 +56,17 @@ $(document).on('ready', function() {
 		    element.attr("placeholder", error[0].outerText);
 		}
 	});
+	
+	// modal show and close
+	modalShowClose();
+});
 
+$(window).load(function() {
+	
+	$('.js-carousel-training').flexslider({
+		animation: "slide",
+		animationLoop: false,
+		itemWidth: 270,
+		itemMargin: 0
+	});
 });

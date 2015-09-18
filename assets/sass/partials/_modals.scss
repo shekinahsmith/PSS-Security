@@ -1,0 +1,42 @@
+// Modals
+.modal {
+	@include transform(translate(-50%, -50%));
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	padding: 20px 0;
+	z-index: 9999;
+	
+	h2 {
+		margin-bottom: 30px;
+	}
+	
+	&-show {
+		display: block;
+	}// .modal-show
+	
+	&-close {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		color: $pss-blue-light;
+		z-index: 5;
+		cursor: pointer;
+	}
+	
+	// apply now modal
+	&-apply-now {
+		width: 50%;
+		background-color: $white;
+		
+		@include mq($small-only) {
+			width: 90%;
+		}
+		
+		.modal-close {
+			font-size: rem-calc(25);
+		}
+	}// &.modal-apply-now
+	
+}// .modal

@@ -145,6 +145,10 @@
 	// services
 	&.hero-services {
 		background-image: url(/assets/images/heroes/hero-services-bg.jpg);
-	}
+		
+		@include mq($small-only) {
+			background-position: 70% center;
+		}
+	}// &.hero-services
 
 }// .hero

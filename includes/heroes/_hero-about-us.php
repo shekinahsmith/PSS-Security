@@ -4,7 +4,7 @@
         
       <div class="row">
          
-        <div class="column large-7 has-teal-bg">
+        <div class="column small-12 medium-7 small-text-center large-text-left has-teal-bg">
               
           <h1 class="underline underline-is-blue underline-is-left">About Us</h1>
 

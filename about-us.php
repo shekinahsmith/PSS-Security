@@ -8,7 +8,7 @@
 
 		<div class="row">
 
-			<div class="column small-12 medium-6 large-6 medium-push-6 large-push-6">
+			<div class="column small-12 medium-6 medium-push-6 small-text-center medium-text-left">
 
 				<h2 class="underline underline-is-blue underline-is-left">Who We Are</h2>
 
@@ -25,7 +25,7 @@
 
 		<div class="row">
 
-			<div class="column small-12 medium-6 large-6">
+			<div class="column small-12 medium-6 small-text-center medium-text-left">
 
 				<h2 class="underline underline-is-blue underline-is-left">Our Goal</h2>
 
@@ -42,7 +42,7 @@
 
 		<div class="row">
 
-			<div class="column small-12 medium-8 large-8 medium-centered large-centered text-center">
+			<div class="column small-12 medium-8 small-centered text-center">
 
 				<h2 class="underline underline-is-blue underline-is-centered">Why You Should Hire Us</h2>
 
@@ -61,7 +61,7 @@
 
 		<div class="row">
 
-			<div class="column small-8 medium-8 large-8 large-centered text-center">
+			<div class="column small-12 medium-8 small-centered text-center">
 
 				<h2 class="underline underline-is-blue underline-is-centered">We value honesty and integrity.</h2>
 
@@ -76,8 +76,17 @@
 	<section class="personnel is-blue-light-bg">
 
 		<div class="row">
+			
+			<div class="column small-12 medium-6 medium-push-6">
+				
+				<h2 class="underline underline-is-white underline-is-left small-text-center medium-text-left">Security Personnel</h2>
 
-			<div class="column small-12 medium-6 large-6">
+				<p>Because of our diverse depth of experience and backgrounds within our team members, it affords us the opportunity to approach clients and client security challenges from many different angles. As part of our commitment to providing a superior security program to our clients, each of our security team members participate in on-going training in all aspects of security to maintain top-level readiness.</p>
+
+			</div>
+			<!-- /.column -->
+
+			<div class="column small-12 medium-6 medium-pull-6 ">
 
 				<div class="team-list large-10 large-centered">
 				
@@ -107,16 +116,6 @@
 			</div>
 			<!-- /.column -->
 
-
-			<div class="column small-12 medium-6 large-6">
-				
-				<h2 class="underline underline-is-white underline-is-centered">Security Personnel</h2>
-
-				<p>Because of our diverse depth of experience and backgrounds within our team members, it affords us the opportunity to approach clients and client security challenges from many different angles. As part of our commitment to providing a superior security program to our clients, each of our security team members participate in on-going training in all aspects of security to maintain top-level readiness.</p>
-
-			</div>
-			<!-- /.column -->
-
 		</div>
 		<!-- /.row -->
 
@@ -134,6 +133,27 @@
 				<p class="column large-7 large-centered underline underline-is-blue underline-is-centered">Our security program is one of the best programs available today from any security services provider.  And one of the key reasons for this is our total commitment to thorough and on-going training.</p>
 
 				<p class="column large-8 large-centered is-larger-text">We continuously train and re-train each team member in all of their areas of responsibility, including:</p>
+				
+				<div class="column small-12 medium-10 medium-centered">
+
+					<div class="flexslider carousel-training js-carousel-training">
+						<ul class="slides">
+							<li><img src="assets/images/carousel-training/carousel-training-1.png"/></li>
+						
+							<li><img src="assets/images/carousel-training/carousel-training-2.png"/></li>
+						
+							<li><img src="assets/images/carousel-training/carousel-training-3.png"/></li>
+						
+							<li><img src="assets/images/carousel-training/carousel-training-4.png"/></li>
+							
+							<li><img src="assets/images/carousel-training/carousel-training-5.png"/></li>
+	
+						</ul>
+					</div>
+					<!-- /.carousel-training -->
+					
+				</div>
+				<!-- /.column -->
 			</div>
 			<!-- /.column -->
 

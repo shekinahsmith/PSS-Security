@@ -18,11 +18,11 @@
 				<p>Minimum Standards for a Security Officer</p>
 
 				<p>The following are the minimum standards an individual must meet in order to be registered as a Security Officer:</p>
-				<ol>
+				<ol class="career-requirements">
                 	<li>Be at least 21 years of age.</li>
                 	<li>Be a citizen of the United States or a Resident Alien.</li>
                 	<li>Be of good moral character and temperate habits.  Any of the following within the last five years will be considered evidence that the applicant does not have good moral character or habits:</li>
-                    <ol>
+                    <ol class="career-requirements_sub-list">
 						<li>Conviction by any local, state, Federal, or military court of any crime involving the illegal use, carrying, or possession of a firearm;</li>
 						<li>Conviction of any crime involving the illegal use, possession, sale, manufacture, distribution, or transportation of a controlled substance, drug, narcotic, or alcoholic beverage;</li>
 						<li>Conviction of a crime involving felonious (felony) assault or an act of violence;</li>
@@ -39,7 +39,7 @@
 
                 <div class="column large-4">
 
-                  <div class="button js-modal-show">Apply Now</div>
+                  <div class="button js-modal-show" data-modal="modal-apply-now">Apply Now</div>
 
                 </div>
 
@@ -52,4 +52,7 @@
 	</section>
 	<!-- /.careers -->
 
-<? include 'includes/base/_footer.php'; ?>
+<? 
+	include 'includes/modals/_modal-apply-now.php';
+	include 'includes/base/_footer.php'; 
+?>

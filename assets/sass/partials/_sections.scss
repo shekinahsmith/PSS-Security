@@ -62,6 +62,10 @@ section {
 		.team-list {
 			background: #fff;
 			border-radius: 8px;
+			
+			@include mq($small-only) {
+				margin-top: rem-calc(30px);
+			}
 
 			&_header {
 				background-color: $pss-red;
@@ -90,6 +94,48 @@ section {
 		}// .team-list
 
 	}// &.personnel
+	
+	// specialized training
+	&.specialized-training {
+		
+		// adding margin after first paragraph
+		h2 + p {
+			margin-bottom: rem-calc(60);
+		}
+		
+		// underline 
+		.underline-is-centered {
+			
+			&:after {
+				bottom: -2em;
+			}
+		}
+	}// &.specialized-t4raining
+	
+	// PAGE - Careers
+	&.careers {
+		
+		.career-requirements {
+			counter-reset: item;
+			font-weight: 100;
+			
+			li {
+				margin-bottom: 10px;
+			}
+			
+			&_sub-list {
+				li {
+					list-style-type: none;
+					
+					&:before {
+						content: counter(item, lower-alpha)".";
+						counter-increment: item;
+						margin-right: 10px;
+					}
+				}
+			}
+		}
+	}
 
 	//PAGES - services
 	//patrol-homeland
