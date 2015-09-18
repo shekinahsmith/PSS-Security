@@ -5111,19 +5111,19 @@ footer {
   .nav.primary-nav {
     margin-top: 10px; }
     .nav.primary-nav .top-bar-section .dropdown {
-      right: 50%;
-      margin-right: -64px; }
+      margin-right: -64px;
+      right: 50%; }
       .nav.primary-nav .top-bar-section .dropdown:after {
         height: 0;
         width: 0;
         border-bottom: 8px solid #008fd2;
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
-        position: absolute;
-        top: -8px;
+        content: "";
         left: 50%;
         margin-left: -8px;
-        content: ""; }
+        position: absolute;
+        top: -8px; }
       .nav.primary-nav .top-bar-section .dropdown li {
         height: 45px; }
         .nav.primary-nav .top-bar-section .dropdown li a {
@@ -5156,12 +5156,12 @@ footer {
     .hero .flexslider .slide {
       height: 100%; }
   .hero .flex-control-nav {
-    top: 50%;
     bottom: auto;
+    margin-top: -59px;
     right: 65px;
+    top: 50%;
     width: auto;
-    z-index: 10;
-    margin-top: -59px; }
+    z-index: 10; }
     .hero .flex-control-nav li {
       display: block;
       margin-top: 25px; }
@@ -5185,10 +5185,10 @@ footer {
     .hero.hero-landing .content.slide-3-content {
       color: #000; }
     .hero.hero-landing .hero-landing-mobile {
+      background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg);
       height: 100%;
       padding-top: 3.125rem; }
       .hero.hero-landing .hero-landing-mobile h2 {
@@ -5204,9 +5204,9 @@ footer {
       position: relative;
       z-index: 1; }
       .hero.hero-about-us .has-teal-bg:after {
-        content: "";
         background-color: #00699f;
         border-radius: 5px;
+        content: "";
         height: 100%;
         position: absolute;
         right: 0;
@@ -5220,9 +5220,9 @@ footer {
         background-position: 70% center; } }
 
 section {
-  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
   section h2 {
     color: #414950;
     margin: 0.3em 0 1em; }
@@ -5306,13 +5306,13 @@ section {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+    background-position: 50% -1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
     background: #008fd2;
     color: #fff;
     height: 23.125rem;
-    padding-top: 45%;
-    background-position: 50% -1000px;
-    background-repeat: no-repeat;
-    background-size: cover; }
+    padding-top: 45%; }
     @media only screen and (min-width: 48.063em) and (max-width: 60em) {
       section.service-blocks .service-button {
         height: 12.5rem;
@@ -5360,25 +5360,25 @@ section {
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   display: none;
-  position: fixed;
-  top: 50%;
   left: 50%;
   padding: 20px 0;
+  position: fixed;
+  top: 50%;
   z-index: 9999; }
   .modal h2 {
     margin-bottom: 30px; }
   .modal-show {
     display: block; }
   .modal-close {
-    position: absolute;
-    top: 5px;
-    right: 5px;
     color: #008fd2;
-    z-index: 5;
-    cursor: pointer; }
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 5; }
   .modal-apply-now {
-    width: 50%;
-    background-color: #FFFFFF; }
+    background-color: #FFFFFF;
+    width: 50%; }
     @media only screen and (max-width: 48em) {
       .modal-apply-now {
         width: 90%; } }

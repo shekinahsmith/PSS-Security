@@ -2,10 +2,10 @@
 .modal {
 	@include transform(translate(-50%, -50%));
 	display: none;
-	position: fixed;
-	top: 50%;
 	left: 50%;
 	padding: 20px 0;
+	position: fixed;
+	top: 50%;
 	z-index: 9999;
 	
 	h2 {
@@ -17,18 +17,18 @@
 	}// .modal-show
 	
 	&-close {
-		position: absolute;
-		top: 5px;
-		right: 5px;
 		color: $pss-blue-light;
-		z-index: 5;
 		cursor: pointer;
+		position: absolute;
+		right: 5px;
+		top: 5px;
+		z-index: 5;
 	}
 	
 	// apply now modal
 	&-apply-now {
-		width: 50%;
 		background-color: $white;
+		width: 50%;
 		
 		@include mq($small-only) {
 			width: 90%;

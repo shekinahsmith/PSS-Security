@@ -10,6 +10,8 @@
 
 
 // Helper Classes
+
+// blue bg 
 .is-blue-bg {
 	background: $pss-blue-dark;
 	color: #fff;
@@ -19,6 +21,7 @@
 	}
 }
 
+// light blue bg
 .is-blue-light-bg {
 	background: $pss-blue-light;
 	color: #fff;
@@ -28,6 +31,7 @@
 	}
 }
 
+// red bg
 .is-red-bg {
 	background: $pss-red;
 	color: #fff;
@@ -37,6 +41,7 @@
 	}
 }
 
+// larger text
 .is-larger-text {
 	font-size: rem-calc(25);
 	
@@ -94,10 +99,12 @@
 	}
 }// .underline
 
+// border radius
 .has-border-radius {
 	border-radius: 5px;
 }
 
+// mobile hero overlay to make text more leglible
 .has-mobile-overlay {
 	position: relative;
 	z-index: 1;
@@ -118,6 +125,7 @@
 	}// &:after
 }// .has-overlay
 
+// modal overlay
 .modal-overlay {
 	position: relative;
 	

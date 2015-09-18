@@ -11,16 +11,16 @@
 			
 			// dropdown
 			.dropdown{
-				right: 50%;
 				margin-right: -64px;
+				right: 50%;
 
 				&:after {
 					@include triangle(16px, $pss-blue-light, up);
-					position: absolute;
-					top: -8px;
+					content: "";
 					left: 50%;
 					margin-left: -8px;
-					content: "";
+					position: absolute;
+					top: -8px;
 				}
 				
 				// li

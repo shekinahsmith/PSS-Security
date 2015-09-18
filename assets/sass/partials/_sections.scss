@@ -1,8 +1,8 @@
 // Sections
 section {
-	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	background-size: cover;
 
 	h2 {
 		color: $pss-grey;
@@ -122,20 +122,24 @@ section {
 			li {
 				margin-bottom: 10px;
 			}
-			
+			// sub list
 			&_sub-list {
 				li {
 					list-style-type: none;
 					
+					// creating alpha counter
 					&:before {
 						content: counter(item, lower-alpha)".";
 						counter-increment: item;
 						margin-right: 10px;
 					}
-				}
-			}
-		}
-	}
+				}// li
+
+			}// .career-requirements_sub-list
+
+		}// .career-requirements
+
+	}// .careers
 
 	//PAGES - services
 	//patrol-homeland
@@ -165,13 +169,13 @@ section {
 		// service button
 		.service-button {
 			@include transition(all 0.2s ease-in-out);
+			background-position: 50% -1000px;
+			background-repeat: no-repeat;
+			background-size: cover;
 			background: $pss-blue-light;
 			color: #fff;
 			height: rem-calc(370px);
 			padding-top: 45%;
-			background-position: 50% -1000px;
-			background-repeat: no-repeat;
-			background-size: cover;
 			
 			@include mq($medium-only) {
 				height: rem-calc(200px);

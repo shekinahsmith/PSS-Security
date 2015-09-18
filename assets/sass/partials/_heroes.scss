@@ -29,12 +29,12 @@
 	
 	// flex control dots
 	.flex-control-nav {
-		top: 50%;
 		bottom: auto;
+		margin-top: -59px;
 		right: 65px;
+		top: 50%;
 		width: auto;
 		z-index: 10;
-		margin-top: -59px;
 		
 		li {
 			display: block;
@@ -93,10 +93,10 @@
 		}// .content 
 		
 		.hero-landing-mobile {
+			background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg);
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
-			background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg);
 			height: 100%;
 			padding-top: rem-calc(50px);
 			
@@ -127,9 +127,9 @@
 			
 			// teal box
 			&:after {
-				content:"";
 				background-color: #00699f;
 				border-radius: 5px;
+				content:"";
 				height: 100%;
 				position: absolute;
 				right: 0;
