@@ -110,7 +110,9 @@ section {
 				bottom: -2em;
 			}
 		}
-	}// &.specialized-t4raining
+	}// &.specialized-training
+	
+	// END - about us page
 	
 	// PAGE - Careers
 	&.careers {
@@ -140,18 +142,142 @@ section {
 		}// .career-requirements
 
 	}// .careers
+	
+	// END - careers page
+	
+	// @PAGE - RESIDENTIAL
+	
+	// gated communities
+	&.gated-communities-main {
+		background-image: url(/assets/images/sections/section-gated-communities.jpg);
+		background-size: contain;
+		
+		@include mq($small-only) {
+			background-image: none;
+		}
+	}// &.gates-communities-main
+	
+	// gated communities sub
+	&.gated-communities-sub {
+		background-image: url(/assets/images/sections/section-gated-communities-sub.jpg);
+		color: #fff;
+		
+		@include mq($small-only) {
+			background-image: none;
+			background-color: $pss-blue-light;
+		}
+	}// &.gates-communities-main
+	
+	&.homeland-security {
+		background-image: url(/assets/images/sections/section-homeland-security.jpg);
+		color: #fff;
+		
+		h2 {
+			color: #fff;
+		}
+		@include mq($small-only) {
+			background-image: none;
+			background-color: $pss-blue-light;
+		}
+	}
+	
+	// END - residential page
+	
+	// @PAGE - Industrial Security
+	
+	// security assessments
+	&.security-assessments {
+		background-image: url(/assets/images/sections/section-security-assessments.jpg);
+		background-size: contain;
+		
+		@include mq($small-only) {
+			background-image: none;
+		}
+	}// &.security-assessments
+	
+	&.employee-escorts {
+		background-image: url(/assets/images/sections/section-employee-escorts.jpg);
+		color: #fff;
+		
+		h2 {
+			color: #fff;
+		}
+		@include mq($small-only) {
+			background-image: none;
+			background-color: $pss-blue-dark;
+		}
+	}
 
-	//PAGES - services
+	//PAGE - services
 	//patrol-homeland
 	&.patrol-homeland {
-		padding: 4em 0;
-
+		padding: 0;
+		
+		// patrol, homeland
 		.patrol,
 		.homeland {
 			width: 50%;
-			padding: 2em;
+			
+			@include mq($small-only) {
+				width: 100%;
+			}
+			
+			// patrol and homeland content
+			.patrol-content,
+			.homeland-content {
+				height: rem-calc(527px);
+				padding: 2em 1em;
+				
+				// extending background 
+				&:after {
+					content: "";
+					position: absolute;
+					height: 100%;
+					width: 1000px;
+					top: 0;
+				}// &:after
+				
+				@include mq($small-only) {
+					height: auto;
+				}
+			}// .patrol-content, .homeland-content
+			
+			// patrol content 
+			.patrol-content {
+				
+				&.is-blue-bg {
+					&:after {
+						background-color: $pss-blue-dark;
+						left: -1000px;
+					}
+				}// &.is-blue-bg
+				
+				&.is-red-bg {
+					&:after {
+						background-color: $pss-red;
+						left: -1000px;
+					}
+				}// &.is-red-bg
+				
+			}// .patrol-content
+			
+			// homeland contentd
+			.homeland-content {
+				
+				&:after {
+					background-color: $pss-blue-light;
+					right: -1000px;
+				}
+			}// .homeland-content
+			
+		}// .patrol, .homeland
+		
+		.patrol {
+			img {
+				float: right;
+			}
 		}
-	}
+	}// .patrol, .homeland
 
 	// END SECTIONS
 	
@@ -169,9 +295,6 @@ section {
 		// service button
 		.service-button {
 			@include transition(all 0.2s ease-in-out);
-			background-position: 50% -1000px;
-			background-repeat: no-repeat;
-			background-size: cover;
 			background: $pss-blue-light;
 			color: #fff;
 			height: rem-calc(370px);
@@ -187,39 +310,82 @@ section {
 				padding-top: 2em;
 			}
 			
-			// hover
-			&:hover {
-				background-position: 50% -20px;
-			}
-			
 			// residential block
-			&.residential {
+			&.residential-block {
 				background-image: url(/assets/images/service-blocks/service-block-residential.png);
+				background-position: center -1000px;
+				background-repeat: no-repeat;
+				background-size: cover;
+				
+				// hover
+				&:hover {
+					background-position: 50% -20px;
+				}
 			}
 			
 			// commercial block
-			&.commercial {
+			&.commercial-block {
 				background-image: url(/assets/images/service-blocks/service-block-commercial.png);
+				background-position: center -1000px;
+				background-repeat: no-repeat;
+				background-size: cover;
+				
+				// hover
+				&:hover {
+					background-position: 50% -20px;
+				}
 			}
 			
 			// industrial block
-			&.industrial {
+			&.industrial-block {
 				background-image: url(/assets/images/service-blocks/service-block-industrial.png);
+				background-position: center -1000px;
+				background-repeat: no-repeat;
+				background-size: cover;
+				
+				// hover
+				&:hover {
+					background-position: 50% -20px;
+				}
 			}
 			
 			// goverment block
-			&.government {
+			&.government-block {
 				background-image: url(/assets/images/service-blocks/service-block-government.png);
+				background-position: center -1000px;
+				background-repeat: no-repeat;
+				background-size: cover;
+				
+				// hover
+				&:hover {
+					background-position: 50% -20px;
+				}
 			}
 			
 			// healthcare block
-			&.healthcare {
+			&.healthcare-block {
 				background-image: url(/assets/images/service-blocks/service-block-healthcare.png);
+				background-position: center -1000px;
+				background-repeat: no-repeat;
+				background-size: cover;
+				
+				// hover
+				&:hover {
+					background-position: 50% -20px;
+				}
 			}
 			
 			// special services block
-			&.special-services {
+			&.special-services-block {
 				background-image: url(/assets/images/service-blocks/service-block-special-services.png);
+				background-position: center -1000px;
+				background-repeat: no-repeat;
+				background-size: cover;
+				
+				// hover
+				&:hover {
+					background-position: 50% -20px;
+				}
 			}
 		}// .service-button
 

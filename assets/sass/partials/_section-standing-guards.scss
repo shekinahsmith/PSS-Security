@@ -1,0 +1,54 @@
+// Standing Guards
+section.standing-guards {
+	
+	ul {
+		font-weight: 100;
+	}
+	
+	// residential services page 
+	.page-residential-services & {
+		background-image: url(/assets/images/sections/section-standing-guards-residential.jpg);
+		
+		@include mq($small-only) {
+			background-image: none;
+		}
+	} 
+	
+	// commerical services page 
+	.page-commercial-services & {
+		background-image: url(/assets/images/sections/section-standing-guards-commerical.jpg);
+		
+		@include mq($small-only) {
+			background-image: none;
+		}
+	}
+	
+	// industrial services page 
+	.page-industrial-services & {
+		background-image: url(/assets/images/sections/section-standing-guards-industrial.jpg);
+		
+		@include mq($small-only) {
+			background-image: none;
+		}
+	} 
+	
+	// government services page 
+	.page-government-services & {
+		background-image: url(/assets/images/sections/section-standing-guards-government.jpg);
+		
+		@include mq($small-only) {
+			background-image: none;
+		}
+	}
+	
+	// government services page 
+	.page-healthcare-services & {
+		background-image: url(/assets/images/sections/section-standing-guards-healthcare.jpg);
+		
+		@include mq($small-only) {
+			background-image: none;
+		}
+	}
+	
+	
+} // .standing-guards

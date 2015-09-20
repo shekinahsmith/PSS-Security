@@ -105,6 +105,7 @@
 }
 
 // mobile hero overlay to make text more leglible
+.has-mobile-overlay-dark,
 .has-mobile-overlay {
 	position: relative;
 	z-index: 1;
@@ -119,8 +120,30 @@
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: rgba(255, 255, 255, 0.7);
 			z-index: -1;
+		}
+	}// &:after
+}// .has-overlay
+
+.has-mobile-overlay {
+
+	// adding overlay only on mobile screens
+	&:after {
+		
+		@include mq($small-only) {
+			background-color: rgba(255, 255, 255, 0.7);
+		}
+	}// &:after
+}// .has-overlay
+
+
+.has-mobile-overlay-dark {
+
+	// adding overlay only on mobile screens
+	&:after {
+		
+		@include mq($small-only) {
+			background-color: rgba(0, 0, 0, 0.4);
 		}
 	}// &:after
 }// .has-overlay

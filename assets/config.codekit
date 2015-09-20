@@ -86,6 +86,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/heroes\/hero-commercial-services.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75351,
+		"inputAbbreviatedPath": "\/images\/heroes\/hero-commercial-services.jpg",
+		"outputAbbreviatedPath": "\/images\/heroes\/hero-commercial-services.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/heroes\/hero-government-services.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93232,
+		"inputAbbreviatedPath": "\/images\/heroes\/hero-government-services.jpg",
+		"outputAbbreviatedPath": "\/images\/heroes\/hero-government-services.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/heroes\/hero-healthcare-services.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44192,
+		"inputAbbreviatedPath": "\/images\/heroes\/hero-healthcare-services.jpg",
+		"outputAbbreviatedPath": "\/images\/heroes\/hero-healthcare-services.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/heroes\/hero-industrial-services.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 176174,
+		"inputAbbreviatedPath": "\/images\/heroes\/hero-industrial-services.jpg",
+		"outputAbbreviatedPath": "\/images\/heroes\/hero-industrial-services.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/heroes\/hero-landing-best-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -119,6 +163,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/heroes\/hero-residential-services.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169474,
+		"inputAbbreviatedPath": "\/images\/heroes\/hero-residential-services.jpg",
+		"outputAbbreviatedPath": "\/images\/heroes\/hero-residential-services.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/heroes\/hero-services-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -126,6 +181,149 @@
 		"initialSize": 128471,
 		"inputAbbreviatedPath": "\/images\/heroes\/hero-services-bg.jpg",
 		"outputAbbreviatedPath": "\/images\/heroes\/hero-services-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/pages\/page-commercial-patrol.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 313388,
+		"inputAbbreviatedPath": "\/images\/pages\/page-commercial-patrol.jpg",
+		"outputAbbreviatedPath": "\/images\/pages\/page-commercial-patrol.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/pages\/page-commerical-call-out-box.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 244628,
+		"inputAbbreviatedPath": "\/images\/pages\/page-commerical-call-out-box.jpg",
+		"outputAbbreviatedPath": "\/images\/pages\/page-commerical-call-out-box.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/pages\/page-commerical-homeland.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 346704,
+		"inputAbbreviatedPath": "\/images\/pages\/page-commerical-homeland.jpg",
+		"outputAbbreviatedPath": "\/images\/pages\/page-commerical-homeland.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/pages\/page-government-call-out-box.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 195654,
+		"inputAbbreviatedPath": "\/images\/pages\/page-government-call-out-box.jpg",
+		"outputAbbreviatedPath": "\/images\/pages\/page-government-call-out-box.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/pages\/page-government-homeland.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133146,
+		"inputAbbreviatedPath": "\/images\/pages\/page-government-homeland.jpg",
+		"outputAbbreviatedPath": "\/images\/pages\/page-government-homeland.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/pages\/page-government-patrol.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 252646,
+		"inputAbbreviatedPath": "\/images\/pages\/page-government-patrol.jpg",
+		"outputAbbreviatedPath": "\/images\/pages\/page-government-patrol.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/pages\/page-healthcare-call-out-box.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 222422,
+		"inputAbbreviatedPath": "\/images\/pages\/page-healthcare-call-out-box.jpg",
+		"outputAbbreviatedPath": "\/images\/pages\/page-healthcare-call-out-box.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/pages\/page-healthcare-homeland.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 108313,
+		"inputAbbreviatedPath": "\/images\/pages\/page-healthcare-homeland.jpg",
+		"outputAbbreviatedPath": "\/images\/pages\/page-healthcare-homeland.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/pages\/page-healthcare-patrol.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 359677,
+		"inputAbbreviatedPath": "\/images\/pages\/page-healthcare-patrol.jpg",
+		"outputAbbreviatedPath": "\/images\/pages\/page-healthcare-patrol.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/pages\/page-industrial-call-out-box.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 293082,
+		"inputAbbreviatedPath": "\/images\/pages\/page-industrial-call-out-box.jpg",
+		"outputAbbreviatedPath": "\/images\/pages\/page-industrial-call-out-box.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/pages\/page-industrial-homeland.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 299076,
+		"inputAbbreviatedPath": "\/images\/pages\/page-industrial-homeland.jpg",
+		"outputAbbreviatedPath": "\/images\/pages\/page-industrial-homeland.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/pages\/page-industrial-patrol.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 211031,
+		"inputAbbreviatedPath": "\/images\/pages\/page-industrial-patrol.jpg",
+		"outputAbbreviatedPath": "\/images\/pages\/page-industrial-patrol.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/pages\/page-residential-call-out-box.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.09789e+06,
+		"inputAbbreviatedPath": "\/images\/pages\/page-residential-call-out-box.png",
+		"outputAbbreviatedPath": "\/images\/pages\/page-residential-call-out-box.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -141,6 +339,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/sections\/section-employee-escorts.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 154135,
+		"inputAbbreviatedPath": "\/images\/sections\/section-employee-escorts.jpg",
+		"outputAbbreviatedPath": "\/images\/sections\/section-employee-escorts.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sections\/section-gated-communities-sub.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129294,
+		"inputAbbreviatedPath": "\/images\/sections\/section-gated-communities-sub.jpg",
+		"outputAbbreviatedPath": "\/images\/sections\/section-gated-communities-sub.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sections\/section-gated-communities.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104319,
+		"inputAbbreviatedPath": "\/images\/sections\/section-gated-communities.jpg",
+		"outputAbbreviatedPath": "\/images\/sections\/section-gated-communities.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/sections\/section-goals-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -148,6 +379,83 @@
 		"initialSize": 111913,
 		"inputAbbreviatedPath": "\/images\/sections\/section-goals-bg.jpg",
 		"outputAbbreviatedPath": "\/images\/sections\/section-goals-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sections\/section-homeland-security.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 214315,
+		"inputAbbreviatedPath": "\/images\/sections\/section-homeland-security.jpg",
+		"outputAbbreviatedPath": "\/images\/sections\/section-homeland-security.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sections\/section-security-assessments.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 174445,
+		"inputAbbreviatedPath": "\/images\/sections\/section-security-assessments.jpg",
+		"outputAbbreviatedPath": "\/images\/sections\/section-security-assessments.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sections\/section-standing-guards-commerical.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77904,
+		"inputAbbreviatedPath": "\/images\/sections\/section-standing-guards-commerical.jpg",
+		"outputAbbreviatedPath": "\/images\/sections\/section-standing-guards-commerical.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sections\/section-standing-guards-government.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79471,
+		"inputAbbreviatedPath": "\/images\/sections\/section-standing-guards-government.jpg",
+		"outputAbbreviatedPath": "\/images\/sections\/section-standing-guards-government.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sections\/section-standing-guards-healthcare.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73985,
+		"inputAbbreviatedPath": "\/images\/sections\/section-standing-guards-healthcare.jpg",
+		"outputAbbreviatedPath": "\/images\/sections\/section-standing-guards-healthcare.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sections\/section-standing-guards-industrial.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99556,
+		"inputAbbreviatedPath": "\/images\/sections\/section-standing-guards-industrial.jpg",
+		"outputAbbreviatedPath": "\/images\/sections\/section-standing-guards-industrial.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sections\/section-standing-guards-residential.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 95889,
+		"inputAbbreviatedPath": "\/images\/sections\/section-standing-guards-residential.jpg",
+		"outputAbbreviatedPath": "\/images\/sections\/section-standing-guards-residential.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -616,6 +924,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/partials\/_callout-box.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/_callout-box.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_callout-box.min.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/sass\/partials\/_footer.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -728,6 +1052,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/partials\/_section-standing-guards.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/_section-standing-guards.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_section-standing-guards.min.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/sass\/partials\/_sections.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -753,6 +1093,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/partials\/page\/_page-index.scss",
 		"outputAbbreviatedPath": "\/sass\/partials\/css\/_page-index.min.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/partials\/page\/_page-residential-services.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/partials\/page\/_page-residential-services.scss",
+		"outputAbbreviatedPath": "\/sass\/partials\/css\/_page-residential-services.min.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

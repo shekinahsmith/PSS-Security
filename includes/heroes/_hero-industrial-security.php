@@ -1,10 +1,10 @@
-<div class="hero hero-industrial-security">
+<div class="hero hero-industrial-security has-mobile-overlay-dark">
        
     <div class="content">
         
       <div class="row">
          
-        <div class="column large-7">
+        <div class="column small-12 medium-7 small-text-center medium-text-left">
               
           <h1 class="underline underline-is-blue underline-is-left">Industrial Security</h1>
 

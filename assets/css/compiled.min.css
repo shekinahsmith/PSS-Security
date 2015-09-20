@@ -4736,10 +4736,12 @@ th.hide-for-touch {
 .has-border-radius {
   border-radius: 5px; }
 
+.has-mobile-overlay-dark,
 .has-mobile-overlay {
   position: relative;
   z-index: 1; }
   @media only screen and (max-width: 48em) {
+    .has-mobile-overlay-dark:after,
     .has-mobile-overlay:after {
       content: "";
       position: absolute;
@@ -4747,8 +4749,15 @@ th.hide-for-touch {
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(255, 255, 255, 0.7);
       z-index: -1; } }
+
+@media only screen and (max-width: 48em) {
+  .has-mobile-overlay:after {
+    background-color: rgba(255, 255, 255, 0.7); } }
+
+@media only screen and (max-width: 48em) {
+  .has-mobile-overlay-dark:after {
+    background-color: rgba(0, 0, 0, 0.4); } }
 
 .modal-overlay {
   position: relative; }
@@ -5218,6 +5227,46 @@ footer {
     @media only screen and (max-width: 48em) {
       .hero.hero-services {
         background-position: 70% center; } }
+  .hero.hero-residential-security {
+    background-image: url(/assets/images/heroes/hero-residential-services.jpg);
+    color: #fff; }
+    @media only screen and (max-width: 48em) {
+      .hero.hero-residential-security {
+        background-position: 70% center; } }
+    .hero.hero-residential-security h1 {
+      color: #fff; }
+  .hero.hero-commerical-security {
+    background-image: url(/assets/images/heroes/hero-commercial-services.jpg);
+    color: #fff; }
+    @media only screen and (max-width: 48em) {
+      .hero.hero-commerical-security {
+        background-position: 70% center; } }
+    .hero.hero-commerical-security h1 {
+      color: #fff; }
+  .hero.hero-industrial-security {
+    background-image: url(/assets/images/heroes/hero-industrial-services.jpg);
+    color: #fff; }
+    @media only screen and (max-width: 48em) {
+      .hero.hero-industrial-security {
+        background-position: 70% center; } }
+    .hero.hero-industrial-security h1 {
+      color: #fff; }
+  .hero.hero-government-security {
+    background-image: url(/assets/images/heroes/hero-government-services.jpg);
+    color: #fff; }
+    @media only screen and (max-width: 48em) {
+      .hero.hero-government-security {
+        background-position: 70% center; } }
+    .hero.hero-government-security h1 {
+      color: #fff; }
+  .hero.hero-healthcare-security {
+    background-image: url(/assets/images/heroes/hero-healthcare-services.jpg);
+    color: #fff; }
+    @media only screen and (max-width: 48em) {
+      .hero.hero-healthcare-security {
+        background-position: 70% center; } }
+    .hero.hero-healthcare-security h1 {
+      color: #fff; }
 
 section {
   background-position: center;
@@ -5293,12 +5342,87 @@ section {
         content: counter(item,lower-alpha) ".";
         counter-increment: item;
         margin-right: 10px; }
+  section.gated-communities-main {
+    background-image: url(/assets/images/sections/section-gated-communities.jpg);
+    background-size: contain; }
+    @media only screen and (max-width: 48em) {
+      section.gated-communities-main {
+        background-image: none; } }
+  section.gated-communities-sub {
+    background-image: url(/assets/images/sections/section-gated-communities-sub.jpg);
+    color: #fff; }
+    @media only screen and (max-width: 48em) {
+      section.gated-communities-sub {
+        background-image: none;
+        background-color: #008fd2; } }
+  section.homeland-security {
+    background-image: url(/assets/images/sections/section-homeland-security.jpg);
+    color: #fff; }
+    section.homeland-security h2 {
+      color: #fff; }
+    @media only screen and (max-width: 48em) {
+      section.homeland-security {
+        background-image: none;
+        background-color: #008fd2; } }
+  section.security-assessments {
+    background-image: url(/assets/images/sections/section-security-assessments.jpg);
+    background-size: contain; }
+    @media only screen and (max-width: 48em) {
+      section.security-assessments {
+        background-image: none; } }
+  section.employee-escorts {
+    background-image: url(/assets/images/sections/section-employee-escorts.jpg);
+    color: #fff; }
+    section.employee-escorts h2 {
+      color: #fff; }
+    @media only screen and (max-width: 48em) {
+      section.employee-escorts {
+        background-image: none;
+        background-color: #00699f; } }
   section.patrol-homeland {
-    padding: 4em 0; }
+    padding: 0; }
     section.patrol-homeland .patrol,
     section.patrol-homeland .homeland {
-      width: 50%;
-      padding: 2em; }
+      width: 50%; }
+      @media only screen and (max-width: 48em) {
+        section.patrol-homeland .patrol,
+        section.patrol-homeland .homeland {
+          width: 100%; } }
+      section.patrol-homeland .patrol .patrol-content,
+      section.patrol-homeland .patrol .homeland-content,
+      section.patrol-homeland .homeland .patrol-content,
+      section.patrol-homeland .homeland .homeland-content {
+        height: 32.9375rem;
+        padding: 2em 1em; }
+        section.patrol-homeland .patrol .patrol-content:after,
+        section.patrol-homeland .patrol .homeland-content:after,
+        section.patrol-homeland .homeland .patrol-content:after,
+        section.patrol-homeland .homeland .homeland-content:after {
+          content: "";
+          position: absolute;
+          height: 100%;
+          width: 1000px;
+          top: 0; }
+        @media only screen and (max-width: 48em) {
+          section.patrol-homeland .patrol .patrol-content,
+          section.patrol-homeland .patrol .homeland-content,
+          section.patrol-homeland .homeland .patrol-content,
+          section.patrol-homeland .homeland .homeland-content {
+            height: auto; } }
+      section.patrol-homeland .patrol .patrol-content.is-blue-bg:after,
+      section.patrol-homeland .homeland .patrol-content.is-blue-bg:after {
+        background-color: #00699f;
+        left: -1000px; }
+      section.patrol-homeland .patrol .patrol-content.is-red-bg:after,
+      section.patrol-homeland .homeland .patrol-content.is-red-bg:after {
+        background-color: #e97668;
+        left: -1000px; }
+      section.patrol-homeland .patrol .homeland-content:after,
+      section.patrol-homeland .homeland .homeland-content:after {
+        background-color: #008fd2;
+        right: -1000px; }
+    section.patrol-homeland .patrol img {
+      float: right; }
   @media only screen and (max-width: 48em) {
     section.service-blocks .columns:nth-child(n+2) {
       margin-top: 30px; } }
@@ -5306,9 +5430,6 @@ section {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    background-position: 50% -1000px;
-    background-repeat: no-repeat;
-    background-size: cover;
     background: #008fd2;
     color: #fff;
     height: 23.125rem;
@@ -5321,20 +5442,48 @@ section {
       section.service-blocks .service-button {
         height: 6.25rem;
         padding-top: 2em; } }
-    section.service-blocks .service-button:hover {
-      background-position: 50% -20px; }
-    section.service-blocks .service-button.residential {
-      background-image: url(/assets/images/service-blocks/service-block-residential.png); }
-    section.service-blocks .service-button.commercial {
-      background-image: url(/assets/images/service-blocks/service-block-commercial.png); }
-    section.service-blocks .service-button.industrial {
-      background-image: url(/assets/images/service-blocks/service-block-industrial.png); }
-    section.service-blocks .service-button.government {
-      background-image: url(/assets/images/service-blocks/service-block-government.png); }
-    section.service-blocks .service-button.healthcare {
-      background-image: url(/assets/images/service-blocks/service-block-healthcare.png); }
-    section.service-blocks .service-button.special-services {
-      background-image: url(/assets/images/service-blocks/service-block-special-services.png); }
+    section.service-blocks .service-button.residential-block {
+      background-image: url(/assets/images/service-blocks/service-block-residential.png);
+      background-position: center -1000px;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      section.service-blocks .service-button.residential-block:hover {
+        background-position: 50% -20px; }
+    section.service-blocks .service-button.commercial-block {
+      background-image: url(/assets/images/service-blocks/service-block-commercial.png);
+      background-position: center -1000px;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      section.service-blocks .service-button.commercial-block:hover {
+        background-position: 50% -20px; }
+    section.service-blocks .service-button.industrial-block {
+      background-image: url(/assets/images/service-blocks/service-block-industrial.png);
+      background-position: center -1000px;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      section.service-blocks .service-button.industrial-block:hover {
+        background-position: 50% -20px; }
+    section.service-blocks .service-button.government-block {
+      background-image: url(/assets/images/service-blocks/service-block-government.png);
+      background-position: center -1000px;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      section.service-blocks .service-button.government-block:hover {
+        background-position: 50% -20px; }
+    section.service-blocks .service-button.healthcare-block {
+      background-image: url(/assets/images/service-blocks/service-block-healthcare.png);
+      background-position: center -1000px;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      section.service-blocks .service-button.healthcare-block:hover {
+        background-position: 50% -20px; }
+    section.service-blocks .service-button.special-services-block {
+      background-image: url(/assets/images/service-blocks/service-block-special-services.png);
+      background-position: center -1000px;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      section.service-blocks .service-button.special-services-block:hover {
+        background-position: 50% -20px; }
 
 .contact-form input.error,
 .contact-form textarea.error {
@@ -5384,3 +5533,55 @@ section {
         width: 90%; } }
     .modal-apply-now .modal-close {
       font-size: 1.5625rem; }
+
+.page-residential-services section.call-out-box {
+  background-image: url(/assets/images/pages/page-residential-call-out-box.png); }
+.page-commercial-services section.call-out-box {
+  background-image: url(/assets/images/pages/page-commerical-call-out-box.jpg); }
+.page-industrial-services section.call-out-box {
+  background-image: url(/assets/images/pages/page-industrial-call-out-box.jpg); }
+.page-government-services section.call-out-box {
+  background-image: url(/assets/images/pages/page-government-call-out-box.jpg); }
+.page-healthcare-services section.call-out-box {
+  background-image: url(/assets/images/pages/page-healthcare-call-out-box.jpg); }
+section.call-out-box .call-out-content {
+  border-radius: 5px;
+  color: #fff;
+  padding: 15px 10px 5px; }
+
+.page-residential-services .call-out-content,
+.page-industrial-services .call-out-content,
+.page-healthcare-services .call-out-content {
+  background-color: rgba(233, 118, 104, 0.9); }
+
+.page-commercial-services .call-out-content,
+.page-government-services .call-out-content {
+  background-color: rgba(0, 147, 208, 0.9); }
+
+section.standing-guards ul {
+  font-weight: 100; }
+.page-residential-services section.standing-guards {
+  background-image: url(/assets/images/sections/section-standing-guards-residential.jpg); }
+  @media only screen and (max-width: 48em) {
+    .page-residential-services section.standing-guards {
+      background-image: none; } }
+.page-commercial-services section.standing-guards {
+  background-image: url(/assets/images/sections/section-standing-guards-commerical.jpg); }
+  @media only screen and (max-width: 48em) {
+    .page-commercial-services section.standing-guards {
+      background-image: none; } }
+.page-industrial-services section.standing-guards {
+  background-image: url(/assets/images/sections/section-standing-guards-industrial.jpg); }
+  @media only screen and (max-width: 48em) {
+    .page-industrial-services section.standing-guards {
+      background-image: none; } }
+.page-government-services section.standing-guards {
+  background-image: url(/assets/images/sections/section-standing-guards-government.jpg); }
+  @media only screen and (max-width: 48em) {
+    .page-government-services section.standing-guards {
+      background-image: none; } }
+.page-healthcare-services section.standing-guards {
+  background-image: url(/assets/images/sections/section-standing-guards-healthcare.jpg); }
+  @media only screen and (max-width: 48em) {
+    .page-healthcare-services section.standing-guards {
+      background-image: none; } }

@@ -2,7 +2,7 @@
 
 		<div class="row">
 
-			<div class="column small-12 large-8 text-center large-centered">
+			<div class="column small-12 large-8 text-center large-centered call-out-content">
 
 				<p>A standing guard sends a clear message that your location is secure and safe.  As part of an overall security program, standing guards offer one of the single most important deterrents to would-be crimes and criminals.</p>
 

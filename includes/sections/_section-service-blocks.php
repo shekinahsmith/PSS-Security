@@ -6,19 +6,19 @@
 
 			<div class="columns small-12 medium-4 large-4">
 
-				<div class="service-button residential has-border-radius">Residential</div>
+				<div class="service-button residential-block has-border-radius">Residential</div>
 
 			</div>
 
 			<div class="columns small-12 medium-4 large-4">
 
-				<div class="service-button commercial has-border-radius">Commercial</div>
+				<div class="service-button commercial-block has-border-radius">Commercial</div>
 
 			</div>
 
 			<div class="columns small-12 medium-4 large-4">
 
-				<div class="service-button industrial has-border-radius">Industrial</div>
+				<div class="service-button industrial-block has-border-radius">Industrial</div>
 
 			</div>
 
@@ -29,19 +29,19 @@
 
 			<div class="columns small-12 medium-4 large-4">
 
-				<div class="service-button government has-border-radius">Government</div>
+				<div class="service-button government-block has-border-radius">Government</div>
 
 			</div>
 
 			<div class="columns small-12 medium-4 large-4">
 
-				<div class="service-button healthcare has-border-radius">Healthcare</div>
+				<div class="service-button healthcare-block has-border-radius">Healthcare</div>
 
 			</div>
 
 			<div class="columns small-12 medium-4 large-4">
 
-				<div class="service-button special-services has-border-radius">Special Services</div>
+				<div class="service-button special-services-block has-border-radius">Special Services</div>
 
 			</div>
 

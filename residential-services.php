@@ -5,10 +5,12 @@
 ?>
 	
 	<section class="gated-communities-main">
+		
+<!-- 		<img src="/assets/images/sections/section-gated-communities.jpg"> -->
 
 		<div class="row">
 
-			<div class="column small-12 medium-6 large-6 medium-push-6 large-push-6">
+			<div class="column small-12 medium-6 medium-push-6 small-text-center medium-text-left">
 
 				<h2 class="underline underline-is-blue underline-is-left">Gated Communities<br>& High Rises</h2>
 
@@ -21,11 +23,11 @@
 	</section>
 	<!-- /.gated-communities-main -->
 
-	<section class="gated-communities-sub is-blue-light-bg">
+	<section class="gated-communities-sub">
 
 		<div class="row">
 
-			<div class="column small-12 medium-6 large-6">
+			<div class="column small-12 medium-6 small-text-center medium-text-left">
 
 				<p>Most gated communities, usually called guard-gated communities, are staffed by private security guards and services such as we offer, often with closed-circuit TV monitoring and other electronic aides. These communities are often home to high-value properties, while some gated communities are set up as retirement villages.</p>
 
@@ -44,13 +46,13 @@
 		include 'includes/sections/_section-call-out-box.php'; 
 	?>
 
-	<section class="homeland is-blue-light-bg">
+	<section class="homeland-security">
 
 		<div class="row">
 
-			<div class="column large-6 push-6">
+			<div class="column small-12 medium-6 medium-push-6 small-text-center medium-text-left">
 		
-				<h2 class="underline underline-is-white underline-is-left">Homeland Security</h2>
+				<h2 class="underline underline-is-white underline-is-left small-text-center medium-text-left">Homeland Security</h2>
 
 				<p>We provide our residential and neighborhood customers with the best possible service and professionally-trained standing security patrol officers.  Our security patrol program includes the following strict program adherences:</p>
 

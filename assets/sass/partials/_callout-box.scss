@@ -1,0 +1,61 @@
+// Callout Boxes
+section.call-out-box {
+	
+	// residential services page 
+	.page-residential-services & {
+		background-image: url(/assets/images/pages/page-residential-call-out-box.png);
+	} 
+	
+	
+	// commercial services page 
+	.page-commercial-services & {
+		background-image: url(/assets/images/pages/page-commerical-call-out-box.jpg);
+	} 
+	
+	
+	// industrial services page 
+	.page-industrial-services & {
+		background-image: url(/assets/images/pages/page-industrial-call-out-box.jpg);
+	}
+	
+	// government services page 
+	.page-government-services & {
+		background-image: url(/assets/images/pages/page-government-call-out-box.jpg);
+	}
+	
+	// government services page 
+	.page-healthcare-services & {
+		background-image: url(/assets/images/pages/page-healthcare-call-out-box.jpg);
+	}
+	
+	
+	// call out content
+	.call-out-content {
+		border-radius: 5px;
+		color: #fff;
+		padding: 15px 10px 5px; 
+	}// .call-out-content
+	
+}// .call-out-box
+
+
+// residential services page 
+.page-residential-services,
+.page-industrial-services,
+.page-healthcare-services  {
+	
+	// call out content
+	.call-out-content {
+		background-color: rgba(233, 118, 104, 0.90);
+	}
+} 
+
+// residential services page 
+.page-commercial-services,
+.page-government-services {
+	
+	// call out content
+	.call-out-content {
+		background-color: rgba(0, 147, 208, 0.90);
+	}
+}
