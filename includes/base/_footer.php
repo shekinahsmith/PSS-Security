@@ -22,6 +22,7 @@
 	</div>
 	
 	<script>$(document).foundation();</script>
+	<script type="text/javascript" src="/assets/js/slick.min.js"></script>
 	<script src="/assets/js/jquery.validate.min.js"></script>
 	<script src="/assets/js/additional-methods.min.js"></script>
 

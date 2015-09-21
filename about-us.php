@@ -133,29 +133,24 @@
 				<p class="column large-7 large-centered underline underline-is-blue underline-is-centered">Our security program is one of the best programs available today from any security services provider.  And one of the key reasons for this is our total commitment to thorough and on-going training.</p>
 
 				<p class="column large-8 large-centered is-larger-text">We continuously train and re-train each team member in all of their areas of responsibility, including:</p>
-				
-				<div class="column small-12 medium-10 medium-centered">
 
-					<div class="flexslider carousel-training js-carousel-training">
-						<ul class="slides">
-							<li><img src="assets/images/carousel-training/carousel-training-1.png"/></li>
-						
-							<li><img src="assets/images/carousel-training/carousel-training-2.png"/></li>
-						
-							<li><img src="assets/images/carousel-training/carousel-training-3.png"/></li>
-						
-							<li><img src="assets/images/carousel-training/carousel-training-4.png"/></li>
-							
-							<li><img src="assets/images/carousel-training/carousel-training-5.png"/></li>
-	
-						</ul>
-					</div>
-					<!-- /.carousel-training -->
-					
-				</div>
-				<!-- /.column -->
 			</div>
 			<!-- /.column -->
+			
+			<div class="carousel-training js-carousel-training column">
+						
+					<div><img src="assets/images/carousel-training/carousel-training-1.png"/></div>
+				
+					<div><img src="assets/images/carousel-training/carousel-training-2.png"/></div>
+				
+					<div><img src="assets/images/carousel-training/carousel-training-3.png"/></div>
+				
+					<div><img src="assets/images/carousel-training/carousel-training-4.png"/></div>
+					
+					<div><img src="assets/images/carousel-training/carousel-training-5.png"/></div>
+
+			</div>
+			<!-- /.carousel-training -->
 
 		</div>
 		<!-- /.row -->

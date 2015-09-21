@@ -1,6 +1,5 @@
 // @codekit-prepend "modernizr.js";
 // @codekit-prepend "jquery-1.11.3.min.js";
-// @codekit-prepend "jquery.flexslider.min.js";
 // @codekit-prepend "fastclick.js";
 
 // @codekit-prepend "foundation/foundation.js";
@@ -41,13 +40,52 @@ $(document).on('ready', function() {
 	else {
 		$('body').addClass('f-topbar-fixed');
 	}
+
+	// hero landing slider 
+	$('.js-hero-slider').slick({
+		autoplay: true,
+		autoplaySpeed: 2000,
+		dots: true,
+		fade: true
+	});
 	
 	// hero landing slider 
-	$('.js-hero-slider').flexslider({
-		//animation: "slide",
-	direction: "vertical"
+	$('.js-carousel-training').slick({
+		dots: true,
+		infinite: false,
+		speed: 300,
+		slidesToShow: 4,
+		slidesToScroll: 4,
+		responsive: [
+		{
+		  breakpoint: 1279,
+		  settings: {
+		    slidesToShow: 3,
+		    slidesToScroll: 3,
+		    infinite: true,
+		    dots: true
+		  }
+		},
+		{
+		  breakpoint: 959,
+		  settings: {
+		    slidesToShow: 2,
+		    slidesToScroll: 2
+		  }
+		},
+		{
+		  breakpoint: 769,
+		  settings: {
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  }
+		}
+		// You can unslick at a given breakpoint now by adding:
+		// settings: "unslick"
+		// instead of a settings object
+		]
 	});
-	 
+	
 	// contact form validation
 	$("#formContact").validate({
 		
@@ -59,14 +97,26 @@ $(document).on('ready', function() {
 	
 	// modal show and close
 	modalShowClose();
-});
-
-$(window).load(function() {
 	
-	$('.js-carousel-training').flexslider({
-		animation: "slide",
-		animationLoop: false,
-		itemWidth: 270,
-		itemMargin: 0
+	// disabling scrolling on off canvas(mobile) navigation when opened
+	$(document)
+		.on('open.fndtn.offcanvas', '[data-offcanvas]', function() {
+		  $('html').css('overflow', 'hidden');
+		})
+		.on('close.fndtn.offcanvas', '[data-offcanvas]', function() {
+		  $('html').css('overflow', 'auto');
 	});
+	
+	(function(){
+	    // pathname from the address page
+	    var pathname = window.location.pathname;
+	    	
+	    // adds active to every li 
+	    $(".top-bar .top-bar-section li a").each(function() {
+	        // checks if its the same on the address bar
+	        if (pathname == (this.pathname)) {
+	            $(this).parent("li").removeClass("active").addClass("active");
+	        }
+	    });
+	})();
 });

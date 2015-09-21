@@ -64,3 +64,30 @@ body.f-topbar-fixed {
 		padding-top: 0;
 	}
 }
+
+// adding css to help slick slider elements show as intended
+.slick-slide {
+	
+	img {
+		@include mq($small-only) {
+			margin: 0 auto;
+		}
+	}
+}
+.slick-dots {
+	margin-left: 0;
+	margin-bottom: 0;
+	bottom: -35px !important;
+}
+
+.slick-arrow {
+	z-index: 99;
+	
+	&.slick-prev {
+		left: 30px;
+	}
+	
+	&.slick-next {
+		right: 30px;
+	}
+}

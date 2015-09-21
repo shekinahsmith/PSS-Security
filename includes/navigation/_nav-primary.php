@@ -3,7 +3,7 @@
 	<ul class="title-area">
 
 		<li class="name">
-			<h1><a href="#">PSS Professional Security</a></h1>
+			<a href="/"><img src="/assets/images/logo-pss.png" alt="Logo PSS"></a>
 		</li>
 
 		<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
@@ -14,7 +14,7 @@
 	<div class="top-bar-section">
 	<!-- Right Nav Section -->
 		<ul class="right">
-			<li class="active"><a href="/">Home</a></li>
+			<li><a href="/">Home</a></li>
 			<li class="has-dropdown">
 				<a href="/services.php">Services</a>
 				<ul class="dropdown">

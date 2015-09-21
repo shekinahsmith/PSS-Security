@@ -5107,6 +5107,22 @@ button,
   body.f-topbar-fixed {
     padding-top: 0; } }
 
+@media only screen and (max-width: 48em) {
+  .slick-slide img {
+    margin: 0 auto; } }
+
+.slick-dots {
+  margin-left: 0;
+  margin-bottom: 0;
+  bottom: -35px !important; }
+
+.slick-arrow {
+  z-index: 99; }
+  .slick-arrow.slick-prev {
+    left: 30px; }
+  .slick-arrow.slick-next {
+    right: 30px; }
+
 .masthead {
   background-color: #fff;
   border-bottom: 3px solid #008fd2;
@@ -5119,6 +5135,10 @@ footer {
   background: #fff; }
   .nav.primary-nav {
     margin-top: 10px; }
+    .nav.primary-nav .title-area {
+      width: 30%; }
+    .nav.primary-nav .name a {
+      line-height: 112px; }
     .nav.primary-nav .top-bar-section .dropdown {
       margin-right: -64px;
       right: 50%; }
@@ -5147,52 +5167,35 @@ footer {
 .header-mobile {
   border-bottom: 3px solid #008fd2; }
 
+.tab-bar-section.middle {
+  left: 1.125rem; }
+
 .hero {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
   .hero .content {
-    padding: 6em 0;
+    padding: 4em 0;
     z-index: 10; }
     .hero .content p {
-      margin-top: 40px; }
-  .hero .flexslider {
-    border: 0;
-    box-shadow: none;
-    height: 100%;
-    margin: 0; }
-    .hero .flexslider .slides,
-    .hero .flexslider .slide {
-      height: 100%; }
-  .hero .flex-control-nav {
-    bottom: auto;
-    margin-top: -59px;
-    right: 65px;
-    top: 50%;
-    width: auto;
-    z-index: 10; }
-    .hero .flex-control-nav li {
-      display: block;
-      margin-top: 25px; }
-      .hero .flex-control-nav li a.flex-active {
-        background-color: #e97668; }
+      margin-top: 30px; }
   .hero.hero-landing {
-    color: #fff;
-    height: 522px; }
+    color: #fff; }
     .hero.hero-landing .slide {
       background-position: center;
       background-repeat: no-repeat;
-      background-size: cover; }
+      background-size: cover;
+      height: 522px; }
     .hero.hero-landing .slide-1 {
       background-image: url(/assets/images/heroes/hero-landing-real-professionals-bg.jpg); }
     .hero.hero-landing .slide-2 {
       background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg); }
     .hero.hero-landing .slide-3 {
-      background-image: url(/assets/images/heroes/hero-landing-best-bg.jpg); }
-    .hero.hero-landing .content.slide-1-content h2, .hero.hero-landing .content.slide-2-content h2 {
-      color: #fff; }
-    .hero.hero-landing .content.slide-3-content {
+      background-image: url(/assets/images/heroes/hero-landing-best-bg.jpg);
       color: #000; }
+    .hero.hero-landing .slide-1 h2,
+    .hero.hero-landing .slide-2 h2 {
+      color: #fff; }
     .hero.hero-landing .hero-landing-mobile {
       background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg);
       background-position: center;
@@ -5449,6 +5452,10 @@ section {
       background-size: cover; }
       section.service-blocks .service-button.residential-block:hover {
         background-position: 50% -20px; }
+        @media only screen and (max-width: 48em) {
+          section.service-blocks .service-button.residential-block:hover {
+            background-image: none;
+            background-position: center -1000px; } }
     section.service-blocks .service-button.commercial-block {
       background-image: url(/assets/images/service-blocks/service-block-commercial.png);
       background-position: center -1000px;
@@ -5456,6 +5463,10 @@ section {
       background-size: cover; }
       section.service-blocks .service-button.commercial-block:hover {
         background-position: 50% -20px; }
+        @media only screen and (max-width: 48em) {
+          section.service-blocks .service-button.commercial-block:hover {
+            background-image: none;
+            background-position: center -1000px; } }
     section.service-blocks .service-button.industrial-block {
       background-image: url(/assets/images/service-blocks/service-block-industrial.png);
       background-position: center -1000px;
@@ -5463,6 +5474,10 @@ section {
       background-size: cover; }
       section.service-blocks .service-button.industrial-block:hover {
         background-position: 50% -20px; }
+        @media only screen and (max-width: 48em) {
+          section.service-blocks .service-button.industrial-block:hover {
+            background-image: none;
+            background-position: center -1000px; } }
     section.service-blocks .service-button.government-block {
       background-image: url(/assets/images/service-blocks/service-block-government.png);
       background-position: center -1000px;
@@ -5470,6 +5485,10 @@ section {
       background-size: cover; }
       section.service-blocks .service-button.government-block:hover {
         background-position: 50% -20px; }
+        @media only screen and (max-width: 48em) {
+          section.service-blocks .service-button.government-block:hover {
+            background-image: none;
+            background-position: center -1000px; } }
     section.service-blocks .service-button.healthcare-block {
       background-image: url(/assets/images/service-blocks/service-block-healthcare.png);
       background-position: center -1000px;
@@ -5477,6 +5496,10 @@ section {
       background-size: cover; }
       section.service-blocks .service-button.healthcare-block:hover {
         background-position: 50% -20px; }
+        @media only screen and (max-width: 48em) {
+          section.service-blocks .service-button.healthcare-block:hover {
+            background-image: none;
+            background-position: center -1000px; } }
     section.service-blocks .service-button.special-services-block {
       background-image: url(/assets/images/service-blocks/service-block-special-services.png);
       background-position: center -1000px;
@@ -5484,6 +5507,10 @@ section {
       background-size: cover; }
       section.service-blocks .service-button.special-services-block:hover {
         background-position: 50% -20px; }
+        @media only screen and (max-width: 48em) {
+          section.service-blocks .service-button.special-services-block:hover {
+            background-image: none;
+            background-position: center -1000px; } }
 
 .contact-form input.error,
 .contact-form textarea.error {
@@ -5585,3 +5612,6 @@ section.standing-guards ul {
   @media only screen and (max-width: 48em) {
     .page-healthcare-services section.standing-guards {
       background-image: none; } }
+
+.mastfoot .links-social {
+  margin-top: 20px; }

@@ -1,46 +1,38 @@
 <div class="hero hero-landing">
 
   <!-- slider only visible on desktop and tablet, hidden on mobile -->
-  <div class="flexslider hero-slider js-hero-slider hide-for-small">
+  <div class="hero-slider js-hero-slider hide-for-small">
     
-    <ul class="slides">
-     
-      <li class="slide slide-1">
+      <div class="slide slide-1 content">
+          
+          <div class="row">
+           
+            <div class="column medium-5">
+                
+                <h2 class="underline underline-is-white underline-is-left">Real Professionals</h2>
 
-          <div class="slide-1-content content">
-              
-              <div class="row">
-               
-                <div class="column large-5">
-                    
-                    <h2 class="underline underline-is-white underline-is-left">Real Professionals</h2>
+                <p>Our goal is to maintain a trained and professional security presence that is customized specifically for your unique needs and situation. We offer armed and unarmed security guard protection.</p>
+                
+                <div class="column large-7">
 
-                    <p>Our goal is to maintain a trained and professional security presence that is customized specifically for your unique needs and situation. We offer armed and unarmed security guard protection.</p>
-                    
-                    <div class="column large-7">
+                  <div class="button secondary round">Play Video</div>
 
-                      <div class="button secondary round">Play Video</div>
-
-                    </div>
-
-                  </div>
-                  <!-- /.column -->
+                </div>
 
               </div>
-              <!-- /.row -->
+              <!-- /.column -->
 
-            </div>
-            <!-- /.content -->
-      </li>
-      <!-- END slide1 -->
+          </div>
+          <!-- /.row -->
 
-      <li class="slide slide-2">
+        </div>
+        <!-- /.content -->
 
-        <div class="slide-2-content content">
+        <div class="slide slide-2 content">
             
             <div class="row">
              
-              <div class="column large-7">
+              <div class="column medium-7 medium">
                   
                   <h2 class="underline underline-is-blue underline-is-left">Call The Professionals</h2>
 
@@ -62,15 +54,12 @@
 
           </div>
           <!-- /.content -->
-      </li>
 
-      <li class="slide slide-3">
-
-        <div class="slide-3-content content">
+        <div class="slide slide-3 content">
             
             <div class="row">
              
-              <div class="column large-5">
+              <div class="column medium-5">
                   
                   <h2 class="underline underline-is-blue underline-is-left">The best of the best</h2>
 
@@ -91,12 +80,7 @@
             <!-- /.row -->
 
           </div>
-          <!-- /.content -->
-      </li> 
-      
-    </ul>
-    <!-- /.slides -->
-    
+          <!-- /.content -->  
   </div>
   <!-- /.hero-slider -->
   

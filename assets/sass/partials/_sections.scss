@@ -110,6 +110,15 @@ section {
 				bottom: -2em;
 			}
 		}
+		
+		.carousel-training {
+			//width: 270px;
+			//margin: 0 auto;
+			
+			@include mq($small-only) {
+				//width: 250px;
+			}
+		}
 	}// &.specialized-training
 	
 	// END - about us page
@@ -310,6 +319,7 @@ section {
 				padding-top: 2em;
 			}
 			
+			
 			// residential block
 			&.residential-block {
 				background-image: url(/assets/images/service-blocks/service-block-residential.png);
@@ -320,6 +330,11 @@ section {
 				// hover
 				&:hover {
 					background-position: 50% -20px;
+					
+					@include mq($small-only) {
+						background-image: none;
+						background-position: center -1000px;
+					}
 				}
 			}
 			
@@ -333,6 +348,11 @@ section {
 				// hover
 				&:hover {
 					background-position: 50% -20px;
+					
+					@include mq($small-only) {
+						background-image: none;
+						background-position: center -1000px;
+					}
 				}
 			}
 			
@@ -346,6 +366,11 @@ section {
 				// hover
 				&:hover {
 					background-position: 50% -20px;
+					
+					@include mq($small-only) {
+						background-image: none;
+						background-position: center -1000px;
+					}
 				}
 			}
 			
@@ -359,6 +384,11 @@ section {
 				// hover
 				&:hover {
 					background-position: 50% -20px;
+					
+					@include mq($small-only) {
+						background-image: none;
+						background-position: center -1000px;
+					}
 				}
 			}
 			
@@ -372,6 +402,11 @@ section {
 				// hover
 				&:hover {
 					background-position: 50% -20px;
+					
+					@include mq($small-only) {
+						background-image: none;
+						background-position: center -1000px;
+					}
 				}
 			}
 			
@@ -385,6 +420,11 @@ section {
 				// hover
 				&:hover {
 					background-position: 50% -20px;
+					
+					@include mq($small-only) {
+						background-image: none;
+						background-position: center -1000px;
+					}
 				}
 			}
 		}// .service-button
