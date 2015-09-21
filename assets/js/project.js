@@ -101,10 +101,12 @@ $(document).on('ready', function() {
 	// disabling scrolling on off canvas(mobile) navigation when opened
 	$(document)
 		.on('open.fndtn.offcanvas', '[data-offcanvas]', function() {
-		  $('html').css('overflow', 'hidden');
+		  $('html, body').css('overflow', 'hidden');
+		   $('aside.right-off-canvas-menu').css('display', 'block');
 		})
 		.on('close.fndtn.offcanvas', '[data-offcanvas]', function() {
-		  $('html').css('overflow', 'auto');
+		  $('html, body').css('overflow', 'auto');
+		  $('aside.right-off-canvas-menu').css('display', 'none');
 	});
 	
 	(function(){

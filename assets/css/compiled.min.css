@@ -5170,6 +5170,11 @@ footer {
 .tab-bar-section.middle {
   left: 1.125rem; }
 
+aside.right-off-canvas-menu {
+  display: none;
+  position: fixed;
+  right: 250px; }
+
 .hero {
   background-position: center;
   background-repeat: no-repeat;

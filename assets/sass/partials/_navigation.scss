@@ -75,3 +75,10 @@
 		left: 1.125rem;
 	}
 }
+
+// preventing mobile navigation from scrolling
+aside.right-off-canvas-menu{
+	display: none;
+	position: fixed;
+	right: 250px;
+}

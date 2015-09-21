@@ -36,6 +36,8 @@
 
 </head>
 
-<?include 'includes/navigation/_nav-mobile.php';?>
+
+<?include 'includes/navigation/_nav-mobile-fixed-header.php';?>
 
 <body class="page-<?= $pageClass; ?>">
+	
