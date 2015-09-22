@@ -1,0 +1,3 @@
+<h2 class="underline underline-is-blue underline-is-left">Our Goal</h2>
+
+				<p>Our goal is to maintain a trained and professional security presence that is customized specifically for your unique needs and situation. Our uniformed armed and unarmed security professionals are at your site to ensure overall safety of people and property.  Our goal of working with you is to develop a cost-effective and complete security program that will help meet your specific needs.</p>

@@ -2828,6 +2828,18 @@ label.error {
     .inline-list > li > * {
       display: block; }
 
+[data-magellan-expedition], [data-magellan-expedition-clone] {
+  background: #FFFFFF;
+  min-width: 100%;
+  padding: 10px;
+  z-index: 50; }
+  [data-magellan-expedition] .sub-nav, [data-magellan-expedition-clone] .sub-nav {
+    margin-bottom: 0; }
+    [data-magellan-expedition] .sub-nav dd, [data-magellan-expedition-clone] .sub-nav dd {
+      margin-bottom: 0; }
+    [data-magellan-expedition] .sub-nav a, [data-magellan-expedition-clone] .sub-nav a {
+      line-height: 1.8em; }
+
 .side-nav {
   display: block;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -4736,6 +4748,14 @@ th.hide-for-touch {
 .has-border-radius {
   border-radius: 5px; }
 
+.is-hidden {
+  display: none; }
+
+.toggle-hidden {
+  font-weight: 700;
+  color: #008fd2;
+  cursor: pointer; }
+
 .has-mobile-overlay-dark,
 .has-mobile-overlay {
   position: relative;
@@ -5184,43 +5204,43 @@ aside.right-off-canvas-menu {
     z-index: 10; }
     .hero .content p {
       margin-top: 30px; }
-  .hero.hero-landing {
+  .hero-landing {
     color: #fff; }
-    .hero.hero-landing .slide {
+    .hero-landing .slide {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       height: 522px; }
-    .hero.hero-landing .slide-1 {
+    .hero-landing .slide-1 {
       background-image: url(/assets/images/heroes/hero-landing-real-professionals-bg.jpg); }
-    .hero.hero-landing .slide-2 {
+    .hero-landing .slide-2 {
       background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg); }
-    .hero.hero-landing .slide-3 {
+    .hero-landing .slide-3 {
       background-image: url(/assets/images/heroes/hero-landing-best-bg.jpg);
       color: #000; }
-    .hero.hero-landing .slide-1 h2,
-    .hero.hero-landing .slide-2 h2 {
+    .hero-landing .slide-1 h2,
+    .hero-landing .slide-2 h2 {
       color: #fff; }
-    .hero.hero-landing .hero-landing-mobile {
+    .hero-landing .hero-landing-mobile {
       background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       height: 100%;
       padding-top: 3.125rem; }
-      .hero.hero-landing .hero-landing-mobile h2 {
+      .hero-landing .hero-landing-mobile h2 {
         color: #fff; }
-      .hero.hero-landing .hero-landing-mobile p {
+      .hero-landing .hero-landing-mobile p {
         margin-top: 40px; }
-  .hero.hero-about-us {
+  .hero-about-us {
     background-image: url(/assets/images/heroes/hero-about-us-bg.jpg);
     color: #fff; }
-    .hero.hero-about-us h1 {
+    .hero-about-us h1 {
       color: #fff; }
-    .hero.hero-about-us .has-teal-bg {
+    .hero-about-us .has-teal-bg {
       position: relative;
       z-index: 1; }
-      .hero.hero-about-us .has-teal-bg:after {
+      .hero-about-us .has-teal-bg:after {
         background-color: #00699f;
         border-radius: 5px;
         content: "";
@@ -5230,50 +5250,58 @@ aside.right-off-canvas-menu {
         top: 0;
         width: 9000px;
         z-index: -1; }
-  .hero.hero-services {
+  .hero-services {
     background-image: url(/assets/images/heroes/hero-services-bg.jpg); }
     @media only screen and (max-width: 48em) {
-      .hero.hero-services {
+      .hero-services {
         background-position: 70% center; } }
-  .hero.hero-residential-security {
+  .hero-residential-security {
     background-image: url(/assets/images/heroes/hero-residential-services.jpg);
     color: #fff; }
     @media only screen and (max-width: 48em) {
-      .hero.hero-residential-security {
+      .hero-residential-security {
         background-position: 70% center; } }
-    .hero.hero-residential-security h1 {
+    .hero-residential-security h1 {
       color: #fff; }
-  .hero.hero-commerical-security {
+  .hero-commerical-security {
     background-image: url(/assets/images/heroes/hero-commercial-services.jpg);
     color: #fff; }
     @media only screen and (max-width: 48em) {
-      .hero.hero-commerical-security {
+      .hero-commerical-security {
         background-position: 70% center; } }
-    .hero.hero-commerical-security h1 {
+    .hero-commerical-security h1 {
       color: #fff; }
-  .hero.hero-industrial-security {
+  .hero-industrial-security {
     background-image: url(/assets/images/heroes/hero-industrial-services.jpg);
     color: #fff; }
     @media only screen and (max-width: 48em) {
-      .hero.hero-industrial-security {
+      .hero-industrial-security {
         background-position: 70% center; } }
-    .hero.hero-industrial-security h1 {
+    .hero-industrial-security h1 {
       color: #fff; }
-  .hero.hero-government-security {
+  .hero-government-security {
     background-image: url(/assets/images/heroes/hero-government-services.jpg);
     color: #fff; }
     @media only screen and (max-width: 48em) {
-      .hero.hero-government-security {
+      .hero-government-security {
         background-position: 70% center; } }
-    .hero.hero-government-security h1 {
+    .hero-government-security h1 {
       color: #fff; }
-  .hero.hero-healthcare-security {
+  .hero-healthcare-security {
     background-image: url(/assets/images/heroes/hero-healthcare-services.jpg);
     color: #fff; }
     @media only screen and (max-width: 48em) {
-      .hero.hero-healthcare-security {
+      .hero-healthcare-security {
         background-position: 70% center; } }
-    .hero.hero-healthcare-security h1 {
+    .hero-healthcare-security h1 {
+      color: #fff; }
+  .hero-special-services {
+    background-image: url(/assets/images/heroes/hero-special-services.jpg);
+    color: #fff; }
+    @media only screen and (max-width: 48em) {
+      .hero-special-services {
+        background-position: 70% center; } }
+    .hero-special-services h1 {
       color: #fff; }
 
 section {
@@ -5387,25 +5415,164 @@ section {
       section.employee-escorts {
         background-image: none;
         background-color: #00699f; } }
-  section.patrol-homeland {
+  section.employee-safety {
+    background-image: url(/assets/images/sections/section-employee-safety.jpg);
+    background-size: contain; }
+    @media only screen and (max-width: 48em) {
+      section.employee-safety {
+        background-image: none; } }
+  section.emergency-evacuations {
+    background-image: url(/assets/images/sections/section-emergency-evacuations.jpg);
+    color: #fff; }
+    section.emergency-evacuations h2 {
+      color: #fff; }
+    @media only screen and (max-width: 48em) {
+      section.emergency-evacuations {
+        background-image: none;
+        background-color: #00699f; } }
+  section.background-checks {
+    background-image: url(/assets/images/sections/section-background-checks.jpg);
+    background-size: contain; }
+    @media only screen and (max-width: 48em) {
+      section.background-checks {
+        background-image: none; } }
+  section.community-safety {
+    background-image: url(/assets/images/sections/section-community-safety.jpg);
+    color: #fff; }
+    section.community-safety h2 {
+      color: #fff; }
+    @media only screen and (max-width: 48em) {
+      section.community-safety {
+        background-image: none;
+        background-color: #00699f; } }
+  section.slider-employee-terminations {
+    background: #f0f1f1;
+    margin-bottom: 0;
+    padding: 2em; }
+    section.slider-employee-terminations p {
+      font-weight: 700;
+      font-size: 30px;
+      margin-bottom: 0; }
+      @media only screen and (min-width: 48.063em) and (max-width: 60em) {
+        section.slider-employee-terminations p {
+          font-size: 22px; } }
+      @media only screen and (max-width: 48em) {
+        section.slider-employee-terminations p {
+          font-size: 18px; } }
+  section.patrol-homeland, section.identity-protection {
     padding: 0; }
     section.patrol-homeland .patrol,
-    section.patrol-homeland .homeland {
+    section.patrol-homeland .homeland,
+    section.patrol-homeland .identity,
+    section.patrol-homeland .personal-protection, section.identity-protection .patrol,
+    section.identity-protection .homeland,
+    section.identity-protection .identity,
+    section.identity-protection .personal-protection {
       width: 50%; }
       @media only screen and (max-width: 48em) {
         section.patrol-homeland .patrol,
-        section.patrol-homeland .homeland {
+        section.patrol-homeland .homeland,
+        section.patrol-homeland .identity,
+        section.patrol-homeland .personal-protection, section.identity-protection .patrol,
+        section.identity-protection .homeland,
+        section.identity-protection .identity,
+        section.identity-protection .personal-protection {
           width: 100%; } }
       section.patrol-homeland .patrol .patrol-content,
       section.patrol-homeland .patrol .homeland-content,
       section.patrol-homeland .homeland .patrol-content,
-      section.patrol-homeland .homeland .homeland-content {
-        height: 32.9375rem;
+      section.patrol-homeland .homeland .homeland-content,
+      section.patrol-homeland .identity .patrol-content,
+      section.patrol-homeland .identity .homeland-content,
+      section.patrol-homeland .personal-protection .patrol-content,
+      section.patrol-homeland .personal-protection .homeland-content, section.identity-protection .patrol .patrol-content,
+      section.identity-protection .patrol .homeland-content,
+      section.identity-protection .homeland .patrol-content,
+      section.identity-protection .homeland .homeland-content,
+      section.identity-protection .identity .patrol-content,
+      section.identity-protection .identity .homeland-content,
+      section.identity-protection .personal-protection .patrol-content,
+      section.identity-protection .personal-protection .homeland-content {
+        height: 32.9375rem; }
+      section.patrol-homeland .patrol .identity-content,
+      section.patrol-homeland .patrol .personal-protection-content,
+      section.patrol-homeland .homeland .identity-content,
+      section.patrol-homeland .homeland .personal-protection-content,
+      section.patrol-homeland .identity .identity-content,
+      section.patrol-homeland .identity .personal-protection-content,
+      section.patrol-homeland .personal-protection .identity-content,
+      section.patrol-homeland .personal-protection .personal-protection-content, section.identity-protection .patrol .identity-content,
+      section.identity-protection .patrol .personal-protection-content,
+      section.identity-protection .homeland .identity-content,
+      section.identity-protection .homeland .personal-protection-content,
+      section.identity-protection .identity .identity-content,
+      section.identity-protection .identity .personal-protection-content,
+      section.identity-protection .personal-protection .identity-content,
+      section.identity-protection .personal-protection .personal-protection-content {
+        height: 45rem; }
+      section.patrol-homeland .patrol .patrol-content,
+      section.patrol-homeland .patrol .homeland-content,
+      section.patrol-homeland .patrol .identity-content,
+      section.patrol-homeland .patrol .personal-protection-content,
+      section.patrol-homeland .homeland .patrol-content,
+      section.patrol-homeland .homeland .homeland-content,
+      section.patrol-homeland .homeland .identity-content,
+      section.patrol-homeland .homeland .personal-protection-content,
+      section.patrol-homeland .identity .patrol-content,
+      section.patrol-homeland .identity .homeland-content,
+      section.patrol-homeland .identity .identity-content,
+      section.patrol-homeland .identity .personal-protection-content,
+      section.patrol-homeland .personal-protection .patrol-content,
+      section.patrol-homeland .personal-protection .homeland-content,
+      section.patrol-homeland .personal-protection .identity-content,
+      section.patrol-homeland .personal-protection .personal-protection-content, section.identity-protection .patrol .patrol-content,
+      section.identity-protection .patrol .homeland-content,
+      section.identity-protection .patrol .identity-content,
+      section.identity-protection .patrol .personal-protection-content,
+      section.identity-protection .homeland .patrol-content,
+      section.identity-protection .homeland .homeland-content,
+      section.identity-protection .homeland .identity-content,
+      section.identity-protection .homeland .personal-protection-content,
+      section.identity-protection .identity .patrol-content,
+      section.identity-protection .identity .homeland-content,
+      section.identity-protection .identity .identity-content,
+      section.identity-protection .identity .personal-protection-content,
+      section.identity-protection .personal-protection .patrol-content,
+      section.identity-protection .personal-protection .homeland-content,
+      section.identity-protection .personal-protection .identity-content,
+      section.identity-protection .personal-protection .personal-protection-content {
         padding: 2em 1em; }
         section.patrol-homeland .patrol .patrol-content:after,
         section.patrol-homeland .patrol .homeland-content:after,
+        section.patrol-homeland .patrol .identity-content:after,
+        section.patrol-homeland .patrol .personal-protection-content:after,
         section.patrol-homeland .homeland .patrol-content:after,
-        section.patrol-homeland .homeland .homeland-content:after {
+        section.patrol-homeland .homeland .homeland-content:after,
+        section.patrol-homeland .homeland .identity-content:after,
+        section.patrol-homeland .homeland .personal-protection-content:after,
+        section.patrol-homeland .identity .patrol-content:after,
+        section.patrol-homeland .identity .homeland-content:after,
+        section.patrol-homeland .identity .identity-content:after,
+        section.patrol-homeland .identity .personal-protection-content:after,
+        section.patrol-homeland .personal-protection .patrol-content:after,
+        section.patrol-homeland .personal-protection .homeland-content:after,
+        section.patrol-homeland .personal-protection .identity-content:after,
+        section.patrol-homeland .personal-protection .personal-protection-content:after, section.identity-protection .patrol .patrol-content:after,
+        section.identity-protection .patrol .homeland-content:after,
+        section.identity-protection .patrol .identity-content:after,
+        section.identity-protection .patrol .personal-protection-content:after,
+        section.identity-protection .homeland .patrol-content:after,
+        section.identity-protection .homeland .homeland-content:after,
+        section.identity-protection .homeland .identity-content:after,
+        section.identity-protection .homeland .personal-protection-content:after,
+        section.identity-protection .identity .patrol-content:after,
+        section.identity-protection .identity .homeland-content:after,
+        section.identity-protection .identity .identity-content:after,
+        section.identity-protection .identity .personal-protection-content:after,
+        section.identity-protection .personal-protection .patrol-content:after,
+        section.identity-protection .personal-protection .homeland-content:after,
+        section.identity-protection .personal-protection .identity-content:after,
+        section.identity-protection .personal-protection .personal-protection-content:after {
           content: "";
           position: absolute;
           height: 100%;
@@ -5414,22 +5581,90 @@ section {
         @media only screen and (max-width: 48em) {
           section.patrol-homeland .patrol .patrol-content,
           section.patrol-homeland .patrol .homeland-content,
+          section.patrol-homeland .patrol .identity-content,
+          section.patrol-homeland .patrol .personal-protection-content,
           section.patrol-homeland .homeland .patrol-content,
-          section.patrol-homeland .homeland .homeland-content {
+          section.patrol-homeland .homeland .homeland-content,
+          section.patrol-homeland .homeland .identity-content,
+          section.patrol-homeland .homeland .personal-protection-content,
+          section.patrol-homeland .identity .patrol-content,
+          section.patrol-homeland .identity .homeland-content,
+          section.patrol-homeland .identity .identity-content,
+          section.patrol-homeland .identity .personal-protection-content,
+          section.patrol-homeland .personal-protection .patrol-content,
+          section.patrol-homeland .personal-protection .homeland-content,
+          section.patrol-homeland .personal-protection .identity-content,
+          section.patrol-homeland .personal-protection .personal-protection-content, section.identity-protection .patrol .patrol-content,
+          section.identity-protection .patrol .homeland-content,
+          section.identity-protection .patrol .identity-content,
+          section.identity-protection .patrol .personal-protection-content,
+          section.identity-protection .homeland .patrol-content,
+          section.identity-protection .homeland .homeland-content,
+          section.identity-protection .homeland .identity-content,
+          section.identity-protection .homeland .personal-protection-content,
+          section.identity-protection .identity .patrol-content,
+          section.identity-protection .identity .homeland-content,
+          section.identity-protection .identity .identity-content,
+          section.identity-protection .identity .personal-protection-content,
+          section.identity-protection .personal-protection .patrol-content,
+          section.identity-protection .personal-protection .homeland-content,
+          section.identity-protection .personal-protection .identity-content,
+          section.identity-protection .personal-protection .personal-protection-content {
             height: auto; } }
       section.patrol-homeland .patrol .patrol-content.is-blue-bg:after,
-      section.patrol-homeland .homeland .patrol-content.is-blue-bg:after {
+      section.patrol-homeland .patrol .identity-content.is-blue-bg:after,
+      section.patrol-homeland .homeland .patrol-content.is-blue-bg:after,
+      section.patrol-homeland .homeland .identity-content.is-blue-bg:after,
+      section.patrol-homeland .identity .patrol-content.is-blue-bg:after,
+      section.patrol-homeland .identity .identity-content.is-blue-bg:after,
+      section.patrol-homeland .personal-protection .patrol-content.is-blue-bg:after,
+      section.patrol-homeland .personal-protection .identity-content.is-blue-bg:after, section.identity-protection .patrol .patrol-content.is-blue-bg:after,
+      section.identity-protection .patrol .identity-content.is-blue-bg:after,
+      section.identity-protection .homeland .patrol-content.is-blue-bg:after,
+      section.identity-protection .homeland .identity-content.is-blue-bg:after,
+      section.identity-protection .identity .patrol-content.is-blue-bg:after,
+      section.identity-protection .identity .identity-content.is-blue-bg:after,
+      section.identity-protection .personal-protection .patrol-content.is-blue-bg:after,
+      section.identity-protection .personal-protection .identity-content.is-blue-bg:after {
         background-color: #00699f;
         left: -1000px; }
       section.patrol-homeland .patrol .patrol-content.is-red-bg:after,
-      section.patrol-homeland .homeland .patrol-content.is-red-bg:after {
+      section.patrol-homeland .patrol .identity-content.is-red-bg:after,
+      section.patrol-homeland .homeland .patrol-content.is-red-bg:after,
+      section.patrol-homeland .homeland .identity-content.is-red-bg:after,
+      section.patrol-homeland .identity .patrol-content.is-red-bg:after,
+      section.patrol-homeland .identity .identity-content.is-red-bg:after,
+      section.patrol-homeland .personal-protection .patrol-content.is-red-bg:after,
+      section.patrol-homeland .personal-protection .identity-content.is-red-bg:after, section.identity-protection .patrol .patrol-content.is-red-bg:after,
+      section.identity-protection .patrol .identity-content.is-red-bg:after,
+      section.identity-protection .homeland .patrol-content.is-red-bg:after,
+      section.identity-protection .homeland .identity-content.is-red-bg:after,
+      section.identity-protection .identity .patrol-content.is-red-bg:after,
+      section.identity-protection .identity .identity-content.is-red-bg:after,
+      section.identity-protection .personal-protection .patrol-content.is-red-bg:after,
+      section.identity-protection .personal-protection .identity-content.is-red-bg:after {
         background-color: #e97668;
         left: -1000px; }
       section.patrol-homeland .patrol .homeland-content:after,
-      section.patrol-homeland .homeland .homeland-content:after {
+      section.patrol-homeland .patrol .personal-protection-content:after,
+      section.patrol-homeland .homeland .homeland-content:after,
+      section.patrol-homeland .homeland .personal-protection-content:after,
+      section.patrol-homeland .identity .homeland-content:after,
+      section.patrol-homeland .identity .personal-protection-content:after,
+      section.patrol-homeland .personal-protection .homeland-content:after,
+      section.patrol-homeland .personal-protection .personal-protection-content:after, section.identity-protection .patrol .homeland-content:after,
+      section.identity-protection .patrol .personal-protection-content:after,
+      section.identity-protection .homeland .homeland-content:after,
+      section.identity-protection .homeland .personal-protection-content:after,
+      section.identity-protection .identity .homeland-content:after,
+      section.identity-protection .identity .personal-protection-content:after,
+      section.identity-protection .personal-protection .homeland-content:after,
+      section.identity-protection .personal-protection .personal-protection-content:after {
         background-color: #008fd2;
         right: -1000px; }
-    section.patrol-homeland .patrol img {
+    section.patrol-homeland .patrol img,
+    section.patrol-homeland .identity img, section.identity-protection .patrol img,
+    section.identity-protection .identity img {
       float: right; }
   @media only screen and (max-width: 48em) {
     section.service-blocks .columns:nth-child(n+2) {

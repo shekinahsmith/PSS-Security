@@ -83,6 +83,9 @@
           <!-- /.content -->  
   </div>
   <!-- /.hero-slider -->
+  <div data-magellan-expedition="fixed">
+  	<div class="scroll-button" data-magellan-arrival="heroLandingTarget"><a href="#heroLandingTarget">Click Here</a></div>
+  </div>
   
   <div class="row show-for-small hero-landing-mobile">
              

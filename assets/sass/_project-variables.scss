@@ -104,6 +104,16 @@
 	border-radius: 5px;
 }
 
+.is-hidden {
+	display: none;
+}
+
+.toggle-hidden {
+	font-weight: 700;
+	color: $pss-blue-light;
+	cursor: pointer;
+}
+
 // mobile hero overlay to make text more leglible
 .has-mobile-overlay-dark,
 .has-mobile-overlay {

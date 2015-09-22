@@ -1,10 +1,12 @@
 // @codekit-prepend "modernizr.js";
 // @codekit-prepend "jquery-1.11.3.min.js";
+// @codekit-prepend "jquery.equalheights.min.js";
 // @codekit-prepend "fastclick.js";
 
 // @codekit-prepend "foundation/foundation.js";
 // @codekit-prepend "foundation/foundation.dropdown.js";
 // @codekit-prepend "foundation/foundation.offcanvas.js";
+// @codekit-prepend "foundation/foundation.magellan.js";
 // @codekit-prepend "foundation/foundation.topbar.js";
 
 
@@ -40,7 +42,7 @@ $(document).on('ready', function() {
 	else {
 		$('body').addClass('f-topbar-fixed');
 	}
-
+	   
 	// hero landing slider 
 	$('.js-hero-slider').slick({
 		autoplay: true,
@@ -49,7 +51,7 @@ $(document).on('ready', function() {
 		fade: true
 	});
 	
-	// hero landing slider 
+	// training slider
 	$('.js-carousel-training').slick({
 		dots: true,
 		infinite: false,
@@ -86,6 +88,10 @@ $(document).on('ready', function() {
 		]
 	});
 	
+	// employee termination slider
+	$('.js-slider-employee-terminations').slick();
+	$('.js-slide-equalHeight').equalHeights();
+	
 	// contact form validation
 	$("#formContact").validate({
 		
@@ -95,8 +101,56 @@ $(document).on('ready', function() {
 		}
 	});
 	
+	// sending contact form data 
+	$(".contact-form").submit(function(event) {
+		
+        /* stop form from submitting normally */
+        event.preventDefault();
+
+        /* get some values from elements on the page: */
+        var $form = $( this ),
+			$submit = $form.find( 'button[type="submit"]' ),
+			name_value = $form.find( 'input[name="firstLastName"]' ).val(),
+			email_value = $form.find( 'input[name="email"]' ).val(),
+			message_value = $form.find( 'textarea[name="message"]' ).val(),
+			url = $form.attr('action');
+
+        /* Send the data using post */
+        var posting = $.post( url, { 
+		   name: name_value, 
+		   email: email_value, 
+		   message: message_value 
+		});
+
+		posting.done(function( data ) {
+			
+			/* Put the results in a div */
+			$( ".contactResponse" ).html('Your message has been sent. We will contact you soon.');
+			
+			/* Change the button text. */
+			$submit.text('Sent, Thank you');
+			
+			/* Disable the button. */
+			$submit.attr("disabled", true);
+		});
+    });
+
 	// modal show and close
 	modalShowClose();
+	
+	// toggle sections with additional content
+	$('.js-toggle-hidden').click(function() {
+		
+		$(this).siblings('.additional-info').slideToggle(1000);
+		
+		$(this).toggleClass('expanded');
+		if($(this).hasClass('expanded')) {
+			$(this).html('Read Less');
+		}
+		else {
+			$(this).html('Read More');
+		}
+	});
 	
 	// disabling scrolling on off canvas(mobile) navigation when opened
 	$(document)
@@ -109,7 +163,8 @@ $(document).on('ready', function() {
 		  $('aside.right-off-canvas-menu').css('display', 'none');
 	});
 	
-	(function(){
+	// adding and removing class of active from nav items
+	(function() {
 	    // pathname from the address page
 	    var pathname = window.location.pathname;
 	    	
@@ -121,4 +176,5 @@ $(document).on('ready', function() {
 	        }
 	    });
 	})();
+	
 });

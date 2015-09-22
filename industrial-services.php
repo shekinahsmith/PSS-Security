@@ -16,7 +16,7 @@
 
 				<p>Electronic security is absolutely crucial to keeping your data, property and people safe from unwanted intruders. But how much money should you invest in security technologies? What types of technology should you purchase? Which business assets require the most stringent security measures?</p> 
 
-				<div class="is-hidden">
+				<div class="additional-info is-hidden">
 					<p>These are not easy questions to answer without methodically assessing the security needs of your business. You need to determine what security threats are lurking, the areas where you are most vulnerable, and the best ways to mitigate your business risk.</p>
 
 					<p>A security assessment provides a snapshot of your business security readiness - only then can you clearly see where the gaps are and what you need to do to close them.</p>
@@ -26,7 +26,7 @@
 				</div>
 				<!-- /.is-hidden -->
 				
-				<a href="#">Read More</a>
+				<p class="js-toggle-hidden toggle-hidden">Read More</p>
 			</div>
 			<!-- /.column -->
 
@@ -66,23 +66,9 @@
 				<h2 class="underline underline-is-white underline-is-centered">Employee Terminations</h2>
 
 				<p>Sometimes employee terminations present a challenge of personal threat or theft of important company documents. You should employ the following safeguards to protect your company from an employee termination: </p>
-
-		</div>
-		<!-- /.row -->
-
-	</section>
-	<!-- /.employee-terminations -->
-
-
-	<section class="employee-terminations">
-
-		<div class="row">
-
-			<div class="column large-8 large-centered text-center">
-
-				<h2 class="underline underline-is-blue underline-is-centered">Employee Terminations</h2>
-
-				<p>Sometimes employee terminations present a challenge of personal threat or theft of important company documents. You should employ the following safeguards to protect your company from an employee termination: </p>
+			
+			</div>
+			<!-- /.column --.
 
 		</div>
 		<!-- /.row -->
@@ -91,6 +77,8 @@
 	<!-- /.employee-terminations -->
 
 	<? 
+		include 'includes/sliders/_slider-employee-terminations.php';
+		
 		// sections included on multiple pages
 		include 'includes/sections/_section-standing-guards.php'; 
 		include 'includes/sections/_section-call-out-box.php'; 

@@ -204,6 +204,7 @@ section {
 		}
 	}// &.security-assessments
 	
+	// employee escorts
 	&.employee-escorts {
 		background-image: url(/assets/images/sections/section-employee-escorts.jpg);
 		color: #fff;
@@ -216,25 +217,116 @@ section {
 			background-color: $pss-blue-dark;
 		}
 	}
+	
+	// END Industrial Security
+	
+	
+	// @PAGE - Special Services
+	
+	// employee safety
+	&.employee-safety {
+		background-image: url(/assets/images/sections/section-employee-safety.jpg);
+		background-size: contain;
+		
+		@include mq($small-only) {
+			background-image: none;
+		}
+	}
+	
+	// employee escorts
+	&.emergency-evacuations {
+		background-image: url(/assets/images/sections/section-emergency-evacuations.jpg);
+		color: #fff;
+		
+		h2 {
+			color: #fff;
+		}
+		@include mq($small-only) {
+			background-image: none;
+			background-color: $pss-blue-dark;
+		}
+	}
+	
+	&.background-checks {
+		background-image: url(/assets/images/sections/section-background-checks.jpg);
+		background-size: contain;
+		
+		@include mq($small-only) {
+			background-image: none;
+		}
+	}
+	
+	//community safety
+	&.community-safety {
+		background-image: url(/assets/images/sections/section-community-safety.jpg);
+		color: #fff;
+		
+		h2 {
+			color: #fff;
+		}
+		@include mq($small-only) {
+			background-image: none;
+			background-color: $pss-blue-dark;
+		}
+	}
+	
+	// END SECTIONS
+	
+	// SECTION - Sliders
+	// slider employee terminations
+	&.slider-employee-terminations {
+		background: $pss-off-white;
+		margin-bottom: 0;
+		padding: 2em;
+		
+		p {
+			font-weight: 700;
+			font-size: 30px;
+			margin-bottom: 0;
+			
+			@include mq($medium-only) {
+				font-size: 22px;
+			}
+			
+			@include mq($small-only) {
+				font-size: 18px;	
+			}
+		}
+	}// &.slider-employee-terminations
+	
 
-	//PAGE - services
-	//patrol-homeland
-	&.patrol-homeland {
+	// Patrol/Homeland and Identity/Personal Protection
+	//patrol-homeland & identity- personal protection
+	&.patrol-homeland,
+	&.identity-protection {
 		padding: 0;
 		
 		// patrol, homeland
 		.patrol,
-		.homeland {
+		.homeland,
+		.identity,
+		.personal-protection {
 			width: 50%;
 			
 			@include mq($small-only) {
 				width: 100%;
 			}
 			
-			// patrol and homeland content
 			.patrol-content,
 			.homeland-content {
 				height: rem-calc(527px);
+			}
+			
+			.identity-content,
+			.personal-protection-content {
+				height: rem-calc(720px);
+			}
+			
+			// patrol and homeland content
+			.patrol-content,
+			.homeland-content,
+			.identity-content,
+			.personal-protection-content {
 				padding: 2em 1em;
 				
 				// extending background 
@@ -252,7 +344,8 @@ section {
 			}// .patrol-content, .homeland-content
 			
 			// patrol content 
-			.patrol-content {
+			.patrol-content,
+			.identity-content {
 				
 				&.is-blue-bg {
 					&:after {
@@ -271,7 +364,8 @@ section {
 			}// .patrol-content
 			
 			// homeland contentd
-			.homeland-content {
+			.homeland-content,
+			.personal-protection-content {
 				
 				&:after {
 					background-color: $pss-blue-light;
@@ -281,16 +375,15 @@ section {
 			
 		}// .patrol, .homeland
 		
-		.patrol {
+		.patrol,
+		.identity {
 			img {
 				float: right;
 			}
 		}
 	}// .patrol, .homeland
-
-	// END SECTIONS
 	
-	// service-blocks
+	// SERVICE BLOCKS
 	&.service-blocks {
 		
 		.columns {

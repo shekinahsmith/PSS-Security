@@ -15,7 +15,7 @@
 	}// .content
 	
 	// hero-landing 
-	&.hero-landing {
+	&-landing {
 		color: #fff;
 		
 		// slide
@@ -73,7 +73,7 @@
 	}// &.hero-landing
 
 	// about us 
-	&.hero-about-us {
+	&-about-us {
 		background-image: url(/assets/images/heroes/hero-about-us-bg.jpg);
 		color: #fff;
 
@@ -104,7 +104,7 @@
 	}// &.hero-about-us
 
 	// services
-	&.hero-services {
+	&-services {
 		background-image: url(/assets/images/heroes/hero-services-bg.jpg);
 		
 		@include mq($small-only) {
@@ -114,7 +114,7 @@
 	
 	
 	// residential
-	&.hero-residential-security {
+	&-residential-security {
 		background-image: url(/assets/images/heroes/hero-residential-services.jpg);
 		color: #fff;
 		
@@ -129,7 +129,7 @@
 	
 	
 	// commercial
-	&.hero-commerical-security {
+	&-commerical-security {
 		background-image: url(/assets/images/heroes/hero-commercial-services.jpg);
 		color: #fff;
 		
@@ -144,7 +144,7 @@
 	
 	
 	// industrial
-	&.hero-industrial-security {
+	&-industrial-security {
 		background-image: url(/assets/images/heroes/hero-industrial-services.jpg);
 		color: #fff;
 		
@@ -158,7 +158,7 @@
 	}// &.hero-industrial-security
 	
 	// government
-	&.hero-government-security {
+	&-government-security {
 		background-image: url(/assets/images/heroes/hero-government-services.jpg);
 		color: #fff;
 		
@@ -172,8 +172,22 @@
 	}// &.hero-government-security
 	
 	// healthcare
-	&.hero-healthcare-security {
+	&-healthcare-security {
 		background-image: url(/assets/images/heroes/hero-healthcare-services.jpg);
+		color: #fff;
+		
+		@include mq($small-only) {
+			background-position: 70% center;
+		}
+		
+		h1 {
+			color: #fff;
+		}
+	}// &.hero-healthcare-security
+	
+	// healthcare
+	&-special-services {
+		background-image: url(/assets/images/heroes/hero-special-services.jpg);
 		color: #fff;
 		
 		@include mq($small-only) {
