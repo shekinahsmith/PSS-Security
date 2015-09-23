@@ -21,6 +21,10 @@
 
               </div>
               <!-- /.column -->
+              
+				<div class="hero-scroll-button" data-magellan-expedition="">
+					<div class="scroll-button" data-magellan-arrival="heroTarget"><a href="#heroTarget"><img src="/assets/images/hero-scroll-arrow.png"></a></div>
+				</div>
 
           </div>
           <!-- /.row -->
@@ -48,6 +52,10 @@
 
                 </div>
                 <!-- /.column -->
+                
+                <div class="hero-scroll-button" data-magellan-expedition="">
+					<div class="scroll-button" data-magellan-arrival="heroTarget"><a href="#heroTarget"><img src="/assets/images/hero-scroll-arrow.png"></a></div>
+				</div>
 
             </div>
             <!-- /.row -->
@@ -75,6 +83,10 @@
 
                 </div>
                 <!-- /.column -->
+                
+                <div class="hero-scroll-button" data-magellan-expedition="">
+					<div class="scroll-button" data-magellan-arrival="heroTarget"><a href="#heroTarget"><img src="/assets/images/hero-scroll-arrow.png"></a></div>
+				</div>
 
             </div>
             <!-- /.row -->
@@ -83,9 +95,6 @@
           <!-- /.content -->  
   </div>
   <!-- /.hero-slider -->
-  <div data-magellan-expedition="fixed">
-  	<div class="scroll-button" data-magellan-arrival="heroLandingTarget"><a href="#heroLandingTarget">Click Here</a></div>
-  </div>
   
   <div class="row show-for-small hero-landing-mobile">
              
@@ -105,6 +114,10 @@
 
         </div>
         <!-- /.column -->
+        
+        <div class="hero-scroll-button" data-magellan-expedition="">
+			<div class="scroll-button" data-magellan-arrival="heroTarget"><a href="#heroTarget"><img src="/assets/images/hero-scroll-arrow.png"></a></div>
+		</div>
 
     </div>
     <!-- /.row -->

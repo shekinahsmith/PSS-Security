@@ -3,7 +3,9 @@
 	include 'includes/masthead/_masthead.php';
 	include 'includes/heroes/_hero-industrial-security.php';  
 ?>
-	
+	<div data-magellan-destination="heroTarget"></div>
+		<a name="heroTarget"></a>
+		
 	<section class="security-assessments">
 
 		<div class="row">

@@ -36,12 +36,15 @@ function modalShowClose() {
 
 $(document).on('ready', function() {
 
+
+/*
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
 		$('body').removeClass('f-topbar-fixed');
 	}
 	else {
 		$('body').addClass('f-topbar-fixed');
 	}
+*/
 	   
 	// hero landing slider 
 	$('.js-hero-slider').slick({
@@ -89,7 +92,7 @@ $(document).on('ready', function() {
 	});
 	
 	// employee termination slider
-	$('.js-slider-employee-terminations').slick();
+	$('.js-slider-section').slick();
 	$('.js-slide-equalHeight').equalHeights();
 	
 	// contact form validation

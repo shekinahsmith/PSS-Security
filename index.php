@@ -3,9 +3,13 @@
 	include 'includes/masthead/_masthead.php';
 	include 'includes/heroes/_hero-landing.php';  
 ?>
-	
-	<section class="who-are-we" data-magellan-destination="heroLandingTarget">
-		<a name="heroLandingTarget"></a>
+
+	<div data-magellan-destination="heroTarget"></div>
+		<a name="heroTarget"></a>
+		
+		
+		
+	<section class="who-are-we">
 
 		<div class="row">
 

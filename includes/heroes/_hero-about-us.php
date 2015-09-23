@@ -18,6 +18,10 @@
 
     </div>
     <!-- /.content -->
+    
+    <div class="hero-scroll-button" data-magellan-expedition="">
+			<div class="scroll-button" data-magellan-arrival="heroTarget"><a href="#heroTarget"><img src="/assets/images/hero-scroll-arrow.png"></a></div>
+		</div>
 
 </div>
 <!-- /.hero-about-us -->

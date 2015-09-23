@@ -274,24 +274,32 @@ section {
 	
 	// SECTION - Sliders
 	// slider employee terminations
-	&.slider-employee-terminations {
+	&.slider-section {
 		background: $pss-off-white;
 		margin-bottom: 0;
-		padding: 2em;
+		padding: 1em;
+		font-weight: 700;
+		font-size: 30px;
+		margin-bottom: 0;
 		
-		p {
-			font-weight: 700;
-			font-size: 30px;
-			margin-bottom: 0;
-			
-			@include mq($medium-only) {
-				font-size: 22px;
-			}
-			
-			@include mq($small-only) {
-				font-size: 18px;	
-			}
+		@include mq($medium-only) {
+			font-size: 22px;
 		}
+		
+		@include mq($small-only) {
+			font-size: 18px;	
+		}
+		
+		.slide {
+			display: table;
+		}
+
+		.content {
+			display: table-cell;
+			vertical-align: middle;
+			padding: 0 2em;
+		}
+		
 	}// &.slider-employee-terminations
 	
 

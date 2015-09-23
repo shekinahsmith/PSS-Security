@@ -5198,19 +5198,42 @@ aside.right-off-canvas-menu {
 .hero {
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  position: relative; }
+  @media only screen and (max-width: 48em) {
+    .hero {
+      margin-top: 53px; } }
   .hero .content {
     padding: 4em 0;
     z-index: 10; }
     .hero .content p {
       margin-top: 30px; }
+  .hero-scroll-button {
+    background: #fff;
+    height: 45px;
+    width: 90px;
+    border-radius: 90px 90px 0 0;
+    -moz-border-radius: 90px 90px 0 0;
+    -webkit-border-radius: 90px 90px 0 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -45px;
+    min-width: 90px; }
+    .hero-scroll-button img {
+      display: block;
+      margin: auto;
+      padding: 10px 0; }
   .hero-landing {
     color: #fff; }
+    .hero-landing .slick-slider {
+      margin-bottom: 0; }
     .hero-landing .slide {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 522px; }
+      height: 522px;
+      position: relative; }
     .hero-landing .slide-1 {
       background-image: url(/assets/images/heroes/hero-landing-real-professionals-bg.jpg); }
     .hero-landing .slide-2 {
@@ -5221,16 +5244,17 @@ aside.right-off-canvas-menu {
     .hero-landing .slide-1 h2,
     .hero-landing .slide-2 h2 {
       color: #fff; }
-    .hero-landing .hero-landing-mobile {
+    .hero-landing-mobile {
       background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       height: 100%;
-      padding-top: 3.125rem; }
-      .hero-landing .hero-landing-mobile h2 {
+      padding: 3.125rem 0;
+      position: relative; }
+      .hero-landing-mobile h2 {
         color: #fff; }
-      .hero-landing .hero-landing-mobile p {
+      .hero-landing-mobile p {
         margin-top: 40px; }
   .hero-about-us {
     background-image: url(/assets/images/heroes/hero-about-us-bg.jpg);
@@ -5445,20 +5469,25 @@ section {
       section.community-safety {
         background-image: none;
         background-color: #00699f; } }
-  section.slider-employee-terminations {
+  section.slider-section {
     background: #f0f1f1;
     margin-bottom: 0;
-    padding: 2em; }
-    section.slider-employee-terminations p {
-      font-weight: 700;
-      font-size: 30px;
-      margin-bottom: 0; }
-      @media only screen and (min-width: 48.063em) and (max-width: 60em) {
-        section.slider-employee-terminations p {
-          font-size: 22px; } }
-      @media only screen and (max-width: 48em) {
-        section.slider-employee-terminations p {
-          font-size: 18px; } }
+    padding: 1em;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 0; }
+    @media only screen and (min-width: 48.063em) and (max-width: 60em) {
+      section.slider-section {
+        font-size: 22px; } }
+    @media only screen and (max-width: 48em) {
+      section.slider-section {
+        font-size: 18px; } }
+    section.slider-section .slide {
+      display: table; }
+    section.slider-section .content {
+      display: table-cell;
+      vertical-align: middle;
+      padding: 0 2em; }
   section.patrol-homeland, section.identity-protection {
     padding: 0; }
     section.patrol-homeland .patrol,

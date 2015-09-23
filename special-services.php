@@ -3,7 +3,9 @@
 	include 'includes/masthead/_masthead.php';
 	include 'includes/heroes/_hero-special-services.php';  
 ?>
-	
+	<div data-magellan-destination="heroTarget"></div>
+		<a name="heroTarget"></a>
+		
 	<section class="employee-safety">
 
 		<div class="row">
@@ -188,7 +190,7 @@
 	<!-- /.handgun-safety-->
 
 
-	<? include 'includes/sliders/_slider-handgun-safety.php'; ?>
+	<? include 'includes/sliders/_slider-child-safety.php'; ?>
 	
 	<section class="community-safety">
 

@@ -84,6 +84,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/hero-scroll-arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 383,
+		"inputAbbreviatedPath": "\/images\/hero-scroll-arrow.png",
+		"outputAbbreviatedPath": "\/images\/hero-scroll-arrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/heroes\/hero-about-us-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

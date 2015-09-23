@@ -3,10 +3,10 @@
 	include 'includes/masthead/_masthead.php';
 	include 'includes/heroes/_hero-residential-security.php';  
 ?>
-	
-	<section class="gated-communities-main">
+	<div data-magellan-destination="heroTarget"></div>
+		<a name="heroTarget"></a>
 		
-<!-- 		<img src="/assets/images/sections/section-gated-communities.jpg"> -->
+	<section class="gated-communities-main">
 
 		<div class="row">
 

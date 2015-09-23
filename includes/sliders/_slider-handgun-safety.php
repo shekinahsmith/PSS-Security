@@ -1,128 +1,151 @@
-<section class="slider-employee-terminations js-slider-employee-terminations">
+<section class="slider-section slider-handgun-safety js-slider-section">
 
-	<div class="slide slide-1 content js-slide-equalHeight">
-          
-      <div class="row">
+	<div class="slide slide-1">
        
-        <div class="column large-8 large-centered text-center js-slide-equalHeight">
+        <div class="content text-center js-slide-equalHeight">
             
-            <p>Inventory all systems, networks, applications, and data that the employee has access to.</p>
+            What is legal and illegal to carry.
 
           </div>
-          <!-- /.column -->
-
-      </div>
-      <!-- /.row -->
+          <!-- /.content -->
 
     </div>
-    <!-- /.content -->
+    <!-- /.slide -->
     
-    <div class="slide slide-2 content">
-          
-      <div class="row">
+    <div class="slide slide-2">
        
-        <div class="column large-8 large-centered text-center js-slide-equalHeight">
+        <div class="content text-center js-slide-equalHeight">
             
-            <p>List all the employee's user and administrative accounts.</p>
+            Where concealed handguns are prohibited.
 
           </div>
-          <!-- /.column -->
-
-      </div>
-      <!-- /.row -->
+          <!-- /.content -->
 
     </div>
-    <!-- /.content -->
+    <!-- /.slide -->
     
     
-    <div class="slide slide-3 content">
-          
-      <div class="row">
+    <div class="slide slide-3">
        
-        <div class="column large-8 large-centered text-center js-slide-equalHeight">
+        <div class="content text-center js-slide-equalHeight">
             
-            <p>Coordinate the termination date and time with the IT-security, building-security, and human-resources departments.</p>
+            Alternatives to using force and/or deadly force.
 
           </div>
-          <!-- /.column -->
-
-      </div>
-      <!-- /.row -->
+          <!-- /.content -->
 
     </div>
-    <!-- /.content -->
+    <!-- /.slide -->
     
 
-    <div class="slide slide-4 content">
-          
-      <div class="row">
+    <div class="slide slide-4">
        
-        <div class="column large-8 large-centered text-center js-slide-equalHeight">
+        <div class="content text-center js-slide-equalHeight">
             
-            <p>At the moment of termination, remove all physical access devices (badges, ID cards, access tokens, keys, and card keys) from the employee's possession.</p>
+           Basic knowledge of the use of force.
 
           </div>
-          <!-- /.column -->
-
-      </div>
-      <!-- /.row -->
+          <!-- /.content -->
 
     </div>
-    <!-- /.content -->
+    <!-- /.slide -->
     
-
-    <div class="slide slide-5 content">
-          
-      <div class="row">
+    <div class="slide slide-5">
        
-        <div class="column large-8 large-centered text-center js-slide-equalHeight">
-            
-            <p>Lock out access to the employee's workstation.</p>
-
+        <div class="content text-center js-slide-equalHeight">
+	        
+          Firearm safety.
+          
           </div>
-          <!-- /.column -->
-
-      </div>
-      <!-- /.row -->
+          <!-- /.content -->
 
     </div>
-    <!-- /.content -->
+    <!-- /.slide -->
     
-
-    <div class="slide slide-6 content">
-          
-      <div class="row">
+    <div class="slide slide-6">
        
-        <div class="column large-8 large-centered text-center js-slide-equalHeight">
+        <div class="content text-center js-slide-equalHeight">
             
-            <p>Cancel and remove all system and network accounts.</p>
+          Weapon storage and locking devices.
 
           </div>
-          <!-- /.column -->
-
-      </div>
-      <!-- /.row -->
+          <!-- /.content -->
 
     </div>
-    <!-- /.content -->
+    <!-- /.slide -->
     
-
-    <div class="slide slide-7 content">
-          
-      <div class="row">
+    <div class="slide slide-7">
        
-        <div class="column large-8 large-centered text-center js-slide-equalHeight">
+        <div class="content text-center js-slide-equalHeight">
             
-            <p>Escort the employee from the premises.</p>
+            Weapon handling and child safety.
 
           </div>
-          <!-- /.column -->
-
-      </div>
-      <!-- /.row -->
+          <!-- /.content -->
 
     </div>
-    <!-- /.content -->  
+    <!-- /.slide -->
+    
+    <div class="slide slide-8">
+       
+        <div class="content text-center js-slide-equalHeight">
+            
+            Range safety.
+
+          </div>
+          <!-- /.content -->
+
+    </div>
+    <!-- /.slide -->
+    
+    <div class="slide slide-9">
+       
+        <div class="content text-center js-slide-equalHeight">
+            
+            Basic marksmanship.
+
+          </div>
+          <!-- /.content -->
+
+    </div>
+    <!-- /.slide -->
+    
+    <div class="slide slide-10">
+       
+        <div class="content text-center js-slide-equalHeight">
+            
+           Handgun use.
+
+          </div>
+          <!-- /.content -->
+
+    </div>
+    <!-- /.slide -->
+    
+    
+    <div class="slide slide-11">
+       
+        <div class="content text-center js-slide-equalHeight">
+            
+            Handgun evaluation.
+
+          </div>
+          <!-- /.content -->
+
+    </div>
+    <!-- /.slide -->
+    
+    <div class="slide slide-12">
+       
+        <div class="content text-center js-slide-equalHeight">
+            
+            Handgun proficiency.
+
+          </div>
+          <!-- /.content -->
+
+    </div>
+    <!-- /.slide -->
 
 </section>
-<!-- /.employee-terminations -->
+<!-- /.handgun-safety -->

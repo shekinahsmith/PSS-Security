@@ -3,7 +3,9 @@
 	include 'includes/masthead/_masthead.php';
 	include 'includes/heroes/_hero-government-security.php';  
 ?>
-	
+	<div data-magellan-destination="heroTarget"></div>
+		<a name="heroTarget"></a>
+		
 	<? 
 		// sections included on multiple pages
 		include 'includes/sections/_section-standing-guards.php'; 
