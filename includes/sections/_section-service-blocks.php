@@ -6,19 +6,19 @@
 
 			<div class="columns small-12 medium-4 large-4">
 
-				<div class="service-button residential-block has-border-radius">Residential</div>
+				<a href="/residential-services.php"><div class="service-button residential-block has-border-radius">Residential</div></a>
 
 			</div>
 
 			<div class="columns small-12 medium-4 large-4">
 
-				<div class="service-button commercial-block has-border-radius">Commercial</div>
+				<a href="/commercial-services.php"><div class="service-button commercial-block has-border-radius">Commercial</div></a>
 
 			</div>
 
 			<div class="columns small-12 medium-4 large-4">
 
-				<div class="service-button industrial-block has-border-radius">Industrial</div>
+				<a href="/industrial-services.php"><div class="service-button industrial-block has-border-radius">Industrial</div></a>
 
 			</div>
 
@@ -29,19 +29,19 @@
 
 			<div class="columns small-12 medium-4 large-4">
 
-				<div class="service-button government-block has-border-radius">Government</div>
+				<a href="/government-services.php"><div class="service-button government-block has-border-radius">Government</div></a>
 
 			</div>
 
 			<div class="columns small-12 medium-4 large-4">
 
-				<div class="service-button healthcare-block has-border-radius">Healthcare</div>
+				<a href="/healthcare-services.php"><div class="service-button healthcare-block has-border-radius">Healthcare</div></a>
 
 			</div>
 
 			<div class="columns small-12 medium-4 large-4">
 
-				<div class="service-button special-services-block has-border-radius">Special Services</div>
+				<a href="/special-services.php"><div class="service-button special-services-block has-border-radius">Special Services</div></a>
 
 			</div>
 

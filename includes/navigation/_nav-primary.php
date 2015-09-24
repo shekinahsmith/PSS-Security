@@ -29,7 +29,7 @@
 			<li><a href="/about-us.php">About Us</a></li>
 			<li><a href="/careers.php">Careers</a></li>
 			<li><a href="/contact.php">Contact</a></li>
-			<li class="client-portal"><a href="#"><span>Client Portal</span></a></li>
+			<li class="client-portal"><a target="_blank" href="http://enforce.adam602.com/account/login.php"><span>Client Portal</span></a></li>
 		</ul>
 	</div>
 

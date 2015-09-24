@@ -1,0 +1,57 @@
+// Residential Services Page
+.page-residential-services {
+	
+	section {
+		
+		// gated communities
+		&.gated-communities-main {
+			background-image: url(/assets/images/sections/section-gated-communities.jpg);
+			background-size: contain;
+			
+			@include mq($small-only) {
+				background-image: none;
+			}
+		}// &.gates-communities-main
+		
+		// gated communities sub
+		&.gated-communities-sub {
+			background-image: url(/assets/images/sections/section-gated-communities-sub.jpg);
+			color: #fff;
+			
+			@include mq($small-only) {
+				background-image: none;
+				background-color: $pss-blue-light;
+			}
+		}// &.gates-communities-main
+		
+		// patrol servies
+		&.patrol-services {
+			background-image: url(/assets/images/sections/section-patrol-industrial-bg.jpg);
+			color: #fff;
+			
+			h2 {
+				color: #fff;
+			}
+			
+			@include mq($small-only) {
+				background-image: none;
+				background-color: $pss-blue-dark;
+			}
+		}
+		
+		&.homeland-security {
+			background-image: url(/assets/images/sections/section-homeland-security.jpg);
+			color: #fff;
+			
+			h2 {
+				color: #fff;
+			}
+			@include mq($small-only) {
+				background-image: none;
+				background-color: $pss-blue-light;
+			}
+		}
+	
+	}// section
+	
+}// .page-residential-services

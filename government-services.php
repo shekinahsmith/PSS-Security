@@ -12,13 +12,13 @@
 		include 'includes/sections/_section-call-out-box.php'; 
 	?>
 	
-	<section class="patrol-homeland clearfix">
+	<section class="patrol-homeland section-off-center-image clearfix">
 
-		<div class="left patrol">
+		<div class="section-left-content left patrol">
 
 			<div class="row">
 
-				<div class="column small-12 medium-12 large-10 large-push-2 small-text-center medium-text-left patrol-content is-red-bg">
+				<div class="column small-12 medium-12 large-10 large-push-2 small-text-center medium-text-left patrol-content content is-red-bg">
 			
 					<h2 class="underline underline-is-white underline-is-left">Patrol Services</h2>
 
@@ -38,13 +38,13 @@
 		</div>
 		<!-- /.patrol -->
 
-		<div class="right homeland">
+		<div class="section-right-content right homeland">
 
 			<div class="row">
 				
 				<img class="hide-for-small"src="/assets/images/pages/page-government-patrol.jpg">
 
-				<div class="column small-12 medium-12 large-10 small-text-center medium-text-left homeland-content is-blue-light-bg">
+				<div class="column small-12 medium-12 large-10 small-text-center medium-text-left homeland-content content is-blue-light-bg">
 			
 					<h2 class="underline underline-is-white underline-is-left">Homeland Security</h2>
 

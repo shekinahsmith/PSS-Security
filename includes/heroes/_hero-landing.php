@@ -42,11 +42,11 @@
 
                   <p>Our goal is to maintain a trained and professional security presence that is customized specifically for your unique needs and situation. We offer armed and unarmed security guard protection.</p>
                   
-                  <p>For more information, call  <strong>704-442-9499</strong></p>
+                  <p>For more information, call <a class="phone-number" href="tel:7044429499"><strong>704-442-9499</strong></a></p>
 
                   <div class="column large-4">
 
-                    <div class="button">Our Services</div>
+                    <a href="/services.php"><div class="button">Our Services</div></a>
 
                   </div>
 
@@ -73,11 +73,11 @@
 
                   <p>Our goal is to maintain a trained and professional security presence that is customized specifically for your unique needs and situation. We offer armed and unarmed security guard protection.</p>
                   
-                  <p>For more information, call  <strong>704-442-9499</strong></p>
+                  <p>For more information, call <a class="phone-number" href="tel:7044429499"><strong>704-442-9499</strong></a></p>
 
                   <div class="column large-6">
 
-                    <div class="button">Our Equipment</div>
+                    <a href="/about-us.php"><div class="button">Our Equipment</div></a>
 
                   </div>
 
@@ -104,11 +104,11 @@
 
           <p>Our goal is to maintain a trained and professional security presence that is customized specifically for your unique needs and situation. We offer armed and unarmed security guard protection.</p>
           
-          <p>For more information, call  <strong>704-442-9499</strong></p>
+          <p>For more information, call  <a class="phone-number" href="tel:7044429499"><strong>704-442-9499</strong></a></p>
 
           <div class="column large-4">
 
-            <div class="button">Our Services</div>
+           <a href="/services.php"><div class="button">Our Services</div></a>
 
           </div>
 

@@ -106,72 +106,29 @@
 	</section>
 	<!-- /.background-checks -->
 
-	<section class="identity-protection clearfix">
+	<section class="identity-theft">
 
-		<div class="left identity">
+		<div class="row">
 
-			<div class="row">
+			<div class="column small-12 medium-6 small-text-center medium-text-left">
 
-				<div class="column small-12 medium-12 large-10 large-push-2 small-text-center medium-text-left identity-content is-blue-bg">
-			
-					<h2 class="underline underline-is-white underline-is-left">Charlotte Identity<br>Theft Courses</h2>
+				<h2 class="underline underline-is-white underline-is-left">Charlotte Identity<br>Theft Course</h2>
 
-					<p>Identity Theft has quickly emerged as a top-level crime concern in every aspect of business and personal lives.  We offer training courses to help people identify when Identity Theft happens and what to do when it does.</p>
+				<p>Identity Theft has quickly emerged as a top-level crime concern in every aspect of business and personal lives.  We offer training courses to help people identify when Identity Theft happens and what to do when it does.</p>
 
-					<p>Our course will help people learn how to assist victims in self-advocacy and how and when to intervene effectively in a victim’s recovery process.</p>
-					
-					<p>Through factual case studies and actual exercises, this interactive training will provide detailed information regarding more than 10 types of identity theft and highlight the special needs a victim may have in each situation.</p>
+				<p>Our course will help people learn how to assist victims in self-advocacy and how and when to intervene effectively in a victim’s recovery process.</p>
 
+				<p>Through factual case studies and actual exercises, this interactive training will provide detailed information regarding more than 10 types of identity theft and highlight the special needs a victim may have in each situation.</p>
 
-				</div>
-				<!-- /.column --> 
 
 			</div>
-			<!-- /.row -->
-			
-			<img class="hide-for-small"src="/assets/images/pages/page-special-personal-protection.jpg">
+			<!-- /.column -->
 
 		</div>
-		<!-- /.identity -->
-
-		<div class="right personal-protection">
-			
-			<img class="hide-for-small"src="/assets/images/pages/page-special-identity-theft.jpg">
-
-			<div class="row">
-
-				<div class="column small-12 medium-12 large-10 small-text-center medium-text-left personal-protection-content  is-blue-light-bg">
-			
-					<h2 class="underline underline-is-white underline-is-left">Personal Protection</h2>
-
-					<p>Investing in personal protection training for you, your family, and your peers is a great opportunity to learn how to recognize a threat and deal with it.</p>
-
-					<p>Our training program goal is to develop the basic knowledge, skills, and attitude essential to the save and efficient use of a handgun for protection of self and family, and to provide information on the law abiding citizens right to self defense.</p>
-
-					<p>Our training program also provides:</p>
-
-					<ul class="text-left">
-						<li>An introduction to defensive shooting</li>
-						<li>Safe gun handling</li>
-						<li>Basic defensive handgun skills</li>
-						<li>Firearms and the law</li>
-						<li>Use of deadly force</li>
-						<li>Selecting the right firearm and ammo</li>
-						<li>Learning to use cover and concealment</li>
-						<li>Non-lethal alternatives</li>
-						<li>Strategies for home safety and responding to a violent confrontation</li>
-						<li>Basic physical and mental self defense.</li>
-					</ul>
-				</div>
-				<!-- / .column --> 
-
-			</div>
-			<!-- /.row -->
-		</div>
-		<!-- /.peronal-protection -->
+		<!-- /.row -->
 
 	</section>
-	<!-- /.idenitity-protection -->
+	<!-- /.idenity-theft -->
 	
 	<section class="child-safety">
 
@@ -187,7 +144,7 @@
 		<!-- /.row -->
 
 	</section>
-	<!-- /.handgun-safety-->
+	<!-- /.child-safety -->
 
 
 	<? include 'includes/sliders/_slider-child-safety.php'; ?>
@@ -220,7 +177,7 @@
 		<!-- /.row -->
 
 	</section>
-	<!-- /.emergency-evacuations -->
+	<!-- /.community-safety -->
 
 
 

@@ -8,6 +8,11 @@
 		
 		.title-area {
 			width: 30%;
+			padding-left: 10px;
+			
+			@include mq($small-only) {
+				padding-left: 0;
+			}
 		}	
 		
 		.name {

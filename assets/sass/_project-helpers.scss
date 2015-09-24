@@ -104,10 +104,12 @@
 	border-radius: 5px;
 }
 
+// hidden elemnt - used for content sections that hidden on page load
 .is-hidden {
 	display: none;
 }
 
+// used to toggle hidden elements via jquery
 .toggle-hidden {
 	font-weight: 700;
 	color: $pss-blue-light;
@@ -146,7 +148,7 @@
 	}// &:after
 }// .has-overlay
 
-
+// adds dark overlay to heroes on mobile for readability
 .has-mobile-overlay-dark {
 
 	// adding overlay only on mobile screens
@@ -173,3 +175,9 @@
 		z-index: 9998;
 	}
 }// .modal-overlay
+
+.contact-margin-top {
+	@include mq($small-only) {
+		margin-top: 53px;
+	}
+}

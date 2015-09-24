@@ -1,0 +1,30 @@
+// industrial services page
+.page-industrial-services {
+	
+	section {
+		// security assessments
+		&.security-assessments {
+			background-image: url(/assets/images/sections/section-security-assessments.jpg);
+			background-size: contain;
+			
+			@include mq($small-only) {
+				background-image: none;
+			}
+		}// &.security-assessments
+		
+		// employee escorts
+		&.employee-escorts {
+			background-image: url(/assets/images/sections/section-employee-escorts.jpg);
+			color: #fff;
+			
+			h2 {
+				color: #fff;
+			}
+			@include mq($small-only) {
+				background-image: none;
+				background-color: $pss-blue-dark;
+			}
+		}
+	}// section
+	
+}// .page-industrial-services

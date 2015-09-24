@@ -86,20 +86,19 @@
 		include 'includes/sections/_section-call-out-box.php'; 
 	?>
 
-	<section class="patrol-homeland clearfix">
+	<section class="patrol-homeland section-off-center-image clearfix">
 
-		<div class="left patrol">
+		<div class="section-left-content left patrol">
 
 			<div class="row">
 
-				<div class="column small-12 medium-12 large-10 large-push-2 small-text-center medium-text-left patrol-content is-blue-bg">
+				<div class="column small-12 medium-12 large-10 large-push-2 small-text-center medium-text-left patrol-content content is-blue-bg">
 			
 					<h2 class="underline underline-is-white underline-is-left">Patrol Services</h2>
 
 					<p>We provide our residential and neighborhood customers with the best possible service and professionally-trained standing security patrol officers.  Our security patrol program includes the following strict program adherences:</p> 
 
-					<p>Written program orders and procedures that are customized to each residence or neighborhood's   unique needs to ensure a safe and structured security program.
-					Coordinated and pre-planned “check-ins” from our uniformed security specialists to our central command headquarters.
+					<p>Written program orders and procedures that are customized to each residence or neighborhood's   unique needs to ensure a safe and structured security program.Coordinated and pre-planned “check-ins” from our uniformed security specialists to our central command headquarters.
 					Two forms of communication methods for each uniformed patrol specialist.</p> 
 					
 				</div>		
@@ -112,13 +111,13 @@
 		</div>
 		<!-- /.patrol -->
 
-		<div class="right homeland">
+		<div class="section-right-content right homeland">
 
 			<div class="row">
 				
 				<img class="hide-for-small"src="/assets/images/pages/page-industrial-patrol.jpg">
 
-				<div class="column small-12 medium-12 large-10 small-text-center medium-text-left homeland-content is-blue-light-bg">
+				<div class="column small-12 medium-12 large-10 small-text-center medium-text-left homeland-content content is-blue-light-bg">
 			
 					<h2 class="underline underline-is-white underline-is-left">Homeland Security</h2>
 

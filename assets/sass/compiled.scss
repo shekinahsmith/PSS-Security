@@ -26,7 +26,7 @@ $serve-to-nomq-max-width: 60em !default;
 @import "vendor/foundation/foundation";
 
 //Mixins, fonts, and base styles
-@import "project-variables";
+@import "project-helpers";
 @import "project-mixins";
 @import "project-fonts";
 @import "project-base";

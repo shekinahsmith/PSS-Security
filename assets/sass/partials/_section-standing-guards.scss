@@ -8,6 +8,7 @@ section.standing-guards {
 	// residential services page 
 	.page-residential-services & {
 		background-image: url(/assets/images/sections/section-standing-guards-residential.jpg);
+		background-size: contain;
 		
 		@include mq($small-only) {
 			background-image: none;
@@ -17,6 +18,7 @@ section.standing-guards {
 	// commerical services page 
 	.page-commercial-services & {
 		background-image: url(/assets/images/sections/section-standing-guards-commerical.jpg);
+		background-size: contain;
 		
 		@include mq($small-only) {
 			background-image: none;
@@ -26,6 +28,7 @@ section.standing-guards {
 	// industrial services page 
 	.page-industrial-services & {
 		background-image: url(/assets/images/sections/section-standing-guards-industrial.jpg);
+		background-size: contain;
 		
 		@include mq($small-only) {
 			background-image: none;
@@ -35,6 +38,7 @@ section.standing-guards {
 	// government services page 
 	.page-government-services & {
 		background-image: url(/assets/images/sections/section-standing-guards-government.jpg);
+		background-size: contain;
 		
 		@include mq($small-only) {
 			background-image: none;
@@ -44,6 +48,7 @@ section.standing-guards {
 	// government services page 
 	.page-healthcare-services & {
 		background-image: url(/assets/images/sections/section-standing-guards-healthcare.jpg);
+		background-size: contain;
 		
 		@include mq($small-only) {
 			background-image: none;

@@ -3,6 +3,7 @@ section {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	
 
 	h2 {
 		color: $pss-grey;
@@ -14,7 +15,8 @@ section {
 	//PAGE - Home (these sections are repeated on other pages)
 	// who are we
 	&.who-are-we {
-		background-image: url(/assets/images/sections/section-who-we-are-bg.jpg);
+		background-image: url(/assets/images/sections/section-standing-guards-government.jpg);
+		background-size: contain;
 		
 		@include mq($small-only) {
 			background-image: none;
@@ -53,224 +55,7 @@ section {
 		}// input, textarea
 
 	}// &.contact
-
-	// PAGE - About Us
-	// personnel
-	&.personnel {
-		
-		// team list
-		.team-list {
-			background: #fff;
-			border-radius: 8px;
-			
-			@include mq($small-only) {
-				margin-top: rem-calc(30px);
-			}
-
-			&_header {
-				background-color: $pss-red;
-				border-radius: 8px 8px 0 0;
-				color: #fff;
-				margin-bottom: 20px;
-				padding: 10px 0;
-			}// .team-list_header
-			
-			// team list positions
-			&_positions {
-				color: $pss-grey;
-				font-weight: 100;
-
-				ul {
-					padding: 0 20px 20px;
-					font-size: rem-calc(14);
-
-					li {
-						padding: 0.45em 0;
-					}
-				}// ul
-
-			}// .team-list_positions
-
-		}// .team-list
-
-	}// &.personnel
 	
-	// specialized training
-	&.specialized-training {
-		
-		// adding margin after first paragraph
-		h2 + p {
-			margin-bottom: rem-calc(60);
-		}
-		
-		// underline 
-		.underline-is-centered {
-			
-			&:after {
-				bottom: -2em;
-			}
-		}
-		
-		.carousel-training {
-			//width: 270px;
-			//margin: 0 auto;
-			
-			@include mq($small-only) {
-				//width: 250px;
-			}
-		}
-	}// &.specialized-training
-	
-	// END - about us page
-	
-	// PAGE - Careers
-	&.careers {
-		
-		.career-requirements {
-			counter-reset: item;
-			font-weight: 100;
-			
-			li {
-				margin-bottom: 10px;
-			}
-			// sub list
-			&_sub-list {
-				li {
-					list-style-type: none;
-					
-					// creating alpha counter
-					&:before {
-						content: counter(item, lower-alpha)".";
-						counter-increment: item;
-						margin-right: 10px;
-					}
-				}// li
-
-			}// .career-requirements_sub-list
-
-		}// .career-requirements
-
-	}// .careers
-	
-	// END - careers page
-	
-	// @PAGE - RESIDENTIAL
-	
-	// gated communities
-	&.gated-communities-main {
-		background-image: url(/assets/images/sections/section-gated-communities.jpg);
-		background-size: contain;
-		
-		@include mq($small-only) {
-			background-image: none;
-		}
-	}// &.gates-communities-main
-	
-	// gated communities sub
-	&.gated-communities-sub {
-		background-image: url(/assets/images/sections/section-gated-communities-sub.jpg);
-		color: #fff;
-		
-		@include mq($small-only) {
-			background-image: none;
-			background-color: $pss-blue-light;
-		}
-	}// &.gates-communities-main
-	
-	&.homeland-security {
-		background-image: url(/assets/images/sections/section-homeland-security.jpg);
-		color: #fff;
-		
-		h2 {
-			color: #fff;
-		}
-		@include mq($small-only) {
-			background-image: none;
-			background-color: $pss-blue-light;
-		}
-	}
-	
-	// END - residential page
-	
-	// @PAGE - Industrial Security
-	
-	// security assessments
-	&.security-assessments {
-		background-image: url(/assets/images/sections/section-security-assessments.jpg);
-		background-size: contain;
-		
-		@include mq($small-only) {
-			background-image: none;
-		}
-	}// &.security-assessments
-	
-	// employee escorts
-	&.employee-escorts {
-		background-image: url(/assets/images/sections/section-employee-escorts.jpg);
-		color: #fff;
-		
-		h2 {
-			color: #fff;
-		}
-		@include mq($small-only) {
-			background-image: none;
-			background-color: $pss-blue-dark;
-		}
-	}
-	
-	// END Industrial Security
-	
-	
-	// @PAGE - Special Services
-	
-	// employee safety
-	&.employee-safety {
-		background-image: url(/assets/images/sections/section-employee-safety.jpg);
-		background-size: contain;
-		
-		@include mq($small-only) {
-			background-image: none;
-		}
-	}
-	
-	// employee escorts
-	&.emergency-evacuations {
-		background-image: url(/assets/images/sections/section-emergency-evacuations.jpg);
-		color: #fff;
-		
-		h2 {
-			color: #fff;
-		}
-		@include mq($small-only) {
-			background-image: none;
-			background-color: $pss-blue-dark;
-		}
-	}
-	
-	&.background-checks {
-		background-image: url(/assets/images/sections/section-background-checks.jpg);
-		background-size: contain;
-		
-		@include mq($small-only) {
-			background-image: none;
-		}
-	}
-	
-	//community safety
-	&.community-safety {
-		background-image: url(/assets/images/sections/section-community-safety.jpg);
-		color: #fff;
-		
-		h2 {
-			color: #fff;
-		}
-		@include mq($small-only) {
-			background-image: none;
-			background-color: $pss-blue-dark;
-		}
-	}
-	
-	// END SECTIONS
 	
 	// SECTION - Sliders
 	// slider employee terminations
@@ -293,6 +78,14 @@ section {
 		.slide {
 			display: table;
 		}
+		
+		.slick-prev, 
+		.slick-next {
+		    width: 21px;
+		    height: 39px;
+		    margin-top: -20px;
+		    z-index: 50;
+		}
 
 		.content {
 			display: table-cell;
@@ -300,42 +93,26 @@ section {
 			padding: 0 2em;
 		}
 		
-	}// &.slider-employee-terminations
+	}// &.slider-section
 	
 
-	// Patrol/Homeland and Identity/Personal Protection
-	//patrol-homeland & identity- personal protection
-	&.patrol-homeland,
-	&.identity-protection {
+	// section off center image - sections where images and content sections don't perfectly align
+	&.section-off-center-image {
 		padding: 0;
 		
-		// patrol, homeland
-		.patrol,
-		.homeland,
-		.identity,
-		.personal-protection {
+		// section left content, section right content
+		.section-left-content,
+		.section-right-content {
 			width: 50%;
 			
 			@include mq($small-only) {
 				width: 100%;
 			}
-			
-			.patrol-content,
-			.homeland-content {
-				height: rem-calc(527px);
-			}
-			
-			.identity-content,
-			.personal-protection-content {
-				height: rem-calc(720px);
-			}
-			
-			// patrol and homeland content
-			.patrol-content,
-			.homeland-content,
-			.identity-content,
-			.personal-protection-content {
+						
+			// content
+			.content {
 				padding: 2em 1em;
+				height: rem-calc(527px);
 				
 				// extending background 
 				&:after {
@@ -349,11 +126,11 @@ section {
 				@include mq($small-only) {
 					height: auto;
 				}
-			}// .patrol-content, .homeland-content
+			}// .content
 			
-			// patrol content 
+			// patrol content, escort content
 			.patrol-content,
-			.identity-content {
+			.escort-content {
 				
 				&.is-blue-bg {
 					&:after {
@@ -371,9 +148,9 @@ section {
 				
 			}// .patrol-content
 			
-			// homeland contentd
+			// homeland content, concierge content
 			.homeland-content,
-			.personal-protection-content {
+			.concierge-content {
 				
 				&:after {
 					background-color: $pss-blue-light;
@@ -383,13 +160,12 @@ section {
 			
 		}// .patrol, .homeland
 		
-		.patrol,
-		.identity {
+		.section-left-content {
 			img {
 				float: right;
 			}
 		}
-	}// .patrol, .homeland
+	}// .section-off-center-image
 	
 	// SERVICE BLOCKS
 	&.service-blocks {
@@ -423,7 +199,7 @@ section {
 			
 			// residential block
 			&.residential-block {
-				background-image: url(/assets/images/service-blocks/service-block-residential.png);
+				background-image: url(/assets/images/service-blocks/service-block-residential.jpg);
 				background-position: center -1000px;
 				background-repeat: no-repeat;
 				background-size: cover;
@@ -441,7 +217,7 @@ section {
 			
 			// commercial block
 			&.commercial-block {
-				background-image: url(/assets/images/service-blocks/service-block-commercial.png);
+				background-image: url(/assets/images/service-blocks/service-block-commercial.jpg);
 				background-position: center -1000px;
 				background-repeat: no-repeat;
 				background-size: cover;
@@ -459,7 +235,7 @@ section {
 			
 			// industrial block
 			&.industrial-block {
-				background-image: url(/assets/images/service-blocks/service-block-industrial.png);
+				background-image: url(/assets/images/service-blocks/service-block-industrial.jpg);
 				background-position: center -1000px;
 				background-repeat: no-repeat;
 				background-size: cover;
@@ -477,7 +253,7 @@ section {
 			
 			// goverment block
 			&.government-block {
-				background-image: url(/assets/images/service-blocks/service-block-government.png);
+				background-image: url(/assets/images/service-blocks/service-block-government.jpg);
 				background-position: center -1000px;
 				background-repeat: no-repeat;
 				background-size: cover;
@@ -495,7 +271,7 @@ section {
 			
 			// healthcare block
 			&.healthcare-block {
-				background-image: url(/assets/images/service-blocks/service-block-healthcare.png);
+				background-image: url(/assets/images/service-blocks/service-block-healthcare.jpg);
 				background-position: center -1000px;
 				background-repeat: no-repeat;
 				background-size: cover;
@@ -513,7 +289,7 @@ section {
 			
 			// special services block
 			&.special-services-block {
-				background-image: url(/assets/images/service-blocks/service-block-special-services.png);
+				background-image: url(/assets/images/service-blocks/service-block-special-services.jpg);
 				background-position: center -1000px;
 				background-repeat: no-repeat;
 				background-size: cover;

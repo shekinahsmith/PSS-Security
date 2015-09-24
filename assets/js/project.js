@@ -1,7 +1,7 @@
-// @codekit-prepend "modernizr.js";
-// @codekit-prepend "jquery-1.11.3.min.js";
-// @codekit-prepend "jquery.equalheights.min.js";
-// @codekit-prepend "fastclick.js";
+// @codekit-prepend "/plugins/modernizr.js";
+// @codekit-prepend "/plugins/jquery-1.11.3.min.js";
+// @codekit-prepend "/plugins/jquery.equalheights.min.js";
+// @codekit-prepend "/plugins/fastclick.js";
 
 // @codekit-prepend "foundation/foundation.js";
 // @codekit-prepend "foundation/foundation.dropdown.js";
@@ -35,27 +35,19 @@ function modalShowClose() {
 }
 
 $(document).on('ready', function() {
-
-
-/*
-	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-		$('body').removeClass('f-topbar-fixed');
-	}
-	else {
-		$('body').addClass('f-topbar-fixed');
-	}
-*/
 	   
 	// hero landing slider 
 	$('.js-hero-slider').slick({
+		arrows: false,
 		autoplay: true,
-		autoplaySpeed: 2000,
+		autoplaySpeed: 2500,
 		dots: true,
-		fade: true
+		vertical: true
 	});
 	
 	// training slider
 	$('.js-carousel-training').slick({
+		arrows: false,
 		dots: true,
 		infinite: false,
 		speed: 300,
@@ -85,58 +77,42 @@ $(document).on('ready', function() {
 		    slidesToScroll: 1
 		  }
 		}
-		// You can unslick at a given breakpoint now by adding:
-		// settings: "unslick"
-		// instead of a settings object
 		]
 	});
 	
-	// employee termination slider
-	$('.js-slider-section').slick();
+	// content sliders
+	$('.js-slider-section').slick({
+		prevArrow:"<img class='a-left control-c prev slick-prev' src='/assets/images/slider-arrow-left.png'>",
+		nextArrow:"<img class='a-right control-c next slick-next' src='/assets/images/slider-arrow-right.png'>"
+	});
 	$('.js-slide-equalHeight').equalHeights();
 	
-	// contact form validation
+	// contact form validation and sending
 	$("#formContact").validate({
 		
 		// converting error message to placeholder to style with red background
 		errorPlacement: function (error, element) {
 		    element.attr("placeholder", error[0].outerText);
-		}
-	});
-	
-	// sending contact form data 
-	$(".contact-form").submit(function(event) {
+		},
 		
-        /* stop form from submitting normally */
-        event.preventDefault();
-
-        /* get some values from elements on the page: */
-        var $form = $( this ),
-			$submit = $form.find( 'button[type="submit"]' ),
-			name_value = $form.find( 'input[name="firstLastName"]' ).val(),
-			email_value = $form.find( 'input[name="email"]' ).val(),
-			message_value = $form.find( 'textarea[name="message"]' ).val(),
-			url = $form.attr('action');
-
-        /* Send the data using post */
-        var posting = $.post( url, { 
-		   name: name_value, 
-		   email: email_value, 
-		   message: message_value 
-		});
-
-		posting.done(function( data ) {
-			
-			/* Put the results in a div */
-			$( ".contactResponse" ).html('Your message has been sent. We will contact you soon.');
-			
-			/* Change the button text. */
-			$submit.text('Sent, Thank you');
-			
-			/* Disable the button. */
-			$submit.attr("disabled", true);
-		});
-    });
+		submitHandler: function(form) {
+	        $.ajax({
+	            url: 'contact-form-post2.php',
+	            type: 'POST',
+	            data: $('#formContact').serialize(),
+	            success: function(response) {
+		            
+		            var submit = $('#formContact').find( 'button[type="submit"]' );
+		            
+					$( ".contactResponse" ).html('Your message has been sent. We will contact you soon.');
+		
+					submit.text('Sent, Thank you');
+					
+					submit.attr("disabled", true); 
+	            }            
+	        });
+	    }
+	});
 
 	// modal show and close
 	modalShowClose();

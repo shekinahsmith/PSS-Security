@@ -13,14 +13,16 @@
 	<!--[if IE]>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 	<![endif]-->
-	<link rel="icon" href="/assets/images/favicon.png">
+	<link rel="icon" href="/assets/images/favicon.ico">
 
 	<? 
 		// adding body class based on page script name - replacing file extension and dashes as well
 		$pageClass = str_replace( array('.php', '_'), array('', '-'), basename($_SERVER['SCRIPT_NAME']) );
+		$pageTitle = str_replace( array('.php', '-'), array('', ' '), basename($_SERVER['SCRIPT_NAME']) );
+		$pageTitle = ucwords($pageTitle);
 
 	?>
-	<title><? echo $pageTitle ?></title>
+	<title><?= 'PSS Security | '. $pageTitle ?></title>
 
 	<!-- META -->
 

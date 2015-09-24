@@ -18,7 +18,7 @@
 				<? include 'includes/sections/_section-who-we-are.php'; ?>
 
 				<div class="column small-12 medium-8 large-6">
-					<div class="button">Learn More</div>
+					<a href="/about-us.php"><div class="button">Learn More</div></a>
 				</div>
 			</div>
 
@@ -38,7 +38,7 @@
 				<? include 'includes/sections/_section-our-goal.php'; ?>
 
 				<div class="column small-12 medium-8 large-6">
-					<div class="button">Learn More</div>
+					<a href="/about-us.php"><div class="button">Learn More</div></a>
 				</div>
 			</div>
 

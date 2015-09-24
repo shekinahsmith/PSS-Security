@@ -1,6 +1,13 @@
-<div class="contactResponse"></div>
-
 <form class="column small-12 medium-6 large-6 contact-form" id="formContact" action="contact-form-post2.php" method="post">
+	
+	<div class="row">
+	
+		<div class="column large-12">
+	
+			<div class="contactResponse"></div>
+			
+		</div>
+	</div>
 	
 	<div class="row">
 

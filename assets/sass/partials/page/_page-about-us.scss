@@ -1,0 +1,81 @@
+// About us
+.page-about-us {
+	
+	section {
+	
+		&.personnel {
+			
+			// team list
+			.team-list {
+				background: #fff;
+				border-radius: 8px;
+				
+				@include mq($small-only) {
+					margin-top: rem-calc(30px);
+				}
+	
+				&_header {
+					background-color: $pss-red;
+					border-radius: 8px 8px 0 0;
+					color: #fff;
+					margin-bottom: 20px;
+					padding: 10px 0;
+				}// .team-list_header
+				
+				// team list positions
+				&_positions {
+					color: $pss-grey;
+					font-weight: 100;
+	
+					ul {
+						padding: 0 20px 20px;
+						font-size: rem-calc(14);
+	
+						li {
+							padding: 0.45em 0;
+						}
+					}// ul
+	
+				}// .team-list_positions
+	
+			}// .team-list
+	
+		}// &.personnel
+		
+		// specialized training
+		&.specialized-training {
+			
+			// adding margin after first paragraph
+			h2 + p {
+				margin-bottom: rem-calc(60);
+			}
+			
+			// underline 
+			.underline-is-centered {
+				
+				&:after {
+					bottom: -2em;
+				}
+			}
+			
+			// training carousel
+			.carousel-training {
+				// adding css to help slick slider elements show as intended
+				.slick-slide {
+					
+					img {
+						@include mq($small-only) {
+							margin: 0 auto;
+						}
+					}
+				}
+				.slick-dots {
+					margin-left: 0;
+					margin-bottom: 0;
+					bottom: -35px !important;
+				}
+			}// .carousel-training
+			
+		}// &.specialized-training
+	}// section
+}// .about-us

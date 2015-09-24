@@ -45,6 +45,26 @@
 		include 'includes/sections/_section-standing-guards.php'; 
 		include 'includes/sections/_section-call-out-box.php'; 
 	?>
+	
+	<section class="patrol-services">
+
+		<div class="row">
+
+			<div class="column small-12 medium-6 small-text-center medium-text-left">
+				
+				<h2 class="underline underline-is-white underline-is-left small-text-center medium-text-left">Patrol Services</h2>
+
+				<p>We provide our residential and neighborhood customers with the best possible service and professionally-trained standing security patrol officers.  Our security patrol program includes the following strict program adherences:</p>
+
+					<p>Written program orders and procedures that are customized to each residence or neighborhood's   unique needs to ensure a safe and structured security program. Coordinated and pre-planned “check-ins” from our uniformed security specialists to our central command headquarters.
+Two forms of communication methods for each uniformed patrol specialist.</p>
+			</div>
+
+		</div>
+		<!-- /.row -->
+
+	</section>
+	<!-- /.gated-communities-sub -->
 
 	<section class="homeland-security">
 

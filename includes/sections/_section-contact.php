@@ -1,4 +1,14 @@
-	<section class="contact">
+<? 
+	if($_SERVER['SCRIPT_NAME'] == '/contact.php') {
+		
+		$contactMargin = 'contact-margin-top';
+	}
+	else {
+		$contactMargin = '';
+	}
+?>
+
+	<section class="contact <?= $contactMargin; ?>">
 
 		<div class="row large-collapse">
 

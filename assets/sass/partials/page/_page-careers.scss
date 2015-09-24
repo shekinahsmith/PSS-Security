@@ -1,0 +1,34 @@
+// Careers Page
+.page-careers {
+	
+	section {
+		&.careers {
+		
+			.career-requirements {
+				counter-reset: item;
+				font-weight: 100;
+				
+				li {
+					margin-bottom: 10px;
+				}
+				// sub list
+				&_sub-list {
+					li {
+						list-style-type: none;
+						
+						// creating alpha counter
+						&:before {
+							content: counter(item, lower-alpha)".";
+							counter-increment: item;
+							margin-right: 10px;
+						}
+					}// li
+	
+				}// .career-requirements_sub-list
+	
+			}// .career-requirements
+	
+		}// .careers
+	}// section
+	
+}// .page-careers

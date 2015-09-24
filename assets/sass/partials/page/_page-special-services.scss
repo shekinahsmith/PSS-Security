@@ -1,0 +1,67 @@
+// special services page
+.page-special-services {
+	
+	section {
+		// employee safety
+		&.employee-safety {
+			background-image: url(/assets/images/sections/section-employee-safety.jpg);
+			background-size: contain;
+			
+			@include mq($small-only) {
+				background-image: none;
+			}
+		}
+		
+		// employee escorts
+		&.emergency-evacuations {
+			background-image: url(/assets/images/sections/section-emergency-evacuations.jpg);
+			color: #fff;
+			
+			h2 {
+				color: #fff;
+			}
+			@include mq($small-only) {
+				background-image: none;
+				background-color: $pss-blue-dark;
+			}
+		}
+		
+		&.background-checks {
+			background-image: url(/assets/images/sections/section-background-checks.jpg);
+			background-size: contain;
+			
+			@include mq($small-only) {
+				background-image: none;
+			}
+		}
+		
+		&.identity-theft {
+			background-image: url(/assets/images/sections/section-identity-theft-bg.jpg);
+			color: #fff;
+			
+			h2 {
+				color: #fff;
+			}
+			@include mq($small-only) {
+				background-image: none;
+				background-color: $pss-blue-dark;
+			}
+		}
+		
+		//community safety
+		&.community-safety {
+			background-image: url(/assets/images/sections/section-community-safety.jpg);
+			color: #fff;
+			
+			h2 {
+				color: #fff;
+			}
+			@include mq($small-only) {
+				background-image: none;
+				background-color: $pss-blue-dark;
+			}
+		}
+		
+	}// section
+	
+}// .page-special-services

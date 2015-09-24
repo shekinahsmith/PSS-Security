@@ -44,6 +44,11 @@ a {
 	}
 }
 
+a[href^=tel] { 
+	color: inherit; 
+	text-decoration: none; 
+}
+
 button,
 .button {
 	width: 100%;
@@ -65,20 +70,6 @@ body.f-topbar-fixed {
 	}
 }
 
-// adding css to help slick slider elements show as intended
-.slick-slide {
-	
-	img {
-		@include mq($small-only) {
-			margin: 0 auto;
-		}
-	}
-}
-.slick-dots {
-	margin-left: 0;
-	margin-bottom: 0;
-	bottom: -35px !important;
-}
 
 .slick-arrow {
 	z-index: 99;

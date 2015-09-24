@@ -4791,6 +4791,10 @@ th.hide-for-touch {
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 9998; }
 
+@media only screen and (max-width: 48em) {
+  .contact-margin-top {
+    margin-top: 53px; } }
+
 .has-margin-top-10 {
   margin-top: 10px; }
 
@@ -5115,6 +5119,10 @@ a {
   a:hover {
     color: #008fd2; }
 
+a[href^=tel] {
+  color: inherit;
+  text-decoration: none; }
+
 button,
 .button {
   width: 100%; }
@@ -5126,15 +5134,6 @@ button,
 @media only screen and (max-width: 48em) {
   body.f-topbar-fixed {
     padding-top: 0; } }
-
-@media only screen and (max-width: 48em) {
-  .slick-slide img {
-    margin: 0 auto; } }
-
-.slick-dots {
-  margin-left: 0;
-  margin-bottom: 0;
-  bottom: -35px !important; }
 
 .slick-arrow {
   z-index: 99; }
@@ -5156,7 +5155,11 @@ footer {
   .nav.primary-nav {
     margin-top: 10px; }
     .nav.primary-nav .title-area {
-      width: 30%; }
+      width: 30%;
+      padding-left: 10px; }
+      @media only screen and (max-width: 48em) {
+        .nav.primary-nav .title-area {
+          padding-left: 0; } }
     .nav.primary-nav .name a {
       line-height: 112px; }
     .nav.primary-nav .top-bar-section .dropdown {
@@ -5206,8 +5209,17 @@ aside.right-off-canvas-menu {
   .hero .content {
     padding: 4em 0;
     z-index: 10; }
+    @media only screen and (max-width: 48em) {
+      .hero .content {
+        padding: 1rem 0 2rem; } }
+    @media only screen and (max-width: 48em) {
+      .hero .content h1 {
+        font-size: 1.5rem; } }
     .hero .content p {
       margin-top: 30px; }
+  @media only screen and (max-width: 48em) {
+    .hero .phone-number {
+      display: block; } }
   .hero-scroll-button {
     background: #fff;
     height: 45px;
@@ -5216,7 +5228,7 @@ aside.right-off-canvas-menu {
     -moz-border-radius: 90px 90px 0 0;
     -webkit-border-radius: 90px 90px 0 0;
     position: absolute;
-    bottom: 0;
+    bottom: -2px;
     left: 50%;
     margin-left: -45px;
     min-width: 90px; }
@@ -5228,11 +5240,24 @@ aside.right-off-canvas-menu {
     color: #fff; }
     .hero-landing .slick-slider {
       margin-bottom: 0; }
+    .hero-landing .slick-vertical .slick-slide {
+      height: 522px; }
+    .hero-landing .slick-dots {
+      bottom: auto;
+      right: 100px;
+      width: 20px;
+      margin: -30px 0 0;
+      top: 50%; }
+      .hero-landing .slick-dots li {
+        display: block; }
+        .hero-landing .slick-dots li button:before {
+          font-size: 10px; }
+        .hero-landing .slick-dots li.slick-active button:before {
+          color: #e97668; }
     .hero-landing .slide {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 522px;
       position: relative; }
     .hero-landing .slide-1 {
       background-image: url(/assets/images/heroes/hero-landing-real-professionals-bg.jpg); }
@@ -5250,12 +5275,12 @@ aside.right-off-canvas-menu {
       background-repeat: no-repeat;
       background-size: cover;
       height: 100%;
-      padding: 3.125rem 0;
+      padding: 1rem 0 2rem 0;
       position: relative; }
       .hero-landing-mobile h2 {
         color: #fff; }
       .hero-landing-mobile p {
-        margin-top: 40px; }
+        margin-top: 20px; }
   .hero-about-us {
     background-image: url(/assets/images/heroes/hero-about-us-bg.jpg);
     color: #fff; }
@@ -5336,7 +5361,8 @@ section {
     color: #414950;
     margin: 0.3em 0 1em; }
   section.who-are-we {
-    background-image: url(/assets/images/sections/section-who-we-are-bg.jpg); }
+    background-image: url(/assets/images/sections/section-standing-guards-government.jpg);
+    background-size: contain; }
     @media only screen and (max-width: 48em) {
       section.who-are-we {
         background-image: none; } }
@@ -5367,108 +5393,6 @@ section {
       section.contact input:-ms-input-placeholder,
       section.contact textarea:-ms-input-placeholder {
         color: #414950; }
-  section.personnel .team-list {
-    background: #fff;
-    border-radius: 8px; }
-    @media only screen and (max-width: 48em) {
-      section.personnel .team-list {
-        margin-top: 1.875rem; } }
-    section.personnel .team-list_header {
-      background-color: #e97668;
-      border-radius: 8px 8px 0 0;
-      color: #fff;
-      margin-bottom: 20px;
-      padding: 10px 0; }
-    section.personnel .team-list_positions {
-      color: #414950;
-      font-weight: 100; }
-      section.personnel .team-list_positions ul {
-        padding: 0 20px 20px;
-        font-size: 0.875rem; }
-        section.personnel .team-list_positions ul li {
-          padding: 0.45em 0; }
-  section.specialized-training h2 + p {
-    margin-bottom: 3.75rem; }
-  section.specialized-training .underline-is-centered:after {
-    bottom: -2em; }
-  section.careers .career-requirements {
-    counter-reset: item;
-    font-weight: 100; }
-    section.careers .career-requirements li {
-      margin-bottom: 10px; }
-    section.careers .career-requirements_sub-list li {
-      list-style-type: none; }
-      section.careers .career-requirements_sub-list li:before {
-        content: counter(item,lower-alpha) ".";
-        counter-increment: item;
-        margin-right: 10px; }
-  section.gated-communities-main {
-    background-image: url(/assets/images/sections/section-gated-communities.jpg);
-    background-size: contain; }
-    @media only screen and (max-width: 48em) {
-      section.gated-communities-main {
-        background-image: none; } }
-  section.gated-communities-sub {
-    background-image: url(/assets/images/sections/section-gated-communities-sub.jpg);
-    color: #fff; }
-    @media only screen and (max-width: 48em) {
-      section.gated-communities-sub {
-        background-image: none;
-        background-color: #008fd2; } }
-  section.homeland-security {
-    background-image: url(/assets/images/sections/section-homeland-security.jpg);
-    color: #fff; }
-    section.homeland-security h2 {
-      color: #fff; }
-    @media only screen and (max-width: 48em) {
-      section.homeland-security {
-        background-image: none;
-        background-color: #008fd2; } }
-  section.security-assessments {
-    background-image: url(/assets/images/sections/section-security-assessments.jpg);
-    background-size: contain; }
-    @media only screen and (max-width: 48em) {
-      section.security-assessments {
-        background-image: none; } }
-  section.employee-escorts {
-    background-image: url(/assets/images/sections/section-employee-escorts.jpg);
-    color: #fff; }
-    section.employee-escorts h2 {
-      color: #fff; }
-    @media only screen and (max-width: 48em) {
-      section.employee-escorts {
-        background-image: none;
-        background-color: #00699f; } }
-  section.employee-safety {
-    background-image: url(/assets/images/sections/section-employee-safety.jpg);
-    background-size: contain; }
-    @media only screen and (max-width: 48em) {
-      section.employee-safety {
-        background-image: none; } }
-  section.emergency-evacuations {
-    background-image: url(/assets/images/sections/section-emergency-evacuations.jpg);
-    color: #fff; }
-    section.emergency-evacuations h2 {
-      color: #fff; }
-    @media only screen and (max-width: 48em) {
-      section.emergency-evacuations {
-        background-image: none;
-        background-color: #00699f; } }
-  section.background-checks {
-    background-image: url(/assets/images/sections/section-background-checks.jpg);
-    background-size: contain; }
-    @media only screen and (max-width: 48em) {
-      section.background-checks {
-        background-image: none; } }
-  section.community-safety {
-    background-image: url(/assets/images/sections/section-community-safety.jpg);
-    color: #fff; }
-    section.community-safety h2 {
-      color: #fff; }
-    @media only screen and (max-width: 48em) {
-      section.community-safety {
-        background-image: none;
-        background-color: #00699f; } }
   section.slider-section {
     background: #f0f1f1;
     margin-bottom: 0;
@@ -5484,216 +5408,59 @@ section {
         font-size: 18px; } }
     section.slider-section .slide {
       display: table; }
+    section.slider-section .slick-prev,
+    section.slider-section .slick-next {
+      width: 21px;
+      height: 39px;
+      margin-top: -20px;
+      z-index: 50; }
     section.slider-section .content {
       display: table-cell;
       vertical-align: middle;
       padding: 0 2em; }
-  section.patrol-homeland, section.identity-protection {
+  section.section-off-center-image {
     padding: 0; }
-    section.patrol-homeland .patrol,
-    section.patrol-homeland .homeland,
-    section.patrol-homeland .identity,
-    section.patrol-homeland .personal-protection, section.identity-protection .patrol,
-    section.identity-protection .homeland,
-    section.identity-protection .identity,
-    section.identity-protection .personal-protection {
+    section.section-off-center-image .section-left-content,
+    section.section-off-center-image .section-right-content {
       width: 50%; }
       @media only screen and (max-width: 48em) {
-        section.patrol-homeland .patrol,
-        section.patrol-homeland .homeland,
-        section.patrol-homeland .identity,
-        section.patrol-homeland .personal-protection, section.identity-protection .patrol,
-        section.identity-protection .homeland,
-        section.identity-protection .identity,
-        section.identity-protection .personal-protection {
+        section.section-off-center-image .section-left-content,
+        section.section-off-center-image .section-right-content {
           width: 100%; } }
-      section.patrol-homeland .patrol .patrol-content,
-      section.patrol-homeland .patrol .homeland-content,
-      section.patrol-homeland .homeland .patrol-content,
-      section.patrol-homeland .homeland .homeland-content,
-      section.patrol-homeland .identity .patrol-content,
-      section.patrol-homeland .identity .homeland-content,
-      section.patrol-homeland .personal-protection .patrol-content,
-      section.patrol-homeland .personal-protection .homeland-content, section.identity-protection .patrol .patrol-content,
-      section.identity-protection .patrol .homeland-content,
-      section.identity-protection .homeland .patrol-content,
-      section.identity-protection .homeland .homeland-content,
-      section.identity-protection .identity .patrol-content,
-      section.identity-protection .identity .homeland-content,
-      section.identity-protection .personal-protection .patrol-content,
-      section.identity-protection .personal-protection .homeland-content {
+      section.section-off-center-image .section-left-content .content,
+      section.section-off-center-image .section-right-content .content {
+        padding: 2em 1em;
         height: 32.9375rem; }
-      section.patrol-homeland .patrol .identity-content,
-      section.patrol-homeland .patrol .personal-protection-content,
-      section.patrol-homeland .homeland .identity-content,
-      section.patrol-homeland .homeland .personal-protection-content,
-      section.patrol-homeland .identity .identity-content,
-      section.patrol-homeland .identity .personal-protection-content,
-      section.patrol-homeland .personal-protection .identity-content,
-      section.patrol-homeland .personal-protection .personal-protection-content, section.identity-protection .patrol .identity-content,
-      section.identity-protection .patrol .personal-protection-content,
-      section.identity-protection .homeland .identity-content,
-      section.identity-protection .homeland .personal-protection-content,
-      section.identity-protection .identity .identity-content,
-      section.identity-protection .identity .personal-protection-content,
-      section.identity-protection .personal-protection .identity-content,
-      section.identity-protection .personal-protection .personal-protection-content {
-        height: 45rem; }
-      section.patrol-homeland .patrol .patrol-content,
-      section.patrol-homeland .patrol .homeland-content,
-      section.patrol-homeland .patrol .identity-content,
-      section.patrol-homeland .patrol .personal-protection-content,
-      section.patrol-homeland .homeland .patrol-content,
-      section.patrol-homeland .homeland .homeland-content,
-      section.patrol-homeland .homeland .identity-content,
-      section.patrol-homeland .homeland .personal-protection-content,
-      section.patrol-homeland .identity .patrol-content,
-      section.patrol-homeland .identity .homeland-content,
-      section.patrol-homeland .identity .identity-content,
-      section.patrol-homeland .identity .personal-protection-content,
-      section.patrol-homeland .personal-protection .patrol-content,
-      section.patrol-homeland .personal-protection .homeland-content,
-      section.patrol-homeland .personal-protection .identity-content,
-      section.patrol-homeland .personal-protection .personal-protection-content, section.identity-protection .patrol .patrol-content,
-      section.identity-protection .patrol .homeland-content,
-      section.identity-protection .patrol .identity-content,
-      section.identity-protection .patrol .personal-protection-content,
-      section.identity-protection .homeland .patrol-content,
-      section.identity-protection .homeland .homeland-content,
-      section.identity-protection .homeland .identity-content,
-      section.identity-protection .homeland .personal-protection-content,
-      section.identity-protection .identity .patrol-content,
-      section.identity-protection .identity .homeland-content,
-      section.identity-protection .identity .identity-content,
-      section.identity-protection .identity .personal-protection-content,
-      section.identity-protection .personal-protection .patrol-content,
-      section.identity-protection .personal-protection .homeland-content,
-      section.identity-protection .personal-protection .identity-content,
-      section.identity-protection .personal-protection .personal-protection-content {
-        padding: 2em 1em; }
-        section.patrol-homeland .patrol .patrol-content:after,
-        section.patrol-homeland .patrol .homeland-content:after,
-        section.patrol-homeland .patrol .identity-content:after,
-        section.patrol-homeland .patrol .personal-protection-content:after,
-        section.patrol-homeland .homeland .patrol-content:after,
-        section.patrol-homeland .homeland .homeland-content:after,
-        section.patrol-homeland .homeland .identity-content:after,
-        section.patrol-homeland .homeland .personal-protection-content:after,
-        section.patrol-homeland .identity .patrol-content:after,
-        section.patrol-homeland .identity .homeland-content:after,
-        section.patrol-homeland .identity .identity-content:after,
-        section.patrol-homeland .identity .personal-protection-content:after,
-        section.patrol-homeland .personal-protection .patrol-content:after,
-        section.patrol-homeland .personal-protection .homeland-content:after,
-        section.patrol-homeland .personal-protection .identity-content:after,
-        section.patrol-homeland .personal-protection .personal-protection-content:after, section.identity-protection .patrol .patrol-content:after,
-        section.identity-protection .patrol .homeland-content:after,
-        section.identity-protection .patrol .identity-content:after,
-        section.identity-protection .patrol .personal-protection-content:after,
-        section.identity-protection .homeland .patrol-content:after,
-        section.identity-protection .homeland .homeland-content:after,
-        section.identity-protection .homeland .identity-content:after,
-        section.identity-protection .homeland .personal-protection-content:after,
-        section.identity-protection .identity .patrol-content:after,
-        section.identity-protection .identity .homeland-content:after,
-        section.identity-protection .identity .identity-content:after,
-        section.identity-protection .identity .personal-protection-content:after,
-        section.identity-protection .personal-protection .patrol-content:after,
-        section.identity-protection .personal-protection .homeland-content:after,
-        section.identity-protection .personal-protection .identity-content:after,
-        section.identity-protection .personal-protection .personal-protection-content:after {
+        section.section-off-center-image .section-left-content .content:after,
+        section.section-off-center-image .section-right-content .content:after {
           content: "";
           position: absolute;
           height: 100%;
           width: 1000px;
           top: 0; }
         @media only screen and (max-width: 48em) {
-          section.patrol-homeland .patrol .patrol-content,
-          section.patrol-homeland .patrol .homeland-content,
-          section.patrol-homeland .patrol .identity-content,
-          section.patrol-homeland .patrol .personal-protection-content,
-          section.patrol-homeland .homeland .patrol-content,
-          section.patrol-homeland .homeland .homeland-content,
-          section.patrol-homeland .homeland .identity-content,
-          section.patrol-homeland .homeland .personal-protection-content,
-          section.patrol-homeland .identity .patrol-content,
-          section.patrol-homeland .identity .homeland-content,
-          section.patrol-homeland .identity .identity-content,
-          section.patrol-homeland .identity .personal-protection-content,
-          section.patrol-homeland .personal-protection .patrol-content,
-          section.patrol-homeland .personal-protection .homeland-content,
-          section.patrol-homeland .personal-protection .identity-content,
-          section.patrol-homeland .personal-protection .personal-protection-content, section.identity-protection .patrol .patrol-content,
-          section.identity-protection .patrol .homeland-content,
-          section.identity-protection .patrol .identity-content,
-          section.identity-protection .patrol .personal-protection-content,
-          section.identity-protection .homeland .patrol-content,
-          section.identity-protection .homeland .homeland-content,
-          section.identity-protection .homeland .identity-content,
-          section.identity-protection .homeland .personal-protection-content,
-          section.identity-protection .identity .patrol-content,
-          section.identity-protection .identity .homeland-content,
-          section.identity-protection .identity .identity-content,
-          section.identity-protection .identity .personal-protection-content,
-          section.identity-protection .personal-protection .patrol-content,
-          section.identity-protection .personal-protection .homeland-content,
-          section.identity-protection .personal-protection .identity-content,
-          section.identity-protection .personal-protection .personal-protection-content {
+          section.section-off-center-image .section-left-content .content,
+          section.section-off-center-image .section-right-content .content {
             height: auto; } }
-      section.patrol-homeland .patrol .patrol-content.is-blue-bg:after,
-      section.patrol-homeland .patrol .identity-content.is-blue-bg:after,
-      section.patrol-homeland .homeland .patrol-content.is-blue-bg:after,
-      section.patrol-homeland .homeland .identity-content.is-blue-bg:after,
-      section.patrol-homeland .identity .patrol-content.is-blue-bg:after,
-      section.patrol-homeland .identity .identity-content.is-blue-bg:after,
-      section.patrol-homeland .personal-protection .patrol-content.is-blue-bg:after,
-      section.patrol-homeland .personal-protection .identity-content.is-blue-bg:after, section.identity-protection .patrol .patrol-content.is-blue-bg:after,
-      section.identity-protection .patrol .identity-content.is-blue-bg:after,
-      section.identity-protection .homeland .patrol-content.is-blue-bg:after,
-      section.identity-protection .homeland .identity-content.is-blue-bg:after,
-      section.identity-protection .identity .patrol-content.is-blue-bg:after,
-      section.identity-protection .identity .identity-content.is-blue-bg:after,
-      section.identity-protection .personal-protection .patrol-content.is-blue-bg:after,
-      section.identity-protection .personal-protection .identity-content.is-blue-bg:after {
+      section.section-off-center-image .section-left-content .patrol-content.is-blue-bg:after,
+      section.section-off-center-image .section-left-content .escort-content.is-blue-bg:after,
+      section.section-off-center-image .section-right-content .patrol-content.is-blue-bg:after,
+      section.section-off-center-image .section-right-content .escort-content.is-blue-bg:after {
         background-color: #00699f;
         left: -1000px; }
-      section.patrol-homeland .patrol .patrol-content.is-red-bg:after,
-      section.patrol-homeland .patrol .identity-content.is-red-bg:after,
-      section.patrol-homeland .homeland .patrol-content.is-red-bg:after,
-      section.patrol-homeland .homeland .identity-content.is-red-bg:after,
-      section.patrol-homeland .identity .patrol-content.is-red-bg:after,
-      section.patrol-homeland .identity .identity-content.is-red-bg:after,
-      section.patrol-homeland .personal-protection .patrol-content.is-red-bg:after,
-      section.patrol-homeland .personal-protection .identity-content.is-red-bg:after, section.identity-protection .patrol .patrol-content.is-red-bg:after,
-      section.identity-protection .patrol .identity-content.is-red-bg:after,
-      section.identity-protection .homeland .patrol-content.is-red-bg:after,
-      section.identity-protection .homeland .identity-content.is-red-bg:after,
-      section.identity-protection .identity .patrol-content.is-red-bg:after,
-      section.identity-protection .identity .identity-content.is-red-bg:after,
-      section.identity-protection .personal-protection .patrol-content.is-red-bg:after,
-      section.identity-protection .personal-protection .identity-content.is-red-bg:after {
+      section.section-off-center-image .section-left-content .patrol-content.is-red-bg:after,
+      section.section-off-center-image .section-left-content .escort-content.is-red-bg:after,
+      section.section-off-center-image .section-right-content .patrol-content.is-red-bg:after,
+      section.section-off-center-image .section-right-content .escort-content.is-red-bg:after {
         background-color: #e97668;
         left: -1000px; }
-      section.patrol-homeland .patrol .homeland-content:after,
-      section.patrol-homeland .patrol .personal-protection-content:after,
-      section.patrol-homeland .homeland .homeland-content:after,
-      section.patrol-homeland .homeland .personal-protection-content:after,
-      section.patrol-homeland .identity .homeland-content:after,
-      section.patrol-homeland .identity .personal-protection-content:after,
-      section.patrol-homeland .personal-protection .homeland-content:after,
-      section.patrol-homeland .personal-protection .personal-protection-content:after, section.identity-protection .patrol .homeland-content:after,
-      section.identity-protection .patrol .personal-protection-content:after,
-      section.identity-protection .homeland .homeland-content:after,
-      section.identity-protection .homeland .personal-protection-content:after,
-      section.identity-protection .identity .homeland-content:after,
-      section.identity-protection .identity .personal-protection-content:after,
-      section.identity-protection .personal-protection .homeland-content:after,
-      section.identity-protection .personal-protection .personal-protection-content:after {
+      section.section-off-center-image .section-left-content .homeland-content:after,
+      section.section-off-center-image .section-left-content .concierge-content:after,
+      section.section-off-center-image .section-right-content .homeland-content:after,
+      section.section-off-center-image .section-right-content .concierge-content:after {
         background-color: #008fd2;
         right: -1000px; }
-    section.patrol-homeland .patrol img,
-    section.patrol-homeland .identity img, section.identity-protection .patrol img,
-    section.identity-protection .identity img {
+    section.section-off-center-image .section-left-content img {
       float: right; }
   @media only screen and (max-width: 48em) {
     section.service-blocks .columns:nth-child(n+2) {
@@ -5715,7 +5482,7 @@ section {
         height: 6.25rem;
         padding-top: 2em; } }
     section.service-blocks .service-button.residential-block {
-      background-image: url(/assets/images/service-blocks/service-block-residential.png);
+      background-image: url(/assets/images/service-blocks/service-block-residential.jpg);
       background-position: center -1000px;
       background-repeat: no-repeat;
       background-size: cover; }
@@ -5726,7 +5493,7 @@ section {
             background-image: none;
             background-position: center -1000px; } }
     section.service-blocks .service-button.commercial-block {
-      background-image: url(/assets/images/service-blocks/service-block-commercial.png);
+      background-image: url(/assets/images/service-blocks/service-block-commercial.jpg);
       background-position: center -1000px;
       background-repeat: no-repeat;
       background-size: cover; }
@@ -5737,7 +5504,7 @@ section {
             background-image: none;
             background-position: center -1000px; } }
     section.service-blocks .service-button.industrial-block {
-      background-image: url(/assets/images/service-blocks/service-block-industrial.png);
+      background-image: url(/assets/images/service-blocks/service-block-industrial.jpg);
       background-position: center -1000px;
       background-repeat: no-repeat;
       background-size: cover; }
@@ -5748,7 +5515,7 @@ section {
             background-image: none;
             background-position: center -1000px; } }
     section.service-blocks .service-button.government-block {
-      background-image: url(/assets/images/service-blocks/service-block-government.png);
+      background-image: url(/assets/images/service-blocks/service-block-government.jpg);
       background-position: center -1000px;
       background-repeat: no-repeat;
       background-size: cover; }
@@ -5759,7 +5526,7 @@ section {
             background-image: none;
             background-position: center -1000px; } }
     section.service-blocks .service-button.healthcare-block {
-      background-image: url(/assets/images/service-blocks/service-block-healthcare.png);
+      background-image: url(/assets/images/service-blocks/service-block-healthcare.jpg);
       background-position: center -1000px;
       background-repeat: no-repeat;
       background-size: cover; }
@@ -5770,7 +5537,7 @@ section {
             background-image: none;
             background-position: center -1000px; } }
     section.service-blocks .service-button.special-services-block {
-      background-image: url(/assets/images/service-blocks/service-block-special-services.png);
+      background-image: url(/assets/images/service-blocks/service-block-special-services.jpg);
       background-position: center -1000px;
       background-repeat: no-repeat;
       background-size: cover; }
@@ -5812,6 +5579,13 @@ section {
   z-index: 9999; }
   .modal h2 {
     margin-bottom: 30px; }
+    @media only screen and (max-width: 48em) {
+      .modal h2 {
+        font-size: 1.2rem;
+        margin-bottom: 20px; } }
+  @media only screen and (max-width: 48em) {
+    .modal p {
+      font-size: 0.8em; } }
   .modal-show {
     display: block; }
   .modal-close {
@@ -5857,30 +5631,167 @@ section.call-out-box .call-out-content {
 section.standing-guards ul {
   font-weight: 100; }
 .page-residential-services section.standing-guards {
-  background-image: url(/assets/images/sections/section-standing-guards-residential.jpg); }
+  background-image: url(/assets/images/sections/section-standing-guards-residential.jpg);
+  background-size: contain; }
   @media only screen and (max-width: 48em) {
     .page-residential-services section.standing-guards {
       background-image: none; } }
 .page-commercial-services section.standing-guards {
-  background-image: url(/assets/images/sections/section-standing-guards-commerical.jpg); }
+  background-image: url(/assets/images/sections/section-standing-guards-commerical.jpg);
+  background-size: contain; }
   @media only screen and (max-width: 48em) {
     .page-commercial-services section.standing-guards {
       background-image: none; } }
 .page-industrial-services section.standing-guards {
-  background-image: url(/assets/images/sections/section-standing-guards-industrial.jpg); }
+  background-image: url(/assets/images/sections/section-standing-guards-industrial.jpg);
+  background-size: contain; }
   @media only screen and (max-width: 48em) {
     .page-industrial-services section.standing-guards {
       background-image: none; } }
 .page-government-services section.standing-guards {
-  background-image: url(/assets/images/sections/section-standing-guards-government.jpg); }
+  background-image: url(/assets/images/sections/section-standing-guards-government.jpg);
+  background-size: contain; }
   @media only screen and (max-width: 48em) {
     .page-government-services section.standing-guards {
       background-image: none; } }
 .page-healthcare-services section.standing-guards {
-  background-image: url(/assets/images/sections/section-standing-guards-healthcare.jpg); }
+  background-image: url(/assets/images/sections/section-standing-guards-healthcare.jpg);
+  background-size: contain; }
   @media only screen and (max-width: 48em) {
     .page-healthcare-services section.standing-guards {
       background-image: none; } }
 
 .mastfoot .links-social {
   margin-top: 20px; }
+
+.page-about-us section.personnel .team-list {
+  background: #fff;
+  border-radius: 8px; }
+  @media only screen and (max-width: 48em) {
+    .page-about-us section.personnel .team-list {
+      margin-top: 1.875rem; } }
+  .page-about-us section.personnel .team-list_header {
+    background-color: #e97668;
+    border-radius: 8px 8px 0 0;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 10px 0; }
+  .page-about-us section.personnel .team-list_positions {
+    color: #414950;
+    font-weight: 100; }
+    .page-about-us section.personnel .team-list_positions ul {
+      padding: 0 20px 20px;
+      font-size: 0.875rem; }
+      .page-about-us section.personnel .team-list_positions ul li {
+        padding: 0.45em 0; }
+.page-about-us section.specialized-training h2 + p {
+  margin-bottom: 3.75rem; }
+.page-about-us section.specialized-training .underline-is-centered:after {
+  bottom: -2em; }
+@media only screen and (max-width: 48em) {
+  .page-about-us section.specialized-training .carousel-training .slick-slide img {
+    margin: 0 auto; } }
+.page-about-us section.specialized-training .carousel-training .slick-dots {
+  margin-left: 0;
+  margin-bottom: 0;
+  bottom: -35px !important; }
+
+.page-careers section.careers .career-requirements {
+  counter-reset: item;
+  font-weight: 100; }
+  .page-careers section.careers .career-requirements li {
+    margin-bottom: 10px; }
+  .page-careers section.careers .career-requirements_sub-list li {
+    list-style-type: none; }
+    .page-careers section.careers .career-requirements_sub-list li:before {
+      content: counter(item,lower-alpha) ".";
+      counter-increment: item;
+      margin-right: 10px; }
+
+.page-residential-services section.gated-communities-main {
+  background-image: url(/assets/images/sections/section-gated-communities.jpg);
+  background-size: contain; }
+  @media only screen and (max-width: 48em) {
+    .page-residential-services section.gated-communities-main {
+      background-image: none; } }
+.page-residential-services section.gated-communities-sub {
+  background-image: url(/assets/images/sections/section-gated-communities-sub.jpg);
+  color: #fff; }
+  @media only screen and (max-width: 48em) {
+    .page-residential-services section.gated-communities-sub {
+      background-image: none;
+      background-color: #008fd2; } }
+.page-residential-services section.patrol-services {
+  background-image: url(/assets/images/sections/section-patrol-industrial-bg.jpg);
+  color: #fff; }
+  .page-residential-services section.patrol-services h2 {
+    color: #fff; }
+  @media only screen and (max-width: 48em) {
+    .page-residential-services section.patrol-services {
+      background-image: none;
+      background-color: #00699f; } }
+.page-residential-services section.homeland-security {
+  background-image: url(/assets/images/sections/section-homeland-security.jpg);
+  color: #fff; }
+  .page-residential-services section.homeland-security h2 {
+    color: #fff; }
+  @media only screen and (max-width: 48em) {
+    .page-residential-services section.homeland-security {
+      background-image: none;
+      background-color: #008fd2; } }
+
+.page-industrial-services section.security-assessments {
+  background-image: url(/assets/images/sections/section-security-assessments.jpg);
+  background-size: contain; }
+  @media only screen and (max-width: 48em) {
+    .page-industrial-services section.security-assessments {
+      background-image: none; } }
+.page-industrial-services section.employee-escorts {
+  background-image: url(/assets/images/sections/section-employee-escorts.jpg);
+  color: #fff; }
+  .page-industrial-services section.employee-escorts h2 {
+    color: #fff; }
+  @media only screen and (max-width: 48em) {
+    .page-industrial-services section.employee-escorts {
+      background-image: none;
+      background-color: #00699f; } }
+
+.page-special-services section.employee-safety {
+  background-image: url(/assets/images/sections/section-employee-safety.jpg);
+  background-size: contain; }
+  @media only screen and (max-width: 48em) {
+    .page-special-services section.employee-safety {
+      background-image: none; } }
+.page-special-services section.emergency-evacuations {
+  background-image: url(/assets/images/sections/section-emergency-evacuations.jpg);
+  color: #fff; }
+  .page-special-services section.emergency-evacuations h2 {
+    color: #fff; }
+  @media only screen and (max-width: 48em) {
+    .page-special-services section.emergency-evacuations {
+      background-image: none;
+      background-color: #00699f; } }
+.page-special-services section.background-checks {
+  background-image: url(/assets/images/sections/section-background-checks.jpg);
+  background-size: contain; }
+  @media only screen and (max-width: 48em) {
+    .page-special-services section.background-checks {
+      background-image: none; } }
+.page-special-services section.identity-theft {
+  background-image: url(/assets/images/sections/section-identity-theft-bg.jpg);
+  color: #fff; }
+  .page-special-services section.identity-theft h2 {
+    color: #fff; }
+  @media only screen and (max-width: 48em) {
+    .page-special-services section.identity-theft {
+      background-image: none;
+      background-color: #00699f; } }
+.page-special-services section.community-safety {
+  background-image: url(/assets/images/sections/section-community-safety.jpg);
+  color: #fff; }
+  .page-special-services section.community-safety h2 {
+    color: #fff; }
+  @media only screen and (max-width: 48em) {
+    .page-special-services section.community-safety {
+      background-image: none;
+      background-color: #00699f; } }

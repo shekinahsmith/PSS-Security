@@ -10,6 +10,17 @@
 	
 	h2 {
 		margin-bottom: 30px;
+		
+		@include mq($small-only) {
+			font-size: 1.2rem;
+			margin-bottom: 20px;
+		}	
+	}
+	
+	p {
+		@include mq($small-only) {
+			font-size: 0.8em;
+		}
 	}
 	
 	&-show {
