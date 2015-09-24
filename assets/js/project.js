@@ -99,15 +99,15 @@ $(document).on('ready', function() {
 	        $.ajax({
 	            url: 'contact-form-post2.php',
 	            type: 'POST',
-	            data: $('#formContact').serialize(),
+	            data: $(form).serialize(),
 	            success: function(response) {
 		            
-		            var submit = $('#formContact').find( 'button[type="submit"]' );
+		            var submit = $(form).find( 'button[type="submit"]' );
 		            
 					$( ".contactResponse" ).html('Your message has been sent. We will contact you soon.');
 		
 					submit.text('Sent, Thank you');
-					
+				
 					submit.attr("disabled", true); 
 	            }            
 	        });
