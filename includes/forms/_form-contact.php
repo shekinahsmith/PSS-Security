@@ -13,7 +13,7 @@
 
 		<div class="column large-12">
 			
-			<input type="text" name="firstLastName" id="firstLastName" placeholder="First & Last Name" id="cname" value required>
+			<input type="text" name="firstLastName"  id="cname" placeholder="First & Last Name" value required>
 		</div>
 
 	</div>
@@ -23,7 +23,7 @@
 
 		<div class="column large-12">
 			
-			<input type="email" name="email" id="email" placeholder="Email" id="cemail" value required>
+			<input type="email" name="email" id="cemail"  placeholder="Email" value required>
 		</div>
 	
 	</div>

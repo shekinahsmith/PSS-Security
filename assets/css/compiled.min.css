@@ -5360,6 +5360,8 @@ section {
   section h2 {
     color: #414950;
     margin: 0.3em 0 1em; }
+  section ul {
+    font-weight: 100; }
   section.who-are-we {
     background-image: url(/assets/images/sections/section-standing-guards-government.jpg);
     background-size: contain; }
@@ -5605,7 +5607,7 @@ section {
       font-size: 1.5625rem; }
 
 .page-residential-services section.call-out-box {
-  background-image: url(/assets/images/pages/page-residential-call-out-box.png); }
+  background-image: url(/assets/images/pages/page-residential-call-out-box.jpg); }
 .page-commercial-services section.call-out-box {
   background-image: url(/assets/images/pages/page-commerical-call-out-box.jpg); }
 .page-industrial-services section.call-out-box {
