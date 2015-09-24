@@ -4727,22 +4727,21 @@ th.hide-for-touch {
     content: "";
     height: 3px;
     position: absolute;
-    width: 100px; }
+    width: 75px; }
   .underline.underline-is-white:after {
     background: #fff; }
   .underline.underline-is-blue:after {
     background: #008fd2; }
   .underline.underline-is-left:after {
     left: 0;
-    bottom: -0.25em; }
+    bottom: -0.35em; }
     @media only screen and (max-width: 48em) {
       .underline.underline-is-left:after {
         left: 50%;
-        bottom: -0.25em;
-        margin-left: -50px; } }
+        margin-left: -37px; } }
   .underline.underline-is-centered:after {
     left: 50%;
-    bottom: -0.25em;
+    bottom: -0.35em;
     margin-left: -50px; }
 
 .has-border-radius {
@@ -5083,7 +5082,11 @@ th.hide-for-touch {
   font-style: normal;
   font-weight: 700;
   src: url("/assets/fonts/montserrat-bold.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/montserrat-bold.woff2") format("woff2"), url("/assets/fonts/montserrat-bold.woff") format("woff"), url("/assets/fonts/montserrat-bold.ttf") format("truetype"), url("/assets/fonts/montserrat-bold.svg#Montserrat") format("svg"); }
-body {
+body, h1,
+h2,
+h3,
+h4,
+h5, .button, .nav.primary-nav .top-bar-section a {
   font-family: Montserrat, sans-serif; }
 
 *,
@@ -5149,6 +5152,10 @@ button,
 
 footer {
   border-top: 3px solid #008fd2; }
+  footer .mastfoot {
+    padding: 2rem 2rem 0; }
+    footer .mastfoot .logo-pss-footer {
+      width: 300px; }
 
 .nav {
   background: #fff; }
@@ -5162,6 +5169,11 @@ footer {
           padding-left: 0; } }
     .nav.primary-nav .name a {
       line-height: 112px; }
+    .nav.primary-nav .top-bar-section li:not(.has-form) a:not(.button) {
+      padding: 0 0.75rem; }
+    .nav.primary-nav .top-bar-section a {
+      font-weight: 100;
+      font-size: 0.9rem; }
     .nav.primary-nav .top-bar-section .dropdown {
       margin-right: -64px;
       right: 50%; }
@@ -5178,6 +5190,12 @@ footer {
         top: -8px; }
       .nav.primary-nav .top-bar-section .dropdown li {
         height: 45px; }
+        .nav.primary-nav .top-bar-section .dropdown li.active a {
+          background-color: #00699f;
+          color: #fff; }
+        .nav.primary-nav .top-bar-section .dropdown li:hover:not(.has-form):not(.active) > a:not(.button) {
+          background-color: #00699f;
+          color: #fff; }
         .nav.primary-nav .top-bar-section .dropdown li a {
           height: 100%;
           line-height: 45px; }
@@ -5205,7 +5223,7 @@ aside.right-off-canvas-menu {
   position: relative; }
   @media only screen and (max-width: 48em) {
     .hero {
-      margin-top: 53px; } }
+      margin-top: 50px; } }
   .hero .content {
     padding: 4em 0;
     z-index: 10; }
@@ -5241,7 +5259,8 @@ aside.right-off-canvas-menu {
     .hero-landing .slick-slider {
       margin-bottom: 0; }
     .hero-landing .slick-vertical .slick-slide {
-      height: 522px; }
+      height: 522px;
+      border: none; }
     .hero-landing .slick-dots {
       bottom: auto;
       right: 100px;
@@ -5260,14 +5279,15 @@ aside.right-off-canvas-menu {
       background-size: cover;
       position: relative; }
     .hero-landing .slide-1 {
-      background-image: url(/assets/images/heroes/hero-landing-real-professionals-bg.jpg); }
-    .hero-landing .slide-2 {
       background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg); }
-    .hero-landing .slide-3 {
+    .hero-landing .slide-2 {
       background-image: url(/assets/images/heroes/hero-landing-best-bg.jpg);
       color: #000; }
+    .hero-landing .slide-3 {
+      background-image: url(/assets/images/heroes/hero-landing-real-professionals-bg.jpg);
+      background-position: center top; }
     .hero-landing .slide-1 h2,
-    .hero-landing .slide-2 h2 {
+    .hero-landing .slide-3 h2 {
       color: #fff; }
     .hero-landing-mobile {
       background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg);
@@ -5300,7 +5320,8 @@ aside.right-off-canvas-menu {
         width: 9000px;
         z-index: -1; }
   .hero-services {
-    background-image: url(/assets/images/heroes/hero-services-bg.jpg); }
+    background-image: url(/assets/images/heroes/hero-services-bg.jpg);
+    background-position: center top; }
     @media only screen and (max-width: 48em) {
       .hero-services {
         background-position: 70% center; } }
@@ -5360,6 +5381,8 @@ section {
   section h2 {
     color: #414950;
     margin: 0.3em 0 1em; }
+  section .button:hover {
+    background-color: #006c9f; }
   section ul {
     font-weight: 100; }
   section.who-are-we {
@@ -5473,14 +5496,16 @@ section {
     transition: all 0.2s ease-in-out;
     background: #008fd2;
     color: #fff;
+    font-size: 1.5rem;
     height: 23.125rem;
     padding-top: 45%; }
     @media only screen and (min-width: 48.063em) and (max-width: 60em) {
       section.service-blocks .service-button {
         height: 12.5rem;
-        padding-top: 5em; } }
+        padding-top: 3.5em; } }
     @media only screen and (max-width: 48em) {
       section.service-blocks .service-button {
+        font-size: 1.2rem;
         height: 6.25rem;
         padding-top: 2em; } }
     section.service-blocks .service-button.residential-block {

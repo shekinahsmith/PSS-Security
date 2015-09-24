@@ -6,7 +6,7 @@
 	position: relative;
 	
 	@include mq($small-only) {
-		margin-top: 53px;
+		margin-top: 50px;
 	}
 		
 	// hero content
@@ -69,6 +69,7 @@
 		.slick-vertical {
 		.slick-slide {
 				height: 522px;
+				border: none;
 			}
 		}
 		
@@ -105,31 +106,29 @@
 		
 		// backgrounds of each slide
 		.slide-1 {
-			background-image: url(/assets/images/heroes/hero-landing-real-professionals-bg.jpg);
-		}
-
-		.slide-2 {
 			background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg);
 		}
 
-		.slide-3 {
+		.slide-2 {
 			background-image: url(/assets/images/heroes/hero-landing-best-bg.jpg);
 			color: #000;
 
 		}
+		
+		.slide-3 {
+			background-image: url(/assets/images/heroes/hero-landing-real-professionals-bg.jpg);
+			background-position: center top;
+		}
 
 		// END background of each slide
-
-		.slide-1,
-		.slide-2 {
+		.slide-1, 
+		.slide-3 {
 			
 			h2 {
 				color: #fff;
 			}
 		}// slide-1-content, slide-2-content
-			
- 
-		
+				
 		&-mobile {
 			background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg);
 			background-position: center;
@@ -184,6 +183,7 @@
 	// services
 	&-services {
 		background-image: url(/assets/images/heroes/hero-services-bg.jpg);
+		background-position: center top;
 		
 		@include mq($small-only) {
 			background-position: 70% center;

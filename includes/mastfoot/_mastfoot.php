@@ -2,7 +2,7 @@
 
 	<div class="row">
 	
-		<div class="columns small-12 medium-6 small-centered text-center"><a href="/"><img src="/assets/images/logo-pss-large.png" alt="Logo PSS"></a></div>
+		<div class="columns small-12 medium-6 small-centered text-center"><a href="/"><img class="logo-pss-footer" src="/assets/images/logo-pss-large.png" alt="Logo PSS"></a></div>
 		
 	</div>
 	<!-- /.row -->

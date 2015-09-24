@@ -8,7 +8,7 @@
               
           <h1 class="underline underline-is-blue underline-is-left">Services</h1>
 
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit ante enim, vitae iaculis orci semper in. Vestibulum orci lorem, ultrices ac orci condimentum, scelerisque lacinia libero. Nullam vel nulla nulla. Integer sit amet tortor vitae odio venenatis dapibus quis sit amet ipsum. Suspendisse sagittis porttitor congue. Etiam pretium pharetra erat.</p>
+             <p>Our goal is to maintain a trained and professional security presence that is customized specifically for your unique needs and situation. Our uniformed armed and unarmed security professionals are at your site to ensure overall safety of people and property.</p>
 
           </div>
           <!-- /.column -->

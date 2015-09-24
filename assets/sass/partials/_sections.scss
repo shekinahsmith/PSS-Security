@@ -10,6 +10,13 @@ section {
 		margin: 0.3em 0 1em;
 	}
 	
+	.button {
+		
+		&:hover {
+			background-color: darken($pss-blue-light, 10%);
+		}
+	}
+	
 	ul {
 		font-weight: 100;
 	}
@@ -187,15 +194,17 @@ section {
 			@include transition(all 0.2s ease-in-out);
 			background: $pss-blue-light;
 			color: #fff;
+			font-size: 1.5rem;
 			height: rem-calc(370px);
 			padding-top: 45%;
 			
 			@include mq($medium-only) {
 				height: rem-calc(200px);
-				padding-top: 5em;
+				padding-top: 3.5em;
 			}
 			
 			@include mq($small-only) {
+				font-size: 1.2rem;
 				height: rem-calc(100px);
 				padding-top: 2em;
 			}

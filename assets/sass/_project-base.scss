@@ -28,6 +28,7 @@ h2,
 h3, 
 h4,
 h5 {
+	@extend %montserrat;
 	font-weight: 700;
 }
 
@@ -55,12 +56,14 @@ button,
 }
 
 .button {
+	@extend %montserrat;
 	
 	&:after {
 		content: "\2192";
 		margin-left: 5px;
 	}
 }	
+
 
 // Foundation adds this class below for the fixed navigation but does not remove it when when you wrap the body in off canvas for mobile nav
 body.f-topbar-fixed {

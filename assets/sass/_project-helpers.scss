@@ -58,7 +58,7 @@
 		content: "";
 		height: 3px;
 		position: absolute;
-		width: 100px;
+		width: 75px;
 	}
 
 	&.underline-is-white {
@@ -79,12 +79,11 @@
 
 		&:after {
 			left: 0;
-			bottom: -0.25em;
+			bottom: -0.35em;
 			
 			@include mq($small-only) {
 				left: 50%;
-				bottom: -0.25em;
-				margin-left: -50px;
+				margin-left: -37px;
 			}
 		}
 	}
@@ -93,7 +92,7 @@
 
 		&:after {
 			left: 50%;
-			bottom: -0.25em;
+			bottom: -0.35em;
 			margin-left: -50px;
 		}
 	}

@@ -24,6 +24,16 @@
 		// top bar secton
 		.top-bar-section {
 			
+			li:not(.has-form) a:not(.button) {
+				padding: 0 0.75rem;
+			}
+			
+			a {
+				@extend %montserrat;
+				font-weight: 100;
+				font-size: 0.9rem;
+			}
+			
 			// dropdown
 			.dropdown{
 				margin-right: -64px;
@@ -41,6 +51,18 @@
 				// li
 				li {
 					height: 45px;
+					
+					&.active {
+						a {
+							background-color: $pss-blue-dark;
+							color: #fff;
+						}
+					}
+					
+					&:hover:not(.has-form):not(.active) > a:not(.button) {
+						background-color: $pss-blue-dark;
+						color: #fff;
+					}
 
 					a {
 						height: 100%;

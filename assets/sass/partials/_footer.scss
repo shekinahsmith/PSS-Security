@@ -1,4 +1,12 @@
 // Footer
 footer {
 	border-top: 3px solid $pss-blue-light;
+	
+	.mastfoot {
+		padding: 2rem 2rem 0;
+		
+		.logo-pss-footer {
+			width: 300px;
+		}
+	}
 }

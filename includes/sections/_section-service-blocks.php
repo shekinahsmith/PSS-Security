@@ -2,7 +2,7 @@
 
 		<div class="row text-center uncollapse">
 
-			<h2>Services</h2>
+			<h2 class="underline underline-is-blue underline-is-centered">Services</h2>
 
 			<div class="columns small-12 medium-4 large-4">
 
