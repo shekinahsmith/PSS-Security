@@ -38,8 +38,5 @@
 
 </head>
 
-
-<?include 'includes/navigation/_nav-mobile-fixed-header.php';?>
-
 <body class="page-<?= $pageClass; ?>">
-	
+	<?include 'includes/navigation/_nav-mobile-fixed-header.php';?>

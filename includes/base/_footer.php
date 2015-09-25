@@ -23,7 +23,14 @@
 	
 	<?include 'includes/navigation/_nav-mobile.php';?>
 	
-	<script>$(document).foundation();</script>
+	<script>
+		$(document).foundation({
+			"magellan-expedition": {
+			  destination_threshold: $(window).width() <= 769 ? -20 : 35 // adjusting the offset top for smaller screens
+			}
+		
+		});
+	</script>
 	<script type="text/javascript" src="/assets/js/plugins/slick.min.js"></script>
 	<script src="/assets/js/plugins/jquery.validate.min.js"></script>
 	<script src="/assets/js/plugins/additional-methods.min.js"></script>
