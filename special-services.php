@@ -56,26 +56,6 @@
 	</section>
 	<!-- /.emergency-evacuations -->
 
-	<section class="handgun-safety is-blue-light-bg">
-
-		<div class="row">
-
-			<div class="column large-8 large-centered text-center">
-
-				<h2 class="underline underline-is-white underline-is-centered">Handgun Safety</h2>
-
-				<p>Handgun Safety training is an important part of our private and public training programs.  In our courses, you will learn the following:</p>
-
-		</div>
-		<!-- /.row -->
-
-	</section>
-	<!-- /.handgun-safety-->
-
-
-	<? include 'includes/sliders/_slider-handgun-safety.php'; ?>
-
-
 	<section class="background-checks">
 
 		<div class="row">
@@ -179,6 +159,23 @@
 	</section>
 	<!-- /.community-safety -->
 
+	<section class="handgun-safety is-blue-light-bg">
 
+		<div class="row">
+
+			<div class="column large-8 large-centered text-center">
+
+				<h2 class="underline underline-is-white underline-is-centered">Handgun Safety</h2>
+
+				<p>Handgun Safety training is an important part of our private and public training programs.  In our courses, you will learn the following:</p>
+
+		</div>
+		<!-- /.row -->
+
+	</section>
+	<!-- /.handgun-safety-->
+
+
+	<? include 'includes/sliders/_slider-handgun-safety.php'; ?>
 
 <? include 'includes/base/_footer.php'; ?>

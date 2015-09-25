@@ -179,6 +179,17 @@
 		}// .has-teal-bg
 
 	}// &.hero-about-us
+	
+	// careers 
+	&-careers {
+		background-image: url(/assets/images/heroes/hero-career-bg.jpg);
+		color: #fff;
+
+		h1 {
+			color: #fff;
+		}
+		
+	}// &.hero-careers
 
 	// services
 	&-services {

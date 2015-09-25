@@ -15,7 +15,7 @@
                   
                   <p>For more information, call <a class="phone-number" href="tel:7044429499"><strong>704-442-9499</strong></a></p>
 
-                  <div class="column large-4">
+                  <div class="column small-12 medium-7 button-wrapper">
 
                     <a href="/services.php"><div class="button">Our Services</div></a>
 
@@ -46,7 +46,7 @@
                   
                   <p>For more information, call <a class="phone-number" href="tel:7044429499"><strong>704-442-9499</strong></a></p>
 
-                  <div class="column large-6">
+                  <div class="column small-12 medium-9 button-wrapper">
 
                     <a href="/about-us.php"><div class="button">Our Equipment</div></a>
 
@@ -75,9 +75,9 @@
 
                 <p>Our goal is to maintain a trained and professional security presence that is customized specifically for your unique needs and situation. We offer armed and unarmed security guard protection.</p>
                 
-                <div class="column large-7">
+                <div class="column small-12 medium-7 button-wrapper">
 
-                  <div class="button secondary round">Play Video</div>
+                  <a href="/about-us.php"><div class="button secondary">Our Team</div></a>
 
                 </div>
 

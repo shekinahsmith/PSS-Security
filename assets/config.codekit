@@ -106,6 +106,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/heroes\/hero-career-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91284,
+		"inputAbbreviatedPath": "\/images\/heroes\/hero-career-bg.jpg",
+		"outputAbbreviatedPath": "\/images\/heroes\/hero-career-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/heroes\/hero-commercial-services.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

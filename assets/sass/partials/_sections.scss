@@ -26,8 +26,9 @@ section {
 	//PAGE - Home (these sections are repeated on other pages)
 	// who are we
 	&.who-are-we {
-		background-image: url(/assets/images/sections/section-standing-guards-government.jpg);
-		background-size: contain;
+		background-image: url(/assets/images/sections/section-who-we-are-bg.jpg);
+		background-size: cover;
+		background-position: center top;
 		
 		@include mq($small-only) {
 			background-image: none;
@@ -123,7 +124,7 @@ section {
 			// content
 			.content {
 				padding: 2em 1em;
-				height: rem-calc(527px);
+				height: rem-calc(570px);
 				
 				// extending background 
 				&:after {

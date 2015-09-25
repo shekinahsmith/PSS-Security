@@ -4697,6 +4697,9 @@ th.hide-for-touch {
 @media not print {
   .show-for-print {
     display: none !important; } }
+.button-wrapper {
+  padding: 0; }
+
 .is-blue-bg {
   background: #00699f;
   color: #fff; }
@@ -5204,6 +5207,8 @@ footer {
       border-radius: 20px;
       color: #fff;
       padding: 0.625rem; }
+      .nav.primary-nav .top-bar-section .client-portal span:hover {
+        background: #e34e3b; }
 
 .header-mobile {
   border-bottom: 3px solid #008fd2; }
@@ -5319,6 +5324,11 @@ aside.right-off-canvas-menu {
         top: 0;
         width: 9000px;
         z-index: -1; }
+  .hero-careers {
+    background-image: url(/assets/images/heroes/hero-career-bg.jpg);
+    color: #fff; }
+    .hero-careers h1 {
+      color: #fff; }
   .hero-services {
     background-image: url(/assets/images/heroes/hero-services-bg.jpg);
     background-position: center top; }
@@ -5386,8 +5396,9 @@ section {
   section ul {
     font-weight: 100; }
   section.who-are-we {
-    background-image: url(/assets/images/sections/section-standing-guards-government.jpg);
-    background-size: contain; }
+    background-image: url(/assets/images/sections/section-who-we-are-bg.jpg);
+    background-size: cover;
+    background-position: center top; }
     @media only screen and (max-width: 48em) {
       section.who-are-we {
         background-image: none; } }
@@ -5455,7 +5466,7 @@ section {
       section.section-off-center-image .section-left-content .content,
       section.section-off-center-image .section-right-content .content {
         padding: 2em 1em;
-        height: 32.9375rem; }
+        height: 35.625rem; }
         section.section-off-center-image .section-left-content .content:after,
         section.section-off-center-image .section-right-content .content:after {
           content: "";
@@ -5750,6 +5761,7 @@ section.standing-guards ul {
       background-color: #008fd2; } }
 .page-residential-services section.patrol-services {
   background-image: url(/assets/images/sections/section-patrol-industrial-bg.jpg);
+  background-position: center top;
   color: #fff; }
   .page-residential-services section.patrol-services h2 {
     color: #fff; }

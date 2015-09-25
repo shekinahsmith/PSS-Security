@@ -81,6 +81,10 @@
 					border-radius: 20px;
 					color: #fff;
 					padding: rem-calc(10);
+					
+					&:hover {
+						background: darken($pss-red, 10%);
+					}
 
 				}// span
 

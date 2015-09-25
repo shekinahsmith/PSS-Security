@@ -40,7 +40,7 @@ $(document).on('ready', function() {
 	$('.js-hero-slider').slick({
 		arrows: false,
 		autoplay: true,
-		autoplaySpeed: 6500,
+		autoplaySpeed: 4500,
 		dots: true,
 		vertical: true
 	});

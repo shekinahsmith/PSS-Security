@@ -7,8 +7,8 @@
         <div class="column small-12 medium-7 small-text-center medium-text-left">
               
           <h1 class="underline underline-is-blue underline-is-left">Commercial Security</h1>
-
-             <p>Our uniformed armed and unarmed security professionals are at your neighborhood to ensure overall safety of people and property.  Our goal of working with you to develop an effective and extensive security program will help to minimize robberies, property theft, vandalism, and unwanted visitors.</p>
+		  
+		  <p>Our uniformed armed and unarmed security professionals ensure overall safety of people and property.  Our goal of working with you to develop an effective and extensive security program will help to minimize robberies, property theft, vandalism, and unwanted visitors.</p>
 
           </div>
           <!-- /.column -->
