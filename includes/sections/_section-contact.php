@@ -12,7 +12,7 @@
 
 		<div class="row large-collapse">
 
-			<div class="column small-12 small-centered small-text-center medium-6 medium-uncentered medium-text-left">
+			<div class="column small-12 small-centered small-text-center medium-5 medium-uncentered medium-text-left">
 
 				<h2>Contact Us</h2>
 

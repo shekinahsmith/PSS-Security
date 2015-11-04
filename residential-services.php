@@ -50,14 +50,12 @@
 
 		<div class="row">
 
-			<div class="column small-12 medium-6 small-text-center medium-text-left">
+			<div class="column small-12 medium-6 small-text-center medium-text-left medium-centered">
 				
-				<h2 class="underline underline-is-white underline-is-left small-text-center medium-text-left">Patrol Services</h2>
+				<h2 class="underline underline-is-white underline-is-centered text-center">Patrol Services</h2>
 
-				<p>We provide our residential and neighborhood customers with the best possible service and professionally-trained standing security patrol officers.  Our security patrol program includes the following strict program adherences:</p>
-
-					<p>Written program orders and procedures that are customized to each residence or neighborhood's   unique needs to ensure a safe and structured security program. Coordinated and pre-planned “check-ins” from our uniformed security specialists to our central command headquarters.
-Two forms of communication methods for each uniformed patrol specialist.</p>
+				<p>Our goal is to maintain a trained and professional security presence that is customized specifically for your unique needs and situation. We offer armed and unarmed security guard protection. Our goal is to maintain a trained and professional security presence that is customized specifically for your unique needs and situation. We offer armed and unarmed
+security guard protection.</p>
 			</div>
 
 		</div>

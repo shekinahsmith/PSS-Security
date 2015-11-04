@@ -7,15 +7,15 @@
             
             <div class="row">
              
-              <div class="column medium-7 medium">
+              <div class="column medium-6 large-5">
                   
-                  <h2 class="underline underline-is-blue underline-is-left">Call The Professionals</h2>
+                  <h2 class="underline underline-is-white underline-is-left">Call The Professionals</h2>
 
                   <p>Our goal is to maintain a trained and professional security presence that is customized specifically for your unique needs and situation. We offer armed and unarmed security guard protection.</p>
                   
                   <p>For more information, call <a class="phone-number" href="tel:7044429499"><strong>704-442-9499</strong></a></p>
 
-                  <div class="column small-12 medium-7 button-wrapper">
+                  <div class="column small-12 medium-9 button-wrapper">
 
                     <a href="/services.php"><div class="button">Our Services</div></a>
 
@@ -38,9 +38,9 @@
             
             <div class="row">
              
-              <div class="column medium-5">
+              <div class="column medium-6 large-5">
                   
-                  <h2 class="underline underline-is-blue underline-is-left">The best of the best</h2>
+                  <h2 class="underline underline-is-white underline-is-left">The best of the best</h2>
 
                   <p>Our goal is to maintain a trained and professional security presence that is customized specifically for your unique needs and situation. We offer armed and unarmed security guard protection.</p>
                   
@@ -69,13 +69,13 @@
           
           <div class="row">
            
-            <div class="column medium-5">
+            <div class="column medium-6 large-5">
                 
                 <h2 class="underline underline-is-white underline-is-left">Real Professionals</h2>
 
                 <p>Our goal is to maintain a trained and professional security presence that is customized specifically for your unique needs and situation. We offer armed and unarmed security guard protection.</p>
                 
-                <div class="column small-12 medium-7 button-wrapper">
+                <div class="column small-12 medium-9 button-wrapper">
 
                   <a href="/about-us.php"><div class="button secondary">Our Team</div></a>
 

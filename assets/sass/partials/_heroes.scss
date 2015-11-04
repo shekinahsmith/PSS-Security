@@ -91,7 +91,7 @@
 				
 				&.slick-active {
 					button:before {
-						color: $pss-red;
+						color: $pss-blue-dark;
 					}
 				}
 			}
@@ -111,8 +111,6 @@
 
 		.slide-2 {
 			background-image: url(/assets/images/heroes/hero-landing-best-bg.jpg);
-			color: #000;
-
 		}
 		
 		.slide-3 {
@@ -121,7 +119,8 @@
 		}
 
 		// END background of each slide
-		.slide-1, 
+		.slide-1,
+		.slide-2, 
 		.slide-3 {
 			
 			h2 {

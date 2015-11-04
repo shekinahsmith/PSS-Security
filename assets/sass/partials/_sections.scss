@@ -54,15 +54,19 @@ section {
 			color: #fff;
 		}
 		
+		p {
+			text-shadow: 1px 1px 0 #000;
+		}
+		
 		// input and textarea
 		input,
 		textarea {
-			background-color: rgba(255,255,255, 0.5);
+			background-color: rgba(0, 147, 208, 0.85);
 			border: 1px solid #fff;
 			
 			// adjusting placeholder text
 			@include placeholder {
-			    color: $pss-grey;
+			    color: #fff;
 			  }
 		}// input, textarea
 

@@ -5277,7 +5277,7 @@ aside.right-off-canvas-menu {
         .hero-landing .slick-dots li button:before {
           font-size: 10px; }
         .hero-landing .slick-dots li.slick-active button:before {
-          color: #e97668; }
+          color: #00699f; }
     .hero-landing .slide {
       background-position: center;
       background-repeat: no-repeat;
@@ -5286,12 +5286,12 @@ aside.right-off-canvas-menu {
     .hero-landing .slide-1 {
       background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg); }
     .hero-landing .slide-2 {
-      background-image: url(/assets/images/heroes/hero-landing-best-bg.jpg);
-      color: #000; }
+      background-image: url(/assets/images/heroes/hero-landing-best-bg.jpg); }
     .hero-landing .slide-3 {
       background-image: url(/assets/images/heroes/hero-landing-real-professionals-bg.jpg);
       background-position: center top; }
     .hero-landing .slide-1 h2,
+    .hero-landing .slide-2 h2,
     .hero-landing .slide-3 h2 {
       color: #fff; }
     .hero-landing-mobile {
@@ -5413,22 +5413,24 @@ section {
     color: #fff; }
     section.contact h2 {
       color: #fff; }
+    section.contact p {
+      text-shadow: 1px 1px 0 #000; }
     section.contact input,
     section.contact textarea {
-      background-color: rgba(255, 255, 255, 0.5);
+      background-color: rgba(0, 147, 208, 0.85);
       border: 1px solid #fff; }
       section.contact input::-webkit-input-placeholder,
       section.contact textarea::-webkit-input-placeholder {
-        color: #414950; }
+        color: #fff; }
       section.contact input::-moz-placeholder,
       section.contact textarea::-moz-placeholder {
-        color: #414950; }
+        color: #fff; }
       section.contact input:-moz-placeholder,
       section.contact textarea:-moz-placeholder {
-        color: #414950; }
+        color: #fff; }
       section.contact input:-ms-input-placeholder,
       section.contact textarea:-ms-input-placeholder {
-        color: #414950; }
+        color: #fff; }
   section.slider-section {
     background: #f0f1f1;
     margin-bottom: 0;
