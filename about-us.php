@@ -1,25 +1,10 @@
 <? 
 	include 'includes/base/_header.php'; 
 	include 'includes/masthead/_masthead.php';
-	include 'includes/heroes/_hero-about-us.php';  
+	include 'includes/heroes/_hero-about-us.php'; 
 ?>
 	<div data-magellan-destination="heroTarget"></div>
 		<a name="heroTarget"></a>
-		
-	<section class="who-are-we">
-
-		<div class="row">
-
-			<div class="column small-12 medium-6 medium-push-6 small-text-center medium-text-left">
-
-				<? include 'includes/sections/_section-who-we-are.php'; ?>
-			</div>
-
-		</div>
-		<!-- /.row -->
-
-	</section>
-	<!-- /.who-are-we -->
 
 	<section class="goal">
 
@@ -113,42 +98,6 @@
 
 			</div>
 			<!-- /.column -->
-
-		</div>
-		<!-- /.row -->
-
-	</section>
-	<!-- /.personnel -->
-
-	<section class="specialized-training">
-
-		<div class="row">
-
-			<div class="column small-12 medium-12 large-12 text-center">
-
-				<h2>PSS Specialized Training</h2>
-				
-				<p class="column large-7 large-centered underline underline-is-blue underline-is-centered">Our security program is one of the best programs available today from any security services provider.  And one of the key reasons for this is our total commitment to thorough and on-going training.</p>
-
-				<p class="column large-8 large-centered is-larger-text">We continuously train and re-train each team member in all of their areas of responsibility, including:</p>
-
-			</div>
-			<!-- /.column -->
-			
-			<div class="carousel-training js-carousel-training column">
-						
-					<div><img src="assets/images/carousel-training/carousel-training-1.png"/></div>
-				
-					<div><img src="assets/images/carousel-training/carousel-training-2.png"/></div>
-				
-					<div><img src="assets/images/carousel-training/carousel-training-3.png"/></div>
-				
-					<div><img src="assets/images/carousel-training/carousel-training-4.png"/></div>
-					
-					<div><img src="assets/images/carousel-training/carousel-training-5.png"/></div>
-
-			</div>
-			<!-- /.carousel-training -->
 
 		</div>
 		<!-- /.row -->

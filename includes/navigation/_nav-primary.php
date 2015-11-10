@@ -23,7 +23,7 @@
 					<li><a href="/industrial-services.php">Industrial</a></li>
 					<li><a href="/government-services.php">Government</a></li>
 					<li><a href="/healthcare-services.php">Healthcare</a></li>
-					<li><a href="/special-services.php">Special Services</a></li>
+					<li><a href="/special-training.php">Special Training</a></li>
 				</ul>
 			</li>
 			<li><a href="/about-us.php">About Us</a></li>

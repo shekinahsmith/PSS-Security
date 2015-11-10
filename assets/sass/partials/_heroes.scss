@@ -152,6 +152,10 @@
 	&-about-us {
 		background-image: url(/assets/images/heroes/hero-about-us-bg.jpg);
 		color: #fff;
+		
+		.content {
+			padding: 6em;
+		}
 
 		h1 {
 			color: #fff;
@@ -204,7 +208,13 @@
 	// residential
 	&-residential-security {
 		background-image: url(/assets/images/heroes/hero-residential-services.jpg);
+		background-position: center bottom;
 		color: #fff;
+		
+		.content {
+			padding: 5em;
+		}
+		
 		
 		@include mq($small-only) {
 			background-position: 70% center;
@@ -274,8 +284,8 @@
 	}// &.hero-healthcare-security
 	
 	// healthcare
-	&-special-services {
-		background-image: url(/assets/images/heroes/hero-special-services.jpg);
+	&-special-training {
+		background-image: url(/assets/images/heroes/hero-special-training.jpg);
 		color: #fff;
 		
 		@include mq($small-only) {

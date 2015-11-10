@@ -33,7 +33,7 @@
 
 		<div class="column large-12">
 			
-			<textarea name="message" rows="10" id="ccomment" value required></textarea>
+			<textarea name="message" rows="7" id="ccomment" value required></textarea>
 		</div>
 
 	</div>

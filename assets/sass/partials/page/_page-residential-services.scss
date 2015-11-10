@@ -3,31 +3,20 @@
 	
 	section {
 		
+		//community safety
+		&.community-safety {
+			background-image: url(/assets/images/sections/section-community-safety.jpg);
+		
+			@include mq($small-only) {
+				background-image: none;
+			}
+		}
+		
 		// gated communities
 		&.gated-communities-main {
-			background-image: url(/assets/images/sections/section-gated-communities.jpg);
-			background-size: contain;
-			
-			@include mq($small-only) {
-				background-image: none;
-			}
-		}// &.gates-communities-main
-		
-		// gated communities sub
-		&.gated-communities-sub {
-			background-image: url(/assets/images/sections/section-gated-communities-sub.jpg);
-			color: #fff;
-			
-			@include mq($small-only) {
-				background-image: none;
-				background-color: $pss-blue-light;
-			}
-		}// &.gates-communities-main
-		
-		// patrol servies
-		&.patrol-services {
-			background-image: url(/assets/images/sections/section-patrol-industrial-bg.jpg);
-			background-position: center top;
+			//background-image: url(/assets/images/sections/section-gated-communities.jpg);
+			//background-size: contain;
+			background-color: $pss-blue-dark;
 			color: #fff;
 			
 			h2 {
@@ -35,10 +24,21 @@
 			}
 			
 			@include mq($small-only) {
-				background-image: none;
-				background-color: $pss-blue-dark;
+				//background-image: none;
 			}
-		}
+		}// &.gates-communities-main
+		
+		// gated communities sub
+		&.gated-communities-sub {
+			//background-image: url(/assets/images/sections/section-gated-communities-sub.jpg);
+			//color: #fff;
+			
+			@include mq($small-only) {
+				//background-image: none;
+				//background-color: $pss-blue-light;
+			}
+		}// &.gates-communities-main
+
 		
 		&.homeland-security {
 			background-image: url(/assets/images/sections/section-homeland-security.jpg);

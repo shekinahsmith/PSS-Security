@@ -1,6 +1,10 @@
 // Standing Guards
 section.standing-guards {
 	
+	h2 {
+		line-height: 1;
+	}
+	
 	ul {
 		font-weight: 100;
 	}
@@ -17,7 +21,7 @@ section.standing-guards {
 	
 	// commerical services page 
 	.page-commercial-services & {
-		background-image: url(/assets/images/sections/section-standing-guards-commerical.jpg);
+		background-image: url(/assets/images/sections/section-standing-guards-commercial.jpg);
 		background-size: contain;
 		
 		@include mq($small-only) {
@@ -27,7 +31,7 @@ section.standing-guards {
 	
 	// industrial services page 
 	.page-industrial-services & {
-		background-image: url(/assets/images/sections/section-standing-guards-industrial.jpg);
+		background-image: url(/assets/images/sections/section-standing-guards-residential.jpg);
 		background-size: contain;
 		
 		@include mq($small-only) {
@@ -37,7 +41,7 @@ section.standing-guards {
 	
 	// government services page 
 	.page-government-services & {
-		background-image: url(/assets/images/sections/section-standing-guards-government.jpg);
+		background-image: url(/assets/images/sections/section-standing-guards-commercial.jpg);
 		background-size: contain;
 		
 		@include mq($small-only) {
@@ -47,7 +51,7 @@ section.standing-guards {
 	
 	// government services page 
 	.page-healthcare-services & {
-		background-image: url(/assets/images/sections/section-standing-guards-healthcare.jpg);
+		background-image: url(/assets/images/sections/section-standing-guards-residential.jpg);
 		background-size: contain;
 		
 		@include mq($small-only) {

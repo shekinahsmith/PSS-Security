@@ -4,14 +4,13 @@
         
       <div class="row">
          
-        <div class="column small-12 medium-7 small-text-center large-text-left has-teal-bg">
-              
-          <h1 class="underline underline-is-blue underline-is-left">About Us</h1>
+        	<div class="column small-12 medium-6 medium-push-6 small-text-center medium-text-left">
 
-             <p>Our goal is to maintain a trained and professional security presence that is customized specifically for your unique needs and situation. Our uniformed armed and unarmed security professionals are at your site to ensure overall safety of people and property.</p>
+					<h2 class="underline underline-is-blue underline-is-left">Who We Are</h2>
 
-          </div>
-          <!-- /.column -->
+					<p>The Carolina's Professional Security Services (PSS) is a privately-owned company that provides professionally-trained, uniformed security officers for banks and credit unions, corporate headquarters and office buildings, business parks and complexes, hotels, convention centers, government buildings, residential towers and developments, shopping centers, sports arenas and complexes, healthcare facilities, public and private events, and personal VIP protection.</p>
+
+			</div>
 
       </div>
       <!-- /.row -->

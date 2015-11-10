@@ -21,20 +21,7 @@ section {
 		font-weight: 100;
 	}
 
-	// SECTIONS 
-	
-	//PAGE - Home (these sections are repeated on other pages)
-	// who are we
-	&.who-are-we {
-		background-image: url(/assets/images/sections/section-who-we-are-bg.jpg);
-		background-size: cover;
-		background-position: center top;
-		
-		@include mq($small-only) {
-			background-image: none;
-		}
-	}
-	
+	// SECTIONS 	
 	// goal
 	&.goal {
 		background-image: url(/assets/images/sections/section-goals-bg.jpg);
@@ -49,6 +36,7 @@ section {
 	&.contact {
 		background-image: url(/assets/images/sections/section-contact-bg.jpg);
 		color: #fff;
+		padding: 2em;
 
 		h2 {
 			color: #fff;
@@ -71,6 +59,65 @@ section {
 		}// input, textarea
 
 	}// &.contact
+	
+	// employee safety
+	&.employee-safety {
+		background-image: url(/assets/images/sections/section-employee-safety.jpg);
+		background-size: contain;
+		
+		@include mq($small-only) {
+			background-image: none;
+		}
+	}
+	
+	// employee escorts
+	&.emergency-evacuations {
+		background-image: url(/assets/images/sections/section-emergency-evacuations.jpg);
+		color: #fff;
+		
+		h2 {
+			color: #fff;
+		}
+		@include mq($small-only) {
+			background-image: none;
+			background-color: $pss-blue-dark;
+		}
+	}
+	
+			// patrol servies
+	&.patrol-services {
+		background-image: url(/assets/images/sections/section-patrol-industrial-bg.jpg);
+		background-position: center top;
+		color: #fff;
+		
+		h2 {
+			color: #fff;
+		}
+		
+		@include mq($small-only) {
+			background-image: none;
+			background-color: $pss-blue-dark;
+		}
+	}
+	
+	&.concierge-services {
+		background-image: url(/assets/images/sections/section-concierge-services-bg.jpg);
+		background-size: contain;
+		
+		@include mq($small-only) {
+			background-image: none;
+		}
+	}
+	
+	&.call-center {
+		background-image: url(/assets/images/sections/section-call-center-bg.jpg);
+		background-size: contain;
+		
+		@include mq($small-only) {
+			background-image: none;
+		}
+	}
+	
 	
 	
 	// SECTION - Sliders
@@ -111,77 +158,6 @@ section {
 		
 	}// &.slider-section
 	
-
-	// section off center image - sections where images and content sections don't perfectly align
-	&.section-off-center-image {
-		padding: 0;
-		
-		// section left content, section right content
-		.section-left-content,
-		.section-right-content {
-			width: 50%;
-			
-			@include mq($small-only) {
-				width: 100%;
-			}
-						
-			// content
-			.content {
-				padding: 2em 1em;
-				height: rem-calc(570px);
-				
-				// extending background 
-				&:after {
-					content: "";
-					position: absolute;
-					height: 100%;
-					width: 1000px;
-					top: 0;
-				}// &:after
-				
-				@include mq($small-only) {
-					height: auto;
-				}
-			}// .content
-			
-			// patrol content, escort content
-			.patrol-content,
-			.escort-content {
-				
-				&.is-blue-bg {
-					&:after {
-						background-color: $pss-blue-dark;
-						left: -1000px;
-					}
-				}// &.is-blue-bg
-				
-				&.is-red-bg {
-					&:after {
-						background-color: $pss-red;
-						left: -1000px;
-					}
-				}// &.is-red-bg
-				
-			}// .patrol-content
-			
-			// homeland content, concierge content
-			.homeland-content,
-			.concierge-content {
-				
-				&:after {
-					background-color: $pss-blue-light;
-					right: -1000px;
-				}
-			}// .homeland-content
-			
-		}// .patrol, .homeland
-		
-		.section-left-content {
-			img {
-				float: right;
-			}
-		}
-	}// .section-off-center-image
 	
 	// SERVICE BLOCKS
 	&.service-blocks {
@@ -197,11 +173,14 @@ section {
 		// service button
 		.service-button {
 			@include transition(all 0.2s ease-in-out);
-			background: $pss-blue-light;
+			//background: $pss-blue-light;
+			background-position: center top;
+			background-repeat: no-repeat;
+			background-size: cover;
 			color: #fff;
 			font-size: 1.5rem;
-			height: rem-calc(370px);
-			padding-top: 45%;
+			height: rem-calc(275px);
+			padding-top: 30%;
 			
 			@include mq($medium-only) {
 				height: rem-calc(200px);
@@ -218,109 +197,31 @@ section {
 			// residential block
 			&.residential-block {
 				background-image: url(/assets/images/service-blocks/service-block-residential.jpg);
-				background-position: center -1000px;
-				background-repeat: no-repeat;
-				background-size: cover;
-				
-				// hover
-				&:hover {
-					background-position: 50% -20px;
-					
-					@include mq($small-only) {
-						background-image: none;
-						background-position: center -1000px;
-					}
-				}
 			}
 			
 			// commercial block
 			&.commercial-block {
 				background-image: url(/assets/images/service-blocks/service-block-commercial.jpg);
-				background-position: center -1000px;
-				background-repeat: no-repeat;
-				background-size: cover;
-				
-				// hover
-				&:hover {
-					background-position: 50% -20px;
-					
-					@include mq($small-only) {
-						background-image: none;
-						background-position: center -1000px;
-					}
-				}
 			}
 			
 			// industrial block
 			&.industrial-block {
 				background-image: url(/assets/images/service-blocks/service-block-industrial.jpg);
-				background-position: center -1000px;
-				background-repeat: no-repeat;
-				background-size: cover;
-				
-				// hover
-				&:hover {
-					background-position: 50% -20px;
-					
-					@include mq($small-only) {
-						background-image: none;
-						background-position: center -1000px;
-					}
-				}
 			}
 			
 			// goverment block
 			&.government-block {
 				background-image: url(/assets/images/service-blocks/service-block-government.jpg);
-				background-position: center -1000px;
-				background-repeat: no-repeat;
-				background-size: cover;
-				
-				// hover
-				&:hover {
-					background-position: 50% -20px;
-					
-					@include mq($small-only) {
-						background-image: none;
-						background-position: center -1000px;
-					}
-				}
 			}
 			
 			// healthcare block
 			&.healthcare-block {
 				background-image: url(/assets/images/service-blocks/service-block-healthcare.jpg);
-				background-position: center -1000px;
-				background-repeat: no-repeat;
-				background-size: cover;
-				
-				// hover
-				&:hover {
-					background-position: 50% -20px;
-					
-					@include mq($small-only) {
-						background-image: none;
-						background-position: center -1000px;
-					}
-				}
 			}
 			
 			// special services block
 			&.special-services-block {
 				background-image: url(/assets/images/service-blocks/service-block-special-services.jpg);
-				background-position: center -1000px;
-				background-repeat: no-repeat;
-				background-size: cover;
-				
-				// hover
-				&:hover {
-					background-position: 50% -20px;
-					
-					@include mq($small-only) {
-						background-image: none;
-						background-position: center -1000px;
-					}
-				}
 			}
 		}// .service-button
 

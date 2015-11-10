@@ -41,7 +41,7 @@
 
 			<div class="columns small-12 medium-4 large-4">
 
-				<a href="/special-services.php"><div class="service-button special-services-block has-border-radius">Special Services</div></a>
+				<a href="/special-training.php"><div class="service-button special-services-block has-border-radius">Special Training</div></a>
 
 			</div>
 

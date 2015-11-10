@@ -161,17 +161,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/heroes\/hero-landing-best-bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 52677,
-		"inputAbbreviatedPath": "\/images\/heroes\/hero-landing-best-bg.jpg",
-		"outputAbbreviatedPath": "\/images\/heroes\/hero-landing-best-bg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/heroes\/hero-landing-call-professionals-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -216,13 +205,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/heroes\/hero-special-services.jpg": {
+	"\/images\/heroes\/hero-special-training.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 84647,
-		"inputAbbreviatedPath": "\/images\/heroes\/hero-special-services.jpg",
-		"outputAbbreviatedPath": "\/images\/heroes\/hero-special-services.jpg",
+		"inputAbbreviatedPath": "\/images\/heroes\/hero-special-training.jpg",
+		"outputAbbreviatedPath": "\/images\/heroes\/hero-special-training.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -245,6 +234,17 @@
 		"initialSize": 9184,
 		"inputAbbreviatedPath": "\/images\/logo-coe.png",
 		"outputAbbreviatedPath": "\/images\/logo-coe.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logo-credit-cards.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8609,
+		"inputAbbreviatedPath": "\/images\/logo-credit-cards.jpg",
+		"outputAbbreviatedPath": "\/images\/logo-credit-cards.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -458,13 +458,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/sections\/section-background-checks.jpg": {
+	"\/images\/sections\/section-call-center-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 86139,
-		"inputAbbreviatedPath": "\/images\/sections\/section-background-checks.jpg",
-		"outputAbbreviatedPath": "\/images\/sections\/section-background-checks.jpg",
+		"initialSize": 91979,
+		"inputAbbreviatedPath": "\/images\/sections\/section-call-center-bg.jpg",
+		"outputAbbreviatedPath": "\/images\/sections\/section-call-center-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -476,6 +476,17 @@
 		"initialSize": 123631,
 		"inputAbbreviatedPath": "\/images\/sections\/section-community-safety.jpg",
 		"outputAbbreviatedPath": "\/images\/sections\/section-community-safety.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sections\/section-concierge-services-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66339,
+		"inputAbbreviatedPath": "\/images\/sections\/section-concierge-services-bg.jpg",
+		"outputAbbreviatedPath": "\/images\/sections\/section-concierge-services-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -524,28 +535,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/sections\/section-gated-communities-sub.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 129294,
-		"inputAbbreviatedPath": "\/images\/sections\/section-gated-communities-sub.jpg",
-		"outputAbbreviatedPath": "\/images\/sections\/section-gated-communities-sub.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/sections\/section-gated-communities.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 104319,
-		"inputAbbreviatedPath": "\/images\/sections\/section-gated-communities.jpg",
-		"outputAbbreviatedPath": "\/images\/sections\/section-gated-communities.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/sections\/section-goals-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -564,17 +553,6 @@
 		"initialSize": 214315,
 		"inputAbbreviatedPath": "\/images\/sections\/section-homeland-security.jpg",
 		"outputAbbreviatedPath": "\/images\/sections\/section-homeland-security.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/sections\/section-identity-theft-bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 145097,
-		"inputAbbreviatedPath": "\/images\/sections\/section-identity-theft-bg.jpg",
-		"outputAbbreviatedPath": "\/images\/sections\/section-identity-theft-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -601,46 +579,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/sections\/section-standing-guards-commerical.jpg": {
+	"\/images\/sections\/section-standing-guards-commercial.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 77904,
-		"inputAbbreviatedPath": "\/images\/sections\/section-standing-guards-commerical.jpg",
-		"outputAbbreviatedPath": "\/images\/sections\/section-standing-guards-commerical.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/sections\/section-standing-guards-government.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 79471,
-		"inputAbbreviatedPath": "\/images\/sections\/section-standing-guards-government.jpg",
-		"outputAbbreviatedPath": "\/images\/sections\/section-standing-guards-government.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/sections\/section-standing-guards-healthcare.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 73985,
-		"inputAbbreviatedPath": "\/images\/sections\/section-standing-guards-healthcare.jpg",
-		"outputAbbreviatedPath": "\/images\/sections\/section-standing-guards-healthcare.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/sections\/section-standing-guards-industrial.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 99556,
-		"inputAbbreviatedPath": "\/images\/sections\/section-standing-guards-industrial.jpg",
-		"outputAbbreviatedPath": "\/images\/sections\/section-standing-guards-industrial.jpg",
+		"inputAbbreviatedPath": "\/images\/sections\/section-standing-guards-commercial.jpg",
+		"outputAbbreviatedPath": "\/images\/sections\/section-standing-guards-commercial.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -652,17 +597,6 @@
 		"initialSize": 129722,
 		"inputAbbreviatedPath": "\/images\/sections\/section-standing-guards-residential.jpg",
 		"outputAbbreviatedPath": "\/images\/sections\/section-standing-guards-residential.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/sections\/section-who-we-are-bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 69925,
-		"inputAbbreviatedPath": "\/images\/sections\/section-who-we-are-bg.jpg",
-		"outputAbbreviatedPath": "\/images\/sections\/section-who-we-are-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

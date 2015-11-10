@@ -1,7 +1,6 @@
 <? 
 	include 'includes/base/_header.php'; 
 	include 'includes/masthead/_masthead.php';
-	include 'includes/heroes/_hero-services.php';  
 ?>
 	<div data-magellan-destination="heroTarget"></div>
 		<a name="heroTarget"></a>

@@ -5309,6 +5309,8 @@ aside.right-off-canvas-menu {
   .hero-about-us {
     background-image: url(/assets/images/heroes/hero-about-us-bg.jpg);
     color: #fff; }
+    .hero-about-us .content {
+      padding: 6em; }
     .hero-about-us h1 {
       color: #fff; }
     .hero-about-us .has-teal-bg {
@@ -5337,7 +5339,10 @@ aside.right-off-canvas-menu {
         background-position: 70% center; } }
   .hero-residential-security {
     background-image: url(/assets/images/heroes/hero-residential-services.jpg);
+    background-position: center bottom;
     color: #fff; }
+    .hero-residential-security .content {
+      padding: 5em; }
     @media only screen and (max-width: 48em) {
       .hero-residential-security {
         background-position: 70% center; } }
@@ -5375,13 +5380,13 @@ aside.right-off-canvas-menu {
         background-position: 70% center; } }
     .hero-healthcare-security h1 {
       color: #fff; }
-  .hero-special-services {
-    background-image: url(/assets/images/heroes/hero-special-services.jpg);
+  .hero-special-training {
+    background-image: url(/assets/images/heroes/hero-special-training.jpg);
     color: #fff; }
     @media only screen and (max-width: 48em) {
-      .hero-special-services {
+      .hero-special-training {
         background-position: 70% center; } }
-    .hero-special-services h1 {
+    .hero-special-training h1 {
       color: #fff; }
 
 section {
@@ -5395,13 +5400,6 @@ section {
     background-color: #006c9f; }
   section ul {
     font-weight: 100; }
-  section.who-are-we {
-    background-image: url(/assets/images/sections/section-who-we-are-bg.jpg);
-    background-size: cover;
-    background-position: center top; }
-    @media only screen and (max-width: 48em) {
-      section.who-are-we {
-        background-image: none; } }
   section.goal {
     background-image: url(/assets/images/sections/section-goals-bg.jpg); }
     @media only screen and (max-width: 48em) {
@@ -5410,7 +5408,8 @@ section {
         background-image: none; } }
   section.contact {
     background-image: url(/assets/images/sections/section-contact-bg.jpg);
-    color: #fff; }
+    color: #fff;
+    padding: 2em; }
     section.contact h2 {
       color: #fff; }
     section.contact p {
@@ -5431,6 +5430,43 @@ section {
       section.contact input:-ms-input-placeholder,
       section.contact textarea:-ms-input-placeholder {
         color: #fff; }
+  section.employee-safety {
+    background-image: url(/assets/images/sections/section-employee-safety.jpg);
+    background-size: contain; }
+    @media only screen and (max-width: 48em) {
+      section.employee-safety {
+        background-image: none; } }
+  section.emergency-evacuations {
+    background-image: url(/assets/images/sections/section-emergency-evacuations.jpg);
+    color: #fff; }
+    section.emergency-evacuations h2 {
+      color: #fff; }
+    @media only screen and (max-width: 48em) {
+      section.emergency-evacuations {
+        background-image: none;
+        background-color: #00699f; } }
+  section.patrol-services {
+    background-image: url(/assets/images/sections/section-patrol-industrial-bg.jpg);
+    background-position: center top;
+    color: #fff; }
+    section.patrol-services h2 {
+      color: #fff; }
+    @media only screen and (max-width: 48em) {
+      section.patrol-services {
+        background-image: none;
+        background-color: #00699f; } }
+  section.concierge-services {
+    background-image: url(/assets/images/sections/section-concierge-services-bg.jpg);
+    background-size: contain; }
+    @media only screen and (max-width: 48em) {
+      section.concierge-services {
+        background-image: none; } }
+  section.call-center {
+    background-image: url(/assets/images/sections/section-call-center-bg.jpg);
+    background-size: contain; }
+    @media only screen and (max-width: 48em) {
+      section.call-center {
+        background-image: none; } }
   section.slider-section {
     background: #f0f1f1;
     margin-bottom: 0;
@@ -5456,50 +5492,6 @@ section {
       display: table-cell;
       vertical-align: middle;
       padding: 0 2em; }
-  section.section-off-center-image {
-    padding: 0; }
-    section.section-off-center-image .section-left-content,
-    section.section-off-center-image .section-right-content {
-      width: 50%; }
-      @media only screen and (max-width: 48em) {
-        section.section-off-center-image .section-left-content,
-        section.section-off-center-image .section-right-content {
-          width: 100%; } }
-      section.section-off-center-image .section-left-content .content,
-      section.section-off-center-image .section-right-content .content {
-        padding: 2em 1em;
-        height: 35.625rem; }
-        section.section-off-center-image .section-left-content .content:after,
-        section.section-off-center-image .section-right-content .content:after {
-          content: "";
-          position: absolute;
-          height: 100%;
-          width: 1000px;
-          top: 0; }
-        @media only screen and (max-width: 48em) {
-          section.section-off-center-image .section-left-content .content,
-          section.section-off-center-image .section-right-content .content {
-            height: auto; } }
-      section.section-off-center-image .section-left-content .patrol-content.is-blue-bg:after,
-      section.section-off-center-image .section-left-content .escort-content.is-blue-bg:after,
-      section.section-off-center-image .section-right-content .patrol-content.is-blue-bg:after,
-      section.section-off-center-image .section-right-content .escort-content.is-blue-bg:after {
-        background-color: #00699f;
-        left: -1000px; }
-      section.section-off-center-image .section-left-content .patrol-content.is-red-bg:after,
-      section.section-off-center-image .section-left-content .escort-content.is-red-bg:after,
-      section.section-off-center-image .section-right-content .patrol-content.is-red-bg:after,
-      section.section-off-center-image .section-right-content .escort-content.is-red-bg:after {
-        background-color: #e97668;
-        left: -1000px; }
-      section.section-off-center-image .section-left-content .homeland-content:after,
-      section.section-off-center-image .section-left-content .concierge-content:after,
-      section.section-off-center-image .section-right-content .homeland-content:after,
-      section.section-off-center-image .section-right-content .concierge-content:after {
-        background-color: #008fd2;
-        right: -1000px; }
-    section.section-off-center-image .section-left-content img {
-      float: right; }
   @media only screen and (max-width: 48em) {
     section.service-blocks .columns:nth-child(n+2) {
       margin-top: 30px; } }
@@ -5507,11 +5499,13 @@ section {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    background: #008fd2;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
     font-size: 1.5rem;
-    height: 23.125rem;
-    padding-top: 45%; }
+    height: 17.1875rem;
+    padding-top: 30%; }
     @media only screen and (min-width: 48.063em) and (max-width: 60em) {
       section.service-blocks .service-button {
         height: 12.5rem;
@@ -5522,71 +5516,17 @@ section {
         height: 6.25rem;
         padding-top: 2em; } }
     section.service-blocks .service-button.residential-block {
-      background-image: url(/assets/images/service-blocks/service-block-residential.jpg);
-      background-position: center -1000px;
-      background-repeat: no-repeat;
-      background-size: cover; }
-      section.service-blocks .service-button.residential-block:hover {
-        background-position: 50% -20px; }
-        @media only screen and (max-width: 48em) {
-          section.service-blocks .service-button.residential-block:hover {
-            background-image: none;
-            background-position: center -1000px; } }
+      background-image: url(/assets/images/service-blocks/service-block-residential.jpg); }
     section.service-blocks .service-button.commercial-block {
-      background-image: url(/assets/images/service-blocks/service-block-commercial.jpg);
-      background-position: center -1000px;
-      background-repeat: no-repeat;
-      background-size: cover; }
-      section.service-blocks .service-button.commercial-block:hover {
-        background-position: 50% -20px; }
-        @media only screen and (max-width: 48em) {
-          section.service-blocks .service-button.commercial-block:hover {
-            background-image: none;
-            background-position: center -1000px; } }
+      background-image: url(/assets/images/service-blocks/service-block-commercial.jpg); }
     section.service-blocks .service-button.industrial-block {
-      background-image: url(/assets/images/service-blocks/service-block-industrial.jpg);
-      background-position: center -1000px;
-      background-repeat: no-repeat;
-      background-size: cover; }
-      section.service-blocks .service-button.industrial-block:hover {
-        background-position: 50% -20px; }
-        @media only screen and (max-width: 48em) {
-          section.service-blocks .service-button.industrial-block:hover {
-            background-image: none;
-            background-position: center -1000px; } }
+      background-image: url(/assets/images/service-blocks/service-block-industrial.jpg); }
     section.service-blocks .service-button.government-block {
-      background-image: url(/assets/images/service-blocks/service-block-government.jpg);
-      background-position: center -1000px;
-      background-repeat: no-repeat;
-      background-size: cover; }
-      section.service-blocks .service-button.government-block:hover {
-        background-position: 50% -20px; }
-        @media only screen and (max-width: 48em) {
-          section.service-blocks .service-button.government-block:hover {
-            background-image: none;
-            background-position: center -1000px; } }
+      background-image: url(/assets/images/service-blocks/service-block-government.jpg); }
     section.service-blocks .service-button.healthcare-block {
-      background-image: url(/assets/images/service-blocks/service-block-healthcare.jpg);
-      background-position: center -1000px;
-      background-repeat: no-repeat;
-      background-size: cover; }
-      section.service-blocks .service-button.healthcare-block:hover {
-        background-position: 50% -20px; }
-        @media only screen and (max-width: 48em) {
-          section.service-blocks .service-button.healthcare-block:hover {
-            background-image: none;
-            background-position: center -1000px; } }
+      background-image: url(/assets/images/service-blocks/service-block-healthcare.jpg); }
     section.service-blocks .service-button.special-services-block {
-      background-image: url(/assets/images/service-blocks/service-block-special-services.jpg);
-      background-position: center -1000px;
-      background-repeat: no-repeat;
-      background-size: cover; }
-      section.service-blocks .service-button.special-services-block:hover {
-        background-position: 50% -20px; }
-        @media only screen and (max-width: 48em) {
-          section.service-blocks .service-button.special-services-block:hover {
-            background-image: none;
-            background-position: center -1000px; } }
+      background-image: url(/assets/images/service-blocks/service-block-special-services.jpg); }
 
 .contact-form input.error,
 .contact-form textarea.error {
@@ -5668,6 +5608,8 @@ section.call-out-box .call-out-content {
 .page-government-services .call-out-content {
   background-color: rgba(0, 147, 208, 0.9); }
 
+section.standing-guards h2 {
+  line-height: 1; }
 section.standing-guards ul {
   font-weight: 100; }
 .page-residential-services section.standing-guards {
@@ -5677,30 +5619,34 @@ section.standing-guards ul {
     .page-residential-services section.standing-guards {
       background-image: none; } }
 .page-commercial-services section.standing-guards {
-  background-image: url(/assets/images/sections/section-standing-guards-commerical.jpg);
+  background-image: url(/assets/images/sections/section-standing-guards-commercial.jpg);
   background-size: contain; }
   @media only screen and (max-width: 48em) {
     .page-commercial-services section.standing-guards {
       background-image: none; } }
 .page-industrial-services section.standing-guards {
-  background-image: url(/assets/images/sections/section-standing-guards-industrial.jpg);
+  background-image: url(/assets/images/sections/section-standing-guards-residential.jpg);
   background-size: contain; }
   @media only screen and (max-width: 48em) {
     .page-industrial-services section.standing-guards {
       background-image: none; } }
 .page-government-services section.standing-guards {
-  background-image: url(/assets/images/sections/section-standing-guards-government.jpg);
+  background-image: url(/assets/images/sections/section-standing-guards-commercial.jpg);
   background-size: contain; }
   @media only screen and (max-width: 48em) {
     .page-government-services section.standing-guards {
       background-image: none; } }
 .page-healthcare-services section.standing-guards {
-  background-image: url(/assets/images/sections/section-standing-guards-healthcare.jpg);
+  background-image: url(/assets/images/sections/section-standing-guards-residential.jpg);
   background-size: contain; }
   @media only screen and (max-width: 48em) {
     .page-healthcare-services section.standing-guards {
       background-image: none; } }
 
+.mastfoot p {
+  font-size: 14px;
+  line-height: 1;
+  margin-bottom: 5px; }
 .mastfoot .links-social {
   margin-top: 20px; }
 
@@ -5748,29 +5694,16 @@ section.standing-guards ul {
       counter-increment: item;
       margin-right: 10px; }
 
-.page-residential-services section.gated-communities-main {
-  background-image: url(/assets/images/sections/section-gated-communities.jpg);
-  background-size: contain; }
+.page-residential-services section.community-safety {
+  background-image: url(/assets/images/sections/section-community-safety.jpg); }
   @media only screen and (max-width: 48em) {
-    .page-residential-services section.gated-communities-main {
+    .page-residential-services section.community-safety {
       background-image: none; } }
-.page-residential-services section.gated-communities-sub {
-  background-image: url(/assets/images/sections/section-gated-communities-sub.jpg);
+.page-residential-services section.gated-communities-main {
+  background-color: #00699f;
   color: #fff; }
-  @media only screen and (max-width: 48em) {
-    .page-residential-services section.gated-communities-sub {
-      background-image: none;
-      background-color: #008fd2; } }
-.page-residential-services section.patrol-services {
-  background-image: url(/assets/images/sections/section-patrol-industrial-bg.jpg);
-  background-position: center top;
-  color: #fff; }
-  .page-residential-services section.patrol-services h2 {
+  .page-residential-services section.gated-communities-main h2 {
     color: #fff; }
-  @media only screen and (max-width: 48em) {
-    .page-residential-services section.patrol-services {
-      background-image: none;
-      background-color: #00699f; } }
 .page-residential-services section.homeland-security {
   background-image: url(/assets/images/sections/section-homeland-security.jpg);
   color: #fff; }
@@ -5797,21 +5730,6 @@ section.standing-guards ul {
       background-image: none;
       background-color: #00699f; } }
 
-.page-special-services section.employee-safety {
-  background-image: url(/assets/images/sections/section-employee-safety.jpg);
-  background-size: contain; }
-  @media only screen and (max-width: 48em) {
-    .page-special-services section.employee-safety {
-      background-image: none; } }
-.page-special-services section.emergency-evacuations {
-  background-image: url(/assets/images/sections/section-emergency-evacuations.jpg);
-  color: #fff; }
-  .page-special-services section.emergency-evacuations h2 {
-    color: #fff; }
-  @media only screen and (max-width: 48em) {
-    .page-special-services section.emergency-evacuations {
-      background-image: none;
-      background-color: #00699f; } }
 .page-special-services section.background-checks {
   background-image: url(/assets/images/sections/section-background-checks.jpg);
   background-size: contain; }
@@ -5825,14 +5743,5 @@ section.standing-guards ul {
     color: #fff; }
   @media only screen and (max-width: 48em) {
     .page-special-services section.identity-theft {
-      background-image: none;
-      background-color: #00699f; } }
-.page-special-services section.community-safety {
-  background-image: url(/assets/images/sections/section-community-safety.jpg);
-  color: #fff; }
-  .page-special-services section.community-safety h2 {
-    color: #fff; }
-  @media only screen and (max-width: 48em) {
-    .page-special-services section.community-safety {
       background-image: none;
       background-color: #00699f; } }
