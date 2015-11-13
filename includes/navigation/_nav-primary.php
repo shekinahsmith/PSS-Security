@@ -3,7 +3,7 @@
 	<ul class="title-area">
 
 		<li class="name">
-			<a href="/"><img src="/assets/images/logo-pss.png" alt="Logo PSS"></a>
+			<a href="/"><img src="/assets/images/logo-pss-2.png" alt="Logo PSS"></a>
 		</li>
 
 		<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->

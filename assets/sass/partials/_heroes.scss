@@ -61,89 +61,55 @@
 	// hero-landing 
 	&-landing {
 		color: #fff;
+		background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg);
 		
-		.slick-slider {
-			margin-bottom: 0;
-		}
-		
-		.slick-vertical {
-		.slick-slide {
-				height: 522px;
-				border: none;
-			}
-		}
-		
-		.slick-dots {
-			bottom : auto;
-			right: 100px;
-			width: 20px;
-			margin: -30px 0 0;
-			top: 50%;
+		@include mq($small-only) {
+			background-image: none;
+			background-color: #fff;
 			
-			li {
-				display: block;
-				
-				button {
-					&:before {
-						font-size: 10px;
-					}
-				}
-				
-				&.slick-active {
-					button:before {
-						color: $pss-blue-dark;
-					}
+			.content,
+			.row{
+				background-image: none;
+				background: #fff;
+			}
+			
+			.content {
+				p {
+					margin: 0.75rem 0;
 				}
 			}
 		}
-		// slide
-		.slide {
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
-			position: relative;
-		}
-		
-		// backgrounds of each slide
-		.slide-1 {
-			background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg);
-		}
-
-		.slide-2 {
-			background-image: url(/assets/images/heroes/hero-landing-best-bg.jpg);
-		}
-		
-		.slide-3 {
-			background-image: url(/assets/images/heroes/hero-landing-real-professionals-bg.jpg);
-			background-position: center top;
-		}
-
-		// END background of each slide
-		.slide-1,
-		.slide-2, 
-		.slide-3 {
 			
-			h2 {
-				color: #fff;
+		h2 {
+			color: #fff;
+			
+			&:after {
+				@include mq($small-only) {
+					background-color: $pss-blue-light !important;
+				}
+
 			}
-		}// slide-1-content, slide-2-content
-				
-		&-mobile {
-			background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg);
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
+		}
+		
+		h2,
+		p {
+			@include mq($small-only) {
+			 color: $pss-grey-dark;
+			}
+		}
+		
+		&-img-mobile {
+			margin-top: 1rem;
+		}
+		
+		@include mq($medium-only) {
+			background-position: center left;
+		}
+
+		@include mq($small-only) {
 			height: 100%;
-			padding: rem-calc(16xpx) 0 rem-calc(32px) 0;
+			padding: 0 0 rem-calc(32px) 0;
 			position: relative;
-			
-			h2 {
-				color: #fff;
-			}
-			
-			p {
-				margin-top: 20px;
-			}
 		}
 
 	}// &.hero-landing
@@ -153,33 +119,22 @@
 		background-image: url(/assets/images/heroes/hero-about-us-bg.jpg);
 		color: #fff;
 		
-		.content {
-			padding: 6em;
-		}
-
-		h1 {
-			color: #fff;
+		@include mq($small-only) {
+			background-position: center left;
 		}
 		
-		// helper class to add teal bg to text
-		.has-teal-bg {
-			position: relative;
-			z-index: 1;
+		.content {
+			padding: 6em;
 			
-			// teal box
-			&:after {
-				background-color: #00699f;
-				border-radius: 5px;
-				content:"";
-				height: 100%;
-				position: absolute;
-				right: 0;
-				top: 0;
-				width: 9000px;
-				z-index: -1;
-			}//&:after
+			@include mq($small-only) {
+				padding: 1.75em 0;
+			}
+		}
 
-		}// .has-teal-bg
+		h2 {
+			color: #fff;
+		}
+	
 
 	}// &.hero-about-us
 	
@@ -212,7 +167,11 @@
 		color: #fff;
 		
 		.content {
-			padding: 5em;
+			
+			@include mq($small-only) {
+				padding: 2em 0;
+
+			}
 		}
 		
 		

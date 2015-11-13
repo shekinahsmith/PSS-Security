@@ -42,40 +42,5 @@
 	
 		}// &.personnel
 		
-		// specialized training
-		&.specialized-training {
-			
-			// adding margin after first paragraph
-			h2 + p {
-				margin-bottom: rem-calc(60);
-			}
-			
-			// underline 
-			.underline-is-centered {
-				
-				&:after {
-					bottom: -2em;
-				}
-			}
-			
-			// training carousel
-			.carousel-training {
-				// adding css to help slick slider elements show as intended
-				.slick-slide {
-					
-					img {
-						@include mq($small-only) {
-							margin: 0 auto;
-						}
-					}
-				}
-				.slick-dots {
-					margin-left: 0;
-					margin-bottom: 0;
-					bottom: -35px !important;
-				}
-			}// .carousel-training
-			
-		}// &.specialized-training
 	}// section
 }// .about-us

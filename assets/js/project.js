@@ -10,40 +10,51 @@
 // @codekit-prepend "foundation/foundation.topbar.js";
 
 
+// closing modal
+function modalClose() {
+
+	// modal close
+	$('.js-modal-close').click(function(e){
+		
+		$(this).closest('.js-modal').removeClass('modal-show');
+		$('html').removeClass('modal-overlay');
+
+		e.preventDefault();
+	});
+}
+
+// opening modal
+function modalShow(modalClass) {
+
+	$(modalClass).addClass('modal-show');
+}
+
 // modal show and close
 function modalShowClose() {
 	
-	var modal = $('.' + $('.js-modal-show').data('modal'));
-	
-	// modal-show
-	$('.js-modal-show').click(function() {
+	// trigger modal based on click event 
+	$('.js-modal-show').each(function(index, trigger){
+
+		var modalOnClick = ('.' + $(trigger).data('modal'));
+
+		// modal-show on click
+		$(trigger).click(function(e) {
+			
+			e.preventDefault();
+			
+			modalShow(modalOnClick);
+			
+			if( $(modalOnClick).hasClass('modal-show') ) {
+				$('html').addClass('modal-overlay');
+			}
 		
-		modal.addClass('modal-show');
-		
-		if( modal.hasClass('modal-show') ) {
-			$('html').addClass('modal-overlay');
-		}
+		});
 	});
 	
-	// modal close
-	$('.js-modal-close').click(function(){
-		
-		modal.removeClass('modal-show');
-		$('html').removeClass('modal-overlay');
-	});
-	
+	modalClose();	
 }
 
 $(document).on('ready', function() {
-	   
-	// hero landing slider 
-	$('.js-hero-slider').slick({
-		arrows: false,
-		autoplay: true,
-		autoplaySpeed: 4500,
-		dots: true,
-		vertical: true
-	});
 	
 	// training slider
 	$('.js-carousel-training').slick({
@@ -66,7 +77,7 @@ $(document).on('ready', function() {
 		{
 		  breakpoint: 959,
 		  settings: {
-		    slidesToShow: 2,
+		    slidesToShow: 3,
 		    slidesToScroll: 2
 		  }
 		},

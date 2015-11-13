@@ -8,7 +8,7 @@
 	}
 ?>
 
-	<section class="contact <?= $contactMargin; ?>">
+	<section class="contact <?= $contactMargin; ?> has-mobile-overlay-dark">
 
 		<div class="row large-collapse">
 

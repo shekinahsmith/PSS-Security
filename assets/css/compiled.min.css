@@ -4745,7 +4745,7 @@ th.hide-for-touch {
   .underline.underline-is-centered:after {
     left: 50%;
     bottom: -0.35em;
-    margin-left: -50px; }
+    margin-left: -37px; }
 
 .has-border-radius {
   border-radius: 5px; }
@@ -5165,7 +5165,7 @@ footer {
   .nav.primary-nav {
     margin-top: 10px; }
     .nav.primary-nav .title-area {
-      width: 30%;
+      width: 18%;
       padding-left: 10px; }
       @media only screen and (max-width: 48em) {
         .nav.primary-nav .title-area {
@@ -5260,72 +5260,50 @@ aside.right-off-canvas-menu {
       margin: auto;
       padding: 10px 0; }
   .hero-landing {
-    color: #fff; }
-    .hero-landing .slick-slider {
-      margin-bottom: 0; }
-    .hero-landing .slick-vertical .slick-slide {
-      height: 522px;
-      border: none; }
-    .hero-landing .slick-dots {
-      bottom: auto;
-      right: 100px;
-      width: 20px;
-      margin: -30px 0 0;
-      top: 50%; }
-      .hero-landing .slick-dots li {
-        display: block; }
-        .hero-landing .slick-dots li button:before {
-          font-size: 10px; }
-        .hero-landing .slick-dots li.slick-active button:before {
-          color: #00699f; }
-    .hero-landing .slide {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative; }
-    .hero-landing .slide-1 {
-      background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg); }
-    .hero-landing .slide-2 {
-      background-image: url(/assets/images/heroes/hero-landing-best-bg.jpg); }
-    .hero-landing .slide-3 {
-      background-image: url(/assets/images/heroes/hero-landing-real-professionals-bg.jpg);
-      background-position: center top; }
-    .hero-landing .slide-1 h2,
-    .hero-landing .slide-2 h2,
-    .hero-landing .slide-3 h2 {
+    color: #fff;
+    background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg); }
+    @media only screen and (max-width: 48em) {
+      .hero-landing {
+        background-image: none;
+        background-color: #fff; }
+        .hero-landing .content,
+        .hero-landing .row {
+          background-image: none;
+          background: #fff; }
+        .hero-landing .content p {
+          margin: 0.75rem 0; } }
+    .hero-landing h2 {
       color: #fff; }
-    .hero-landing-mobile {
-      background-image: url(/assets/images/heroes/hero-landing-call-professionals-bg.jpg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 100%;
-      padding: 1rem 0 2rem 0;
-      position: relative; }
-      .hero-landing-mobile h2 {
-        color: #fff; }
-      .hero-landing-mobile p {
-        margin-top: 20px; }
+      @media only screen and (max-width: 48em) {
+        .hero-landing h2:after {
+          background-color: #008fd2 !important; } }
+    @media only screen and (max-width: 48em) {
+      .hero-landing h2,
+      .hero-landing p {
+        color: #424a51; } }
+    .hero-landing-img-mobile {
+      margin-top: 1rem; }
+    @media only screen and (min-width: 48.063em) and (max-width: 60em) {
+      .hero-landing {
+        background-position: center left; } }
+    @media only screen and (max-width: 48em) {
+      .hero-landing {
+        height: 100%;
+        padding: 0 0 2rem 0;
+        position: relative; } }
   .hero-about-us {
     background-image: url(/assets/images/heroes/hero-about-us-bg.jpg);
     color: #fff; }
+    @media only screen and (max-width: 48em) {
+      .hero-about-us {
+        background-position: center left; } }
     .hero-about-us .content {
       padding: 6em; }
-    .hero-about-us h1 {
+      @media only screen and (max-width: 48em) {
+        .hero-about-us .content {
+          padding: 1.75em 0; } }
+    .hero-about-us h2 {
       color: #fff; }
-    .hero-about-us .has-teal-bg {
-      position: relative;
-      z-index: 1; }
-      .hero-about-us .has-teal-bg:after {
-        background-color: #00699f;
-        border-radius: 5px;
-        content: "";
-        height: 100%;
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 9000px;
-        z-index: -1; }
   .hero-careers {
     background-image: url(/assets/images/heroes/hero-career-bg.jpg);
     color: #fff; }
@@ -5341,8 +5319,9 @@ aside.right-off-canvas-menu {
     background-image: url(/assets/images/heroes/hero-residential-services.jpg);
     background-position: center bottom;
     color: #fff; }
-    .hero-residential-security .content {
-      padding: 5em; }
+    @media only screen and (max-width: 48em) {
+      .hero-residential-security .content {
+        padding: 2em 0; } }
     @media only screen and (max-width: 48em) {
       .hero-residential-security {
         background-position: 70% center; } }
@@ -5410,6 +5389,9 @@ section {
     background-image: url(/assets/images/sections/section-contact-bg.jpg);
     color: #fff;
     padding: 2em; }
+    @media only screen and (max-width: 48em) {
+      section.contact {
+        padding: 1em 0; } }
     section.contact h2 {
       color: #fff; }
     section.contact p {
@@ -5575,13 +5557,13 @@ section {
     right: 5px;
     top: 5px;
     z-index: 5; }
-  .modal-apply-now {
+  .modal-apply-now, .modal-pss-video {
     background-color: #FFFFFF;
     width: 50%; }
     @media only screen and (max-width: 48em) {
-      .modal-apply-now {
+      .modal-apply-now, .modal-pss-video {
         width: 90%; } }
-    .modal-apply-now .modal-close {
+    .modal-apply-now .modal-close, .modal-pss-video .modal-close {
       font-size: 1.5625rem; }
 
 .page-residential-services section.call-out-box {
@@ -5670,17 +5652,6 @@ section.standing-guards ul {
       font-size: 0.875rem; }
       .page-about-us section.personnel .team-list_positions ul li {
         padding: 0.45em 0; }
-.page-about-us section.specialized-training h2 + p {
-  margin-bottom: 3.75rem; }
-.page-about-us section.specialized-training .underline-is-centered:after {
-  bottom: -2em; }
-@media only screen and (max-width: 48em) {
-  .page-about-us section.specialized-training .carousel-training .slick-slide img {
-    margin: 0 auto; } }
-.page-about-us section.specialized-training .carousel-training .slick-dots {
-  margin-left: 0;
-  margin-bottom: 0;
-  bottom: -35px !important; }
 
 .page-careers section.careers .career-requirements {
   counter-reset: item;
@@ -5730,18 +5701,21 @@ section.standing-guards ul {
       background-image: none;
       background-color: #00699f; } }
 
-.page-special-services section.background-checks {
-  background-image: url(/assets/images/sections/section-background-checks.jpg);
-  background-size: contain; }
+.page-special-training section.specialized-training h2 + p {
+  margin-bottom: 3.75rem; }
+.page-special-training section.specialized-training .underline-is-centered:after {
+  bottom: -2em; }
+.page-special-training section.specialized-training .carousel-wrapper:before, .page-special-training section.specialized-training .carousel-wrapper:after {
+  content: " ";
+  display: table; }
+.page-special-training section.specialized-training .carousel-wrapper:after {
+  clear: both; }
+@media only screen and (max-width: 48em) {
+  .page-special-training section.specialized-training .carousel-wrapper {
+    width: 240px;
+    margin: 0 auto; } }
+.page-special-training section.specialized-training .slick-dots {
+  margin: 0; }
   @media only screen and (max-width: 48em) {
-    .page-special-services section.background-checks {
-      background-image: none; } }
-.page-special-services section.identity-theft {
-  background-image: url(/assets/images/sections/section-identity-theft-bg.jpg);
-  color: #fff; }
-  .page-special-services section.identity-theft h2 {
-    color: #fff; }
-  @media only screen and (max-width: 48em) {
-    .page-special-services section.identity-theft {
-      background-image: none;
-      background-color: #00699f; } }
+    .page-special-training section.specialized-training .slick-dots {
+      width: 220px; } }

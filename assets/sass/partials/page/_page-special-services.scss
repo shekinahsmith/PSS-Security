@@ -1,30 +1,44 @@
 // special services page
-.page-special-services {
+.page-special-training {
 	
 	section {
 		
-		
-		&.background-checks {
-			background-image: url(/assets/images/sections/section-background-checks.jpg);
-			background-size: contain;
+		// specialzied training
+		&.specialized-training {
 			
-			@include mq($small-only) {
-				background-image: none;
+			// adding margin after first paragraph
+			h2 + p {
+				margin-bottom: rem-calc(60);
 			}
-		}
-		
-		&.identity-theft {
-			background-image: url(/assets/images/sections/section-identity-theft-bg.jpg);
-			color: #fff;
 			
-			h2 {
-				color: #fff;
+			// underline 
+			.underline-is-centered {
+				
+				&:after {
+					bottom: -2em;
+				}
 			}
-			@include mq($small-only) {
-				background-image: none;
-				background-color: $pss-blue-dark;
-			}
-		}
+			
+			// carousel wrapper
+			.carousel-wrapper {
+				@include clearfix;
+				
+				@include mq($small-only) {
+					width: 240px;
+					margin: 0 auto;
+				}
+			}// .carousel-wrapper
+			
+			// slick dots
+			.slick-dots {
+				margin: 0;
+				
+				@include mq($small-only) {
+					width: 220px;
+				}
+			}// .slick-dots
+			
+		}// &.specialized-training
 		
 	}// section
 	

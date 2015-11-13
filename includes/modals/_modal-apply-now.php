@@ -1,10 +1,10 @@
-<div class="modal modal-apply-now">
+<div class="modal modal-apply-now js-modal">
 
 	<div class="row">
 		
+		<div class="modal-close js-modal-close">X</div>
+		
 		<div class="column small-11 medium-9 small-centered">
-			
-			<div class="modal-close js-modal-close">X</div>
 			
 			<h2 class="underline underline-is-blue underline-is-left small-text-center medium-text-left">Apply Now</h2>
 			

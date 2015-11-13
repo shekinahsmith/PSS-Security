@@ -20,27 +20,34 @@
 
 			</div>
 			<!-- /.column -->
-			
-			<div class="carousel-training js-carousel-training column">
-						
-					<div><img src="assets/images/carousel-training/carousel-training-1.png"/></div>
-				
-					<div><img src="assets/images/carousel-training/carousel-training-2.png"/></div>
-				
-					<div><img src="assets/images/carousel-training/carousel-training-3.png"/></div>
-				
-					<div><img src="assets/images/carousel-training/carousel-training-4.png"/></div>
-					
-					<div><img src="assets/images/carousel-training/carousel-training-5.png"/></div>
-
-			</div>
-			<!-- /.carousel-training -->
-
 		</div>
 		<!-- /.row -->
-
+			
+			<div class="row">
+			
+				<div class="carousel-wrapper">
+				
+					<div class="carousel-training js-carousel-training column">
+								
+							<div><img src="assets/images/carousel-training/carousel-training-1.png"/></div>
+						
+							<div><img src="assets/images/carousel-training/carousel-training-2.png"/></div>
+						
+							<div><img src="assets/images/carousel-training/carousel-training-3.png"/></div>
+						
+							<div><img src="assets/images/carousel-training/carousel-training-4.png"/></div>
+							
+							<div><img src="assets/images/carousel-training/carousel-training-5.png"/></div>
+			
+					</div>
+					<!-- /.carousel-training -->
+				</div>
+			</div>
+			
+		
+					
 	</section>
-	<!-- /.personnel -->
+	<!-- /.specialized-training -->
 	
 	<section class="handgun-safety is-blue-light-bg">
 

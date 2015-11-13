@@ -37,6 +37,10 @@ section {
 		background-image: url(/assets/images/sections/section-contact-bg.jpg);
 		color: #fff;
 		padding: 2em;
+		
+		@include mq($small-only) {
+			padding: 1em 0;
+		}
 
 		h2 {
 			color: #fff;
@@ -68,7 +72,7 @@ section {
 		@include mq($small-only) {
 			background-image: none;
 		}
-	}
+	}// &.employee-safety
 	
 	// employee escorts
 	&.emergency-evacuations {
@@ -82,9 +86,9 @@ section {
 			background-image: none;
 			background-color: $pss-blue-dark;
 		}
-	}
+	}// &.emergency-evacuations
 	
-			// patrol servies
+	// patrol servies
 	&.patrol-services {
 		background-image: url(/assets/images/sections/section-patrol-industrial-bg.jpg);
 		background-position: center top;
@@ -100,6 +104,7 @@ section {
 		}
 	}
 	
+	// concierge-services
 	&.concierge-services {
 		background-image: url(/assets/images/sections/section-concierge-services-bg.jpg);
 		background-size: contain;
@@ -109,6 +114,7 @@ section {
 		}
 	}
 	
+	// call center
 	&.call-center {
 		background-image: url(/assets/images/sections/section-call-center-bg.jpg);
 		background-size: contain;

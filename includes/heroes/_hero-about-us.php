@@ -1,4 +1,4 @@
-<div class="hero hero-about-us">
+<div class="hero hero-about-us has-mobile-overlay-dark">
        
     <div class="content">
         

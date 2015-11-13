@@ -172,6 +172,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/heroes\/hero-landing-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79141,
+		"inputAbbreviatedPath": "\/images\/heroes\/hero-landing-mobile.jpg",
+		"outputAbbreviatedPath": "\/images\/heroes\/hero-landing-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/heroes\/hero-landing-real-professionals-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -245,6 +256,17 @@
 		"initialSize": 8609,
 		"inputAbbreviatedPath": "\/images\/logo-credit-cards.jpg",
 		"outputAbbreviatedPath": "\/images\/logo-credit-cards.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logo-pss-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 388048,
+		"inputAbbreviatedPath": "\/images\/logo-pss-2.png",
+		"outputAbbreviatedPath": "\/images\/logo-pss-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
